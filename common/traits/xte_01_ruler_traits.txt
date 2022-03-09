@@ -139,7 +139,7 @@ trait_ruler_regal = {
 	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_regal.dds"
 	modifier = {
 		country_edict_fund_add = 20
-		edicts_upkeep_mult = -0.1
+		edicts_upkeep_mult = -0.05
 	}
 	leader_trait = {
 		ruler
@@ -493,8 +493,8 @@ trait_ruler_profligate_1 = {
 		"trait_ruler_profligate_3"
 	}
 	modifier = {
-		trade_value_mult = -0.25
-		pop_happiness = -0.05
+		trade_value_mult = -0.1
+		pop_happiness = -0.1
 	}
 	leader_trait = {
 		ruler
@@ -520,8 +520,9 @@ trait_ruler_profligate_2 = {
 		"trait_ruler_profligate_3"
 	}
 	modifier = {
-		trade_value_mult = -0.25
-		pop_happiness = -0.05
+		trade_value_mult = -0.15
+		pop_happiness = -0.15
+		leaders_unity_upkeep_mult = 0.05
 	}
 	leader_trait = {
 		ruler
@@ -547,8 +548,9 @@ trait_ruler_profligate_3 = {
 		"trait_ruler_profligate_4"
 	}
 	modifier = {
-		trade_value_mult = -0.25
-		pop_happiness = -0.05
+		trade_value_mult = -0.2
+		pop_happiness = -0.2
+		leaders_unity_upkeep_mult = 0.1
 	}
 	leader_trait = {
 		ruler
@@ -575,7 +577,7 @@ trait_ruler_profligate_4 = {
 	}
 	modifier = {
 		trade_value_mult = -0.25
-		pop_happiness = -0.05
+		pop_happiness = -0.25
 		leaders_unity_upkeep_mult = 0.15
 	}
 	leader_trait = {

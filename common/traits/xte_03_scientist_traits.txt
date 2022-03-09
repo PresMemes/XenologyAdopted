@@ -29,7 +29,7 @@ trait_scientist_ancestral_knowledge = {
 		weight = 300
 	}
 	initial = no
-	randomized = no
+	#randomized = no
 }
 
 trait_scientist_pioneer = {
@@ -56,7 +56,7 @@ trait_scientist_pioneer = {
 		weight = 300
 	}
 	initial = no
-	randomized = no
+	#randomized = no
 }
 
 trait_scientist_pathfinder = {
@@ -83,7 +83,7 @@ trait_scientist_pathfinder = {
 		weight = 250
 	}
 	initial = no
-	randomized = no
+	#randomized = no
 }
 
 trait_scientist_fastidious = {
@@ -115,5 +115,5 @@ trait_scientist_fastidious = {
 		weight = 0
 	}
 	initial = no
-	randomized = no
+	#randomized = no
 }

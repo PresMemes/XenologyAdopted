@@ -39,7 +39,7 @@ trait_governor_naturalist = {
 		governor
 	}
 	requires_traits = {
-		trait_ruler_life_crafter
+		trait_theoretical
 	}
 	ai_weight = {
 		weight = 200
@@ -62,7 +62,7 @@ trait_governor_machinist = {
 		governor
 	}
 	requires_traits = {
-		trait_ruler_life_crafter
+		trait_practical
 	}
 	ai_weight = {
 		weight = 200
@@ -140,7 +140,7 @@ trait_governor_diligent = {
 	randomized = no
 	icon = "gfx/interface/icons/traits/leader_traits/trait_governor_diligent.dds"
 	modifier = {
-		planet_jobs_upkeep_mult = -0.05
+		planet_jobs_worker_produces_mult = 0.1
 	}
 	leader_trait = {
 		governor
