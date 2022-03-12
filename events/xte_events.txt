@@ -785,9 +785,11 @@ country_event = {
 					add_ruler_trait = trait_ruler_lawbringer
 				}
 				governor = {
+					add_trait = trait_governor_sheriff
 					add_ruler_trait = trait_ruler_lawbringer
 				}
 				admiral = {
+					add_trait = trait_admiral_gendarme
 					add_ruler_trait = trait_ruler_lawbringer
 				}
 				general = {
@@ -825,9 +827,11 @@ country_event = {
 					add_ruler_trait = trait_ruler_lawbringer
 				}
 				governor = {
+					add_trait = trait_governor_sheriff
 					add_ruler_trait = trait_ruler_lawbringer
 				}
 				admiral = {
+					add_trait = trait_admiral_gendarme
 					add_ruler_trait = trait_ruler_lawbringer
 				}
 				general = {
@@ -1109,6 +1113,7 @@ country_event = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				governor = {
+					add_trait = trait_general_forecaster
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				admiral = {
@@ -1118,6 +1123,7 @@ country_event = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				scientist = {
+					add_trait = trait_scientist_pioneer
 					add_ruler_trait = trait_ruler_arcanist
 				}
 			}
@@ -1149,6 +1155,7 @@ country_event = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				governor = {
+					add_trait = trait_general_forecaster
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				admiral = {
@@ -1158,6 +1165,7 @@ country_event = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				scientist = {
+					add_trait = trait_scientist_pioneer
 					add_ruler_trait = trait_ruler_arcanist
 				}
 			}
@@ -1191,6 +1199,7 @@ country_event = {
 					add_ruler_trait = trait_ruler_valiant
 				}
 				admiral = {
+					add_trait = trait_admiral_paladin
 					add_ruler_trait = trait_ruler_valiant
 				}
 				general = {

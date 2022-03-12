@@ -164,6 +164,7 @@ trait_ruler_skyborne_architect = {
 		megastructure_build_speed_mult = 0.33
 		shipsize_titan_build_speed_mult = 0.33
 		shipsize_colossus_build_speed_mult = 0.33
+		shipsize_juggernaut_build_speed_mult = 0.33
 	}
 	leader_trait = {
 		ruler
