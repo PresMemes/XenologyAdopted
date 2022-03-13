@@ -219,6 +219,7 @@
  mod_planet_pops_food_upkeep_mult:0 "Lebensmittelsicherheit"
  mod_planet_pops_minerals_upkeep_mult:0 "Mineralien Instandhaltung"
  mod_shipsize_titan_build_speed_mult:0 "Titan-Baugeschwindigkeit"
+ mod_shipsize_juggernaut_build_speed_mult:0 "Juggernaut-Baugeschwindigkeit"
  mod_shipsize_colossus_build_speed_mult:0 "Colossus-Baugeschwindigkeit"
  mod_country_sr_living_metal_produces_mult:0 "Monatlich lebendes Metall"
  mod_country_sr_zro_produces_mult:0 "Monatlich Zro"
