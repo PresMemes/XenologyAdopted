@@ -51,3 +51,15 @@ on_ruler_back_to_pre_ruler_class = {
 		xte_traits_ev.45
 	}
 }
+
+on_game_start = {
+	events = {
+		xte_traits_ev.1000
+	}
+}
+
+on_single_player_save_game_load = {
+	events = {
+		xte_traits_ev.1000
+	}
+}

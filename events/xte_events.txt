@@ -1,4 +1,13 @@
 namespace = xte_traits_ev
+event = {
+	id = xte_traits_ev.1000
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		set_global_flag = xte_un_bio_installed
+	}
+}
+
 country_event = {
 	id = xte_traits_ev.1
 	is_triggered_only = yes
@@ -1113,13 +1122,13 @@ country_event = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				governor = {
-					add_trait = trait_general_forecaster
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				admiral = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				general = {
+					add_trait = trait_general_forecaster
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				scientist = {
@@ -1155,13 +1164,13 @@ country_event = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				governor = {
-					add_trait = trait_general_forecaster
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				admiral = {
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				general = {
+					add_trait = trait_general_forecaster
 					add_ruler_trait = trait_ruler_arcanist
 				}
 				scientist = {

@@ -331,6 +331,12 @@ trait_megalomaniacs = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_potential_add = {
+		always = no
+	}
+	species_possible_remove = {
+		always = no
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -685,8 +691,8 @@ trait_greedy = {
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
-		leaders_cost_mult = 1
-		leaders_upkeep_mult = 1
+		leaders_cost_mult = 0.5
+		leaders_upkeep_mult = 0.5
 	}
 }
 
