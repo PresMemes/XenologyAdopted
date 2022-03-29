@@ -1,0 +1,134 @@
+#PM: How the FUCK do these work?????
+planet_districts = {
+	parent = planet_structures
+	generate_mult_modifiers = {
+		cost
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+megastructures = {
+	use_for_ai_budget = yes
+	ai_use_parent_for_resources_upkeep = {
+		energy
+		consumer_goods
+	}
+	parent = country
+	generate_mult_modifiers = {
+		cost
+	}
+}
+
+planet_pop_assemblers = {
+	parent = planet_jobs
+	generate_mult_modifiers = {
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_researchers = {
+	icon = "job_researcher"
+	parent = planet_jobs_productive
+	generate_mult_modifiers = {
+		produces
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+		upkeep
+	}
+}
+planet_culture_workers = {
+	parent = planet_jobs_productive
+	generate_mult_modifiers = {
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_priests = {
+	parent = planet_administrators
+	generate_mult_modifiers = {
+		produces
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+leader_admirals = {
+	parent = leaders
+	generate_mult_modifiers = {
+		cost
+	}
+}
+
+leader_generals = {
+	parent = leaders
+	generate_mult_modifiers = {
+		cost
+	}
+}
+
+leader_governors = {
+	parent = leaders
+	generate_mult_modifiers = {
+		cost
+		upkeep
+	}
+}
+
+pop_category_slave = {
+	parent = planet_pops
+	generate_mult_modifiers = {
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+		upkeep
+	}
+}
+
+pop_category_drones = {
+	parent = planet_pops
+	generate_mult_modifiers = {
+		produces
+	}
+}
+
+pop_category_workers = {
+	parent = planet_pops
+	generate_mult_modifiers = {
+		produces
+	}
+	generate_add_modifiers = {
+		upkeep
+	}
+}
+
+pop_category_rulers = {
+	parent = planet_pops
+	generate_mult_modifiers = {
+		produces
+	}
+	generate_add_modifiers = {
+		produces
+		upkeep
+	}
+}
+
+pop_category_purge = {
+	parent = planet_pops
+	generate_add_modifiers = {
+		produces
+	}
+}
