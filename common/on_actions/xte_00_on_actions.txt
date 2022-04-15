@@ -24,6 +24,7 @@ on_leader_spawned = {
 		xte_traits_ev.40
 		xte_traits_ev.42
 		xte_traits_ev.44
+		xte_traits_ev.46
 	}
 }
 
@@ -49,6 +50,7 @@ on_ruler_back_to_pre_ruler_class = {
 		xte_traits_ev.41
 		xte_traits_ev.43
 		xte_traits_ev.45
+		xte_traits_ev.47
 	}
 }
 
