@@ -44,6 +44,48 @@ trait_stalwart = {
 	}
 }
 
+trait_apex_predator = {
+	cost = 4
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	opposites = {
+		"trait_nervous"
+	}
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		pop_ethic_militarist_attraction_mult = 0.1
+		army_damage_mult = 0.5
+		pop_growth_from_immigration = 0.3
+		planet_pops_food_upkeep_mult = 0.25
+		pop_growth_speed = -0.05
+	}
+}
+
+trait_apex_predator_lithoid = {
+	cost = 4
+	initial = yes
+	randomized = yes
+	advanced_trait = yes
+	opposites = {
+		"trait_nervous"
+	}
+	allowed_archetypes = {
+		LITHOID
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		pop_ethic_militarist_attraction_mult = 0.1
+		army_damage_mult = 0.5
+		pop_growth_from_immigration = 0.3
+		planet_pops_minerals_upkeep_mult = 0.25
+		pop_growth_speed = -0.05
+	}
+}
+
 trait_analytical = {
 	cost = 3
 	initial = yes
