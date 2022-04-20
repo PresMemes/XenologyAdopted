@@ -51,6 +51,8 @@ trait_apex_predator = {
 	advanced_trait = yes
 	opposites = {
 		"trait_nervous"
+		"trait_nerve_stapled"
+		"trait_syncretic_proles"
 	}
 	allowed_archetypes = {
 		BIOLOGICAL
@@ -72,6 +74,8 @@ trait_apex_predator_lithoid = {
 	advanced_trait = yes
 	opposites = {
 		"trait_nervous"
+		"trait_nerve_stapled"
+		"trait_syncretic_proles"
 	}
 	allowed_archetypes = {
 		LITHOID
