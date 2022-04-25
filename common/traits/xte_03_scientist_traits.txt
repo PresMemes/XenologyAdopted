@@ -17,7 +17,7 @@ trait_scientist_ancestral_knowledge = {
 		scientist
 	}
 	requires_traits = {
-		trait_genetic_memory
+		xte_trait_genetic_memory
 	}
 	ai_categories = {
 		survey
@@ -47,7 +47,7 @@ trait_scientist_pioneer = {
 		scientist
 	}
 	requires_traits = {
-		trait_analytical
+		xte_trait_analytical
 	}
 	ai_categories = {
 		survey
@@ -74,7 +74,7 @@ trait_scientist_pathfinder = {
 		scientist
 	}
 	requires_traits = {
-		trait_inquisitive
+		xte_trait_inquisitive
 	}
 	ai_categories = {
 		survey
@@ -102,7 +102,7 @@ trait_scientist_fastidious = {
 		scientist
 	}
 	requires_traits = {
-		trait_sluggish
+		xte_trait_sluggish
 	}
 	opposites = {
 		"leader_trait_carefree"

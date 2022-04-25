@@ -15,7 +15,7 @@ trait_ruler_ancestral_knowledge = {
 		ruler
 	}
 	requires_traits = {
-		trait_genetic_memory
+		xte_trait_genetic_memory
 	}
 	ai_weight = {
 		weight = 150
@@ -38,7 +38,7 @@ trait_ruler_valiant = {
 		ruler
 	}
 	requires_traits = {
-		trait_stalwart
+		xte_trait_stalwart
 	}
 	ai_weight = {
 		weight = 250
@@ -67,7 +67,7 @@ trait_ruler_pertinacious = {
 		ruler
 	}
 	requires_traits = {
-		trait_apex_predator
+		xte_trait_apex_predator
 	}
 	ai_weight = {
 		weight = 250
@@ -90,7 +90,7 @@ trait_ruler_arcanist = {
 		ruler
 	}
 	requires_traits = {
-		trait_analytical
+		xte_trait_analytical
 	}
 	ai_weight = {
 		weight = 200
@@ -112,7 +112,7 @@ trait_ruler_life_weaver = {
 		ruler
 	}
 	requires_traits = {
-		trait_theoretical
+		xte_trait_theoretical
 	}
 	ai_weight = {
 		weight = 200
@@ -133,7 +133,7 @@ trait_ruler_life_crafter = {
 		ruler
 	}
 	requires_traits = {
-		trait_practical
+		xte_trait_practical
 	}
 	ai_weight = {
 		weight = 200
@@ -155,7 +155,7 @@ trait_ruler_lawbringer = {
 		ruler
 	}
 	requires_traits = {
-		trait_lawful
+		xte_trait_lawful
 	}
 	ai_weight = {
 		weight = 150
@@ -177,7 +177,7 @@ trait_ruler_regal = {
 		ruler
 	}
 	requires_traits = {
-		trait_illustrious
+		xte_trait_illustrious
 	}
 	ai_weight = {
 		weight = 150
@@ -202,7 +202,7 @@ trait_ruler_skyborne_architect = {
 		ruler
 	}
 	requires_traits = {
-		trait_megalomaniacs
+		xte_trait_megalomaniacs
 	}
 	ai_weight = {
 		weight = 150
@@ -223,7 +223,7 @@ trait_ruler_polymath = {
 		ruler
 	}
 	requires_traits = {
-		trait_flexible
+		xte_trait_flexible
 	}
 	ai_weight = {
 		weight = 150
@@ -244,7 +244,7 @@ trait_ruler_enlightened = {
 		ruler
 	}
 	requires_traits = {
-		trait_avant_garde
+		xte_trait_avant_garde
 	}
 	ai_weight = {
 		weight = 100
@@ -276,7 +276,7 @@ trait_ruler_tyrannical = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -307,7 +307,7 @@ trait_ruler_indulgent = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -341,7 +341,7 @@ trait_ruler_spineless = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -380,7 +380,7 @@ trait_ruler_hateful = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 }
 
@@ -411,7 +411,7 @@ trait_ruler_peacemonger = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -443,7 +443,7 @@ trait_ruler_warmonger = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -475,7 +475,7 @@ trait_ruler_superstitious = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -506,7 +506,7 @@ trait_ruler_cynical = {
 		ruler
 	}
 	requires_traits = {
-		trait_obstinate
+		xte_trait_obstinate
 	}
 	ai_weight = {
 		weight = 0
@@ -533,7 +533,7 @@ trait_ruler_profligate_1 = {
 		ruler
 	}
 	requires_traits = {
-		trait_hedonistic
+		xte_trait_hedonistic
 	}
 	ai_weight = {
 		weight = 0
@@ -561,7 +561,7 @@ trait_ruler_profligate_2 = {
 		ruler
 	}
 	requires_traits = {
-		trait_hedonistic
+		xte_trait_hedonistic
 	}
 	ai_weight = {
 		weight = 0
@@ -589,7 +589,7 @@ trait_ruler_profligate_3 = {
 		ruler
 	}
 	requires_traits = {
-		trait_hedonistic
+		xte_trait_hedonistic
 	}
 	ai_weight = {
 		weight = 0
@@ -617,7 +617,7 @@ trait_ruler_profligate_4 = {
 		ruler
 	}
 	requires_traits = {
-		trait_hedonistic
+		xte_trait_hedonistic
 	}
 	ai_weight = {
 		weight = 0

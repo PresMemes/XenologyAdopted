@@ -15,7 +15,7 @@ trait_general_ancestral_knowledge = {
 		general
 	}
 	requires_traits = {
-		trait_genetic_memory
+		xte_trait_genetic_memory
 	}
 	ai_weight = {
 		weight = 150
@@ -38,7 +38,7 @@ trait_general_forecaster = {
 		general
 	}
 	requires_traits = {
-		trait_analytical
+		xte_trait_analytical
 	}
 	ai_weight = {
 		weight = 150
@@ -61,7 +61,7 @@ trait_general_battle_mounts = {
 		general
 	}
 	requires_traits = {
-		trait_gifted_pilots
+		xte_trait_gifted_pilots
 	}
 	ai_weight = {
 		weight = 100
@@ -82,7 +82,7 @@ trait_general_cavalier = {
 		general
 	}
 	requires_traits = {
-		trait_prideful
+		xte_trait_prideful
 	}
 	ai_weight = {
 		weight = 0

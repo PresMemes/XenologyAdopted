@@ -17,7 +17,7 @@ trait_governor_ancestral_knowledge = {
 		governor
 	}
 	requires_traits = {
-		trait_genetic_memory
+		xte_trait_genetic_memory
 	}
 	ai_weight = {
 		weight = 150
@@ -39,7 +39,7 @@ trait_governor_naturalist = {
 		governor
 	}
 	requires_traits = {
-		trait_theoretical
+		xte_trait_theoretical
 	}
 	ai_weight = {
 		weight = 200
@@ -62,7 +62,7 @@ trait_governor_machinist = {
 		governor
 	}
 	requires_traits = {
-		trait_practical
+		xte_trait_practical
 	}
 	ai_weight = {
 		weight = 200
@@ -84,8 +84,8 @@ trait_governor_reliable = {
 		governor
 	}
 	requires_traits = {
-		trait_oligotrophs
-		trait_oligotrophs_lithoid
+		xte_trait_oligotrophs
+		xte_trait_oligotrophs_lithoid
 	}
 	ai_weight = {
 		weight = 150
@@ -107,7 +107,7 @@ trait_governor_sheriff = {
 		governor
 	}
 	requires_traits = {
-		trait_lawful
+		xte_trait_lawful
 	}
 	ai_weight = {
 		weight = 150
@@ -128,7 +128,7 @@ trait_governor_efficient = {
 		governor
 	}
 	requires_traits = {
-		trait_urban
+		xte_trait_urban
 	}
 	ai_weight = {
 		weight = 150
@@ -149,7 +149,7 @@ trait_governor_diligent = {
 		governor
 	}
 	requires_traits = {
-		trait_humble
+		xte_trait_humble
 	}
 	ai_weight = {
 		weight = 150
@@ -171,7 +171,7 @@ trait_governor_forge_master = {
 		governor
 	}
 	requires_traits = {
-		trait_crafty
+		xte_trait_crafty
 	}
 	ai_weight = {
 		weight = 100
@@ -193,7 +193,7 @@ trait_governor_patron_of_the_arts = {
 		governor
 	}
 	requires_traits = {
-		trait_creative
+		xte_trait_creative
 	}
 	ai_weight = {
 		weight = 100

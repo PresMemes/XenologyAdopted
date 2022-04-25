@@ -9,32 +9,13 @@ event = {
 }
 
 country_event = {
-	id = xte_traits_ev.999
-	hide_window = yes
-	is_triggered_only = yes
-	immediate = {
-		create_leader = {
-			name = "Create Leader Test"
-			class = governor
-			species = root.species
-			skill = 5
-			set_age = 5
-			traits = {
-				trait = trait_ruler_ancestral_knowledge
-				trait = trait_ruler_life_weaver
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.1
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_sluggish
+				has_trait = xte_trait_sluggish
 			}
 			NOR = {
 				has_trait = trait_admiral_inert
@@ -64,7 +45,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_sluggish
+				has_trait = xte_trait_sluggish
 			}
 			NOR = {
 				has_trait = trait_admiral_inert
@@ -94,7 +75,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_prideful
+				has_trait = xte_trait_prideful
 			}
 			NOR = {
 				has_trait = trait_admiral_arrogant
@@ -124,7 +105,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_prideful
+				has_trait = xte_trait_prideful
 			}
 			NOR = {
 				has_trait = trait_admiral_arrogant
@@ -154,7 +135,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_avant_garde
+				has_trait = xte_trait_avant_garde
 			}
 			NOT = {
 				has_trait = trait_ruler_enlightened
@@ -192,7 +173,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_natural_chemists
+				has_trait = xte_trait_natural_chemists
 			}
 			NOT = {
 				has_trait = trait_admiral_gunnery_expert
@@ -218,7 +199,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_natural_chemists
+				has_trait = xte_trait_natural_chemists
 			}
 			NOT = {
 				has_trait = trait_admiral_gunnery_expert
@@ -244,7 +225,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_natural_refiners
+				has_trait = xte_trait_natural_refiners
 			}
 			NOT = {
 				has_trait = trait_admiral_propulsion_expert
@@ -270,7 +251,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_natural_refiners
+				has_trait = xte_trait_natural_refiners
 			}
 			NOT = {
 				has_trait = trait_admiral_propulsion_expert
@@ -296,7 +277,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_natural_translucers
+				has_trait = xte_trait_natural_translucers
 			}
 			NOT = {
 				has_trait = trait_admiral_computing_expert
@@ -322,7 +303,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_natural_translucers
+				has_trait = xte_trait_natural_translucers
 			}
 			NOT = {
 				has_trait = trait_admiral_computing_expert
@@ -348,7 +329,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_inquisitive
+				has_trait = xte_trait_inquisitive
 			}
 			NOT = {
 				has_trait = trait_scientist_pathfinder
@@ -374,7 +355,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_inquisitive
+				has_trait = xte_trait_inquisitive
 			}
 			NOT = {
 				has_trait = trait_scientist_pathfinder
@@ -400,7 +381,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_creative
+				has_trait = xte_trait_creative
 			}
 			NOT = {
 				has_trait = trait_governor_patron_of_the_arts
@@ -426,7 +407,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_creative
+				has_trait = xte_trait_creative
 			}
 			NOT = {
 				has_trait = trait_governor_patron_of_the_arts
@@ -452,7 +433,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_crafty
+				has_trait = xte_trait_crafty
 			}
 			NOR = {
 				has_trait = trait_governor_forge_master
@@ -478,7 +459,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_crafty
+				has_trait = xte_trait_crafty
 			}
 			NOT = {
 				has_trait = trait_governor_forge_master
@@ -504,7 +485,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_humble
+				has_trait = xte_trait_humble
 			}
 			NOT = {
 				has_trait = trait_governor_diligent
@@ -530,7 +511,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_humble
+				has_trait = xte_trait_humble
 			}
 			NOT = {
 				has_trait = trait_governor_diligent
@@ -556,7 +537,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_illustrious
+				has_trait = xte_trait_illustrious
 			}
 			NOT = {
 				has_trait = trait_ruler_regal
@@ -594,7 +575,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_gifted_pilots
+				has_trait = xte_trait_gifted_pilots
 			}
 			NOR = {
 				has_trait = trait_admiral_carrier_commander
@@ -624,7 +605,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_gifted_pilots
+				has_trait = xte_trait_gifted_pilots
 			}
 			NOR = {
 				has_trait = trait_admiral_carrier_commander
@@ -654,7 +635,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_flexible
+				has_trait = xte_trait_flexible
 			}
 			NOT = {
 				has_trait = trait_ruler_polymath
@@ -692,7 +673,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_urban
+				has_trait = xte_trait_urban
 			}
 			NOT = {
 				has_trait = trait_governor_efficient
@@ -718,7 +699,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_urban
+				has_trait = xte_trait_urban
 			}
 			NOT = {
 				has_trait = trait_governor_efficient
@@ -744,7 +725,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_intrepid
+				has_trait = xte_trait_intrepid
 			}
 			NOT = {
 				has_trait = trait_admiral_underdog
@@ -770,7 +751,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_intrepid
+				has_trait = xte_trait_intrepid
 			}
 			NOT = {
 				has_trait = trait_admiral_underdog
@@ -796,7 +777,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_lawful
+				has_trait = xte_trait_lawful
 			}
 			NOR = {
 				has_trait = trait_ruler_lawbringer
@@ -838,7 +819,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_lawful
+				has_trait = xte_trait_lawful
 			}
 			NOT = {
 				has_trait = trait_ruler_lawbringer
@@ -880,7 +861,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_practical
+				has_trait = xte_trait_practical
 			}
 			NOR = {
 				has_trait = trait_ruler_life_crafter
@@ -920,7 +901,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_practical
+				has_trait = xte_trait_practical
 			}
 			NOR = {
 				has_trait = trait_ruler_life_crafter
@@ -950,7 +931,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_theoretical
+				has_trait = xte_trait_theoretical
 			}
 			NOR = {
 				has_trait = trait_ruler_life_weaver
@@ -990,7 +971,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_theoretical
+				has_trait = xte_trait_theoretical
 			}
 			NOR = {
 				has_trait = trait_ruler_life_weaver
@@ -1020,7 +1001,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_oligotrophs
+				has_trait = xte_trait_oligotrophs
 			}
 			NOT = {
 				has_trait = trait_governor_reliable
@@ -1046,7 +1027,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_oligotrophs
+				has_trait = xte_trait_oligotrophs
 			}
 			NOT = {
 				has_trait = trait_governor_reliable
@@ -1072,7 +1053,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_oligotrophs_lithoid
+				has_trait = xte_trait_oligotrophs_lithoid
 			}
 			NOT = {
 				has_trait = trait_governor_reliable
@@ -1098,7 +1079,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_oligotrophs_lithoid
+				has_trait = xte_trait_oligotrophs_lithoid
 			}
 			NOT = {
 				has_trait = trait_governor_reliable
@@ -1124,7 +1105,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_analytical
+				has_trait = xte_trait_analytical
 			}
 			NOR = {
 				has_trait = trait_ruler_arcanist
@@ -1166,7 +1147,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_analytical
+				has_trait = xte_trait_analytical
 			}
 			NOR = {
 				has_trait = trait_ruler_arcanist
@@ -1208,7 +1189,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_stalwart
+				has_trait = xte_trait_stalwart
 			}
 			NOR = {
 				has_trait = trait_ruler_valiant
@@ -1248,7 +1229,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_stalwart
+				has_trait = xte_trait_stalwart
 			}
 			NOT = {
 				has_trait = trait_ruler_valiant
@@ -1278,7 +1259,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_genetic_memory
+				has_trait = xte_trait_genetic_memory
 			}
 			NOR = {
 				has_trait = trait_ruler_ancestral_knowledge
@@ -1325,7 +1306,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_genetic_memory
+				has_trait = xte_trait_genetic_memory
 			}
 			NOR = {
 				has_trait = trait_ruler_ancestral_knowledge
@@ -1372,7 +1353,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_megalomaniacs
+				has_trait = xte_trait_megalomaniacs
 			}
 			NOT = {
 				has_trait = trait_ruler_skyborne_architect
@@ -1410,7 +1391,7 @@ country_event = {
 	trigger = {
 		from = {
 			species = {
-				has_trait = trait_megalomaniacs
+				has_trait = xte_trait_megalomaniacs
 			}
 			NOT = {
 				has_trait = trait_ruler_skyborne_architect
@@ -1440,8 +1421,8 @@ country_event = {
 		from = {
 			species = {
 				OR = {
-					has_trait = trait_apex_predator
-					has_trait = trait_apex_predator_lithoid
+					has_trait = xte_trait_apex_predator
+					has_trait = xte_trait_apex_predator_lithoid
 				}
 			}
 			NOR = {
@@ -1483,8 +1464,8 @@ country_event = {
 		from = {
 			species = {
 				OR = {
-					has_trait = trait_apex_predator
-					has_trait = trait_apex_predator_lithoid
+					has_trait = xte_trait_apex_predator
+					has_trait = xte_trait_apex_predator_lithoid
 				}
 			}
 			NOR = {

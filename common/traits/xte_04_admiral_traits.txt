@@ -15,7 +15,7 @@ trait_admiral_ancestral_knowledge = {
 		admiral
 	}
 	requires_traits = {
-		trait_genetic_memory
+		xte_trait_genetic_memory
 	}
 	ai_weight = {
 		weight = 100
@@ -38,7 +38,7 @@ trait_admiral_paladin = {
 		admiral
 	}
 	requires_traits = {
-		trait_stalwart
+		xte_trait_stalwart
 	}
 	ai_weight = {
 		weight = 200
@@ -62,7 +62,7 @@ trait_admiral_opportunistic = {
 		admiral
 	}
 	requires_traits = {
-		trait_apex_predator
+		xte_trait_apex_predator
 	}
 	ai_weight = {
 		weight = 200
@@ -87,7 +87,7 @@ trait_admiral_gendarme = {
 		admiral
 	}
 	requires_traits = {
-		trait_lawful
+		xte_trait_lawful
 	}
 	ai_weight = {
 		weight = 150
@@ -108,7 +108,7 @@ trait_admiral_underdog = {
 		admiral
 	}
 	requires_traits = {
-		trait_intrepid
+		xte_trait_intrepid
 	}
 	ai_weight = {
 		weight = 150
@@ -130,7 +130,7 @@ trait_admiral_carrier_commander = {
 		admiral
 	}
 	requires_traits = {
-		trait_gifted_pilots
+		xte_trait_gifted_pilots
 	}
 	ai_weight = {
 		weight = 150
@@ -152,7 +152,7 @@ trait_admiral_computing_expert = {
 		admiral
 	}
 	requires_traits = {
-		trait_natural_translucers
+		xte_trait_natural_translucers
 	}
 	ai_weight = {
 		weight = 100
@@ -173,7 +173,7 @@ trait_admiral_propulsion_expert = {
 		admiral
 	}
 	requires_traits = {
-		trait_natural_refiners
+		xte_trait_natural_refiners
 	}
 	ai_weight = {
 		weight = 100
@@ -194,7 +194,7 @@ trait_admiral_gunnery_expert = {
 		admiral
 	}
 	requires_traits = {
-		trait_natural_chemists
+		xte_trait_natural_chemists
 	}
 	ai_weight = {
 		weight = 100
@@ -216,7 +216,7 @@ trait_admiral_arrogant = {
 		admiral
 	}
 	requires_traits = {
-		trait_prideful
+		xte_trait_prideful
 	}
 	opposites = {
 		"leader_trait_trickster"
@@ -240,7 +240,7 @@ trait_admiral_inert = {
 		admiral
 	}
 	requires_traits = {
-		trait_sluggish
+		xte_trait_sluggish
 	}
 	opposites = {
 		"leader_trait_gale_speed"
