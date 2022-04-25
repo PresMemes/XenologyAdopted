@@ -9,6 +9,25 @@ event = {
 }
 
 country_event = {
+	id = xte_traits_ev.999
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		create_leader = {
+			name = "Create Leader Test"
+			class = governor
+			species = root.species
+			skill = 5
+			set_age = 5
+			traits = {
+				trait = trait_ruler_ancestral_knowledge
+				trait = trait_ruler_life_weaver
+			}
+		}
+	}
+}
+
+country_event = {
 	id = xte_traits_ev.1
 	is_triggered_only = yes
 	hide_window = yes
