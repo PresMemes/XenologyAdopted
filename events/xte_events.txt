@@ -39,69 +39,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.2
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_sluggish
-			}
-			NOR = {
-				has_trait = trait_admiral_inert
-				has_trait = trait_scientist_fastidious
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				admiral = {
-					add_trait = trait_admiral_inert
-				}
-				scientist = {
-					add_trait = trait_scientist_fastidious
-				}
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.3
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_prideful
-			}
-			NOR = {
-				has_trait = trait_admiral_arrogant
-				has_trait = trait_general_cavalier
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				admiral = {
-					add_trait = trait_admiral_arrogant
-				}
-				general = {
-					add_trait = trait_general_cavalier
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.4
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -193,61 +133,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.7
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_natural_chemists
-			}
-			NOT = {
-				has_trait = trait_admiral_gunnery_expert
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = admiral
-				}
-				add_trait = trait_admiral_gunnery_expert
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.8
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_natural_refiners
-			}
-			NOT = {
-				has_trait = trait_admiral_propulsion_expert
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = admiral
-				}
-				add_trait = trait_admiral_propulsion_expert
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.9
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -297,61 +185,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.11
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_natural_translucers
-			}
-			NOT = {
-				has_trait = trait_admiral_computing_expert
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = admiral
-				}
-				add_trait = trait_admiral_computing_expert
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.12
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_inquisitive
-			}
-			NOT = {
-				has_trait = trait_scientist_pathfinder
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = scientist
-				}
-				add_trait = trait_scientist_pathfinder
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.13
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -401,32 +237,6 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.15
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_creative
-			}
-			NOT = {
-				has_trait = trait_governor_patron_of_the_arts
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = governor
-				}
-				add_trait = trait_governor_patron_of_the_arts
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.16
 	is_triggered_only = yes
 	hide_window = yes
@@ -453,61 +263,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.17
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_crafty
-			}
-			NOT = {
-				has_trait = trait_governor_forge_master
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = governor
-				}
-				add_trait = trait_governor_forge_master
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.18
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_humble
-			}
-			NOT = {
-				has_trait = trait_governor_diligent
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = governor
-				}
-				add_trait = trait_governor_diligent
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.19
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -599,36 +357,6 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.22
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_gifted_pilots
-			}
-			NOR = {
-				has_trait = trait_admiral_carrier_commander
-				has_trait = trait_general_battle_mounts
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				admiral = {
-					add_trait = trait_admiral_carrier_commander
-				}
-				general = {
-					add_trait = trait_general_battle_mounts
-				}
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.23
 	is_triggered_only = yes
 	hide_window = yes
@@ -693,61 +421,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.25
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_urban
-			}
-			NOT = {
-				has_trait = trait_governor_efficient
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = governor
-				}
-				add_trait = trait_governor_efficient
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.26
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_intrepid
-			}
-			NOT = {
-				has_trait = trait_admiral_underdog
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = admiral
-				}
-				add_trait = trait_admiral_underdog
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.27
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -780,48 +456,6 @@ country_event = {
 				has_trait = xte_trait_lawful
 			}
 			NOR = {
-				has_trait = trait_ruler_lawbringer
-				has_trait = trait_governor_sheriff
-				has_trait = trait_admiral_gendarme
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_ruler_trait = trait_ruler_lawbringer
-				}
-				governor = {
-					add_trait = trait_governor_sheriff
-					add_ruler_trait = trait_ruler_lawbringer
-				}
-				admiral = {
-					add_trait = trait_admiral_gendarme
-					add_ruler_trait = trait_ruler_lawbringer
-				}
-				general = {
-					add_ruler_trait = trait_ruler_lawbringer
-				}
-				scientist = {
-					add_ruler_trait = trait_ruler_lawbringer
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.29
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_lawful
-			}
-			NOT = {
 				has_trait = trait_ruler_lawbringer
 				has_trait = trait_governor_sheriff
 				has_trait = trait_admiral_gendarme
@@ -895,36 +529,6 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.31
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_practical
-			}
-			NOR = {
-				has_trait = trait_ruler_life_crafter
-				has_trait = trait_governor_machinist
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_trait = trait_ruler_life_crafter
-				}
-				governor = {
-					add_trait = trait_governor_machinist
-				}
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.32
 	is_triggered_only = yes
 	hide_window = yes
@@ -965,65 +569,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.33
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_theoretical
-			}
-			NOR = {
-				has_trait = trait_ruler_life_weaver
-				has_trait = trait_governor_naturalist
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_trait = trait_ruler_life_weaver
-				}
-				governor = {
-					add_trait = trait_governor_naturalist
-				}
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.34
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_oligotrophs
-			}
-			NOT = {
-				has_trait = trait_governor_reliable
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = governor
-				}
-				add_trait = trait_governor_reliable
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.35
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -1073,77 +621,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.37
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_oligotrophs_lithoid
-			}
-			NOT = {
-				has_trait = trait_governor_reliable
-			}
-		}
-	}
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = governor
-				}
-				add_trait = trait_governor_reliable
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.38
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_analytical
-			}
-			NOR = {
-				has_trait = trait_ruler_arcanist
-				has_trait = trait_general_forecaster
-				has_trait = trait_scientist_pioneer
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_ruler_trait = trait_ruler_arcanist
-				}
-				governor = {
-					add_ruler_trait = trait_ruler_arcanist
-				}
-				admiral = {
-					add_ruler_trait = trait_ruler_arcanist
-				}
-				general = {
-					add_trait = trait_general_forecaster
-					add_ruler_trait = trait_ruler_arcanist
-				}
-				scientist = {
-					add_trait = trait_scientist_pioneer
-					add_ruler_trait = trait_ruler_arcanist
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.39
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -1223,86 +703,9 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.41
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_stalwart
-			}
-			NOT = {
-				has_trait = trait_ruler_valiant
-				has_trait = trait_admiral_paladin
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_ruler_trait = trait_ruler_valiant
-				}
-				governor = {
-					add_ruler_trait = trait_ruler_valiant
-				}
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.42
 	is_triggered_only = yes
 	hide_window = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_genetic_memory
-			}
-			NOR = {
-				has_trait = trait_ruler_ancestral_knowledge
-				has_trait = trait_governor_ancestral_knowledge
-				has_trait = trait_scientist_ancestral_knowledge
-				has_trait = trait_admiral_ancestral_knowledge
-				has_trait = trait_general_ancestral_knowledge
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_trait = trait_ruler_ancestral_knowledge
-					add_ruler_trait = trait_ruler_ancestral_knowledge
-				}
-				governor = {
-					add_trait = trait_governor_ancestral_knowledge
-					add_ruler_trait = trait_ruler_ancestral_knowledge
-				}
-				admiral = {
-					add_trait = trait_admiral_ancestral_knowledge
-					add_ruler_trait = trait_ruler_ancestral_knowledge
-				}
-				general = {
-					add_trait = trait_general_ancestral_knowledge
-					add_ruler_trait = trait_ruler_ancestral_knowledge
-				}
-				scientist = {
-					add_trait = trait_scientist_ancestral_knowledge
-					add_ruler_trait = trait_ruler_ancestral_knowledge
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.43
-	hide_window = yes
-	is_triggered_only = yes
 	trigger = {
 		from = {
 			species = {
@@ -1385,35 +788,6 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.45
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				has_trait = xte_trait_megalomaniacs
-			}
-			NOT = {
-				has_trait = trait_ruler_skyborne_architect
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_ruler_trait = trait_ruler_skyborne_architect
-				}
-				governor = {
-					add_ruler_trait = trait_ruler_skyborne_architect
-				}
-			}
-		}
-	}
-}
-
-country_event = {
 	id = xte_traits_ev.46
 	hide_window = yes
 	is_triggered_only = yes
@@ -1449,39 +823,6 @@ country_event = {
 					add_ruler_trait = trait_ruler_pertinacious
 				}
 				scientist = {
-					add_ruler_trait = trait_ruler_pertinacious
-				}
-			}
-		}
-	}
-}
-
-country_event = {
-	id = xte_traits_ev.47
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		from = {
-			species = {
-				OR = {
-					has_trait = xte_trait_apex_predator
-					has_trait = xte_trait_apex_predator_lithoid
-				}
-			}
-			NOR = {
-				has_trait = trait_ruler_pertinacious
-				has_trait = trait_admiral_opportunistic
-			}
-		}
-	}
-	immediate = {
-		from = {
-			switch = {
-				trigger = leader_class
-				ruler = {
-					add_ruler_trait = trait_ruler_pertinacious
-				}
-				governor = {
 					add_ruler_trait = trait_ruler_pertinacious
 				}
 			}
