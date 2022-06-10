@@ -39,7 +39,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.3
+	id = xte_traits_ev.2
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -69,7 +69,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.5
+	id = xte_traits_ev.3
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -107,7 +107,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.6
+	id = xte_traits_ev.4
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -133,7 +133,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.8
+	id = xte_traits_ev.5
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -159,7 +159,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.10
+	id = xte_traits_ev.6
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -185,7 +185,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.12
+	id = xte_traits_ev.7
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -211,7 +211,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.14
+	id = xte_traits_ev.8
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -237,7 +237,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.16
+	id = xte_traits_ev.9
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -263,7 +263,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.18
+	id = xte_traits_ev.10
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -289,7 +289,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.20
+	id = xte_traits_ev.11
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -327,7 +327,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.21
+	id = xte_traits_ev.12
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -357,7 +357,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.23
+	id = xte_traits_ev.13
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -395,7 +395,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.24
+	id = xte_traits_ev.14
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -421,7 +421,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.26
+	id = xte_traits_ev.15
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -447,7 +447,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.28
+	id = xte_traits_ev.16
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -489,7 +489,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.30
+	id = xte_traits_ev.17
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -529,7 +529,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.32
+	id = xte_traits_ev.18
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -569,7 +569,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.34
+	id = xte_traits_ev.19
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -595,7 +595,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.36
+	id = xte_traits_ev.20
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -621,7 +621,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.38
+	id = xte_traits_ev.21
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -663,7 +663,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.40
+	id = xte_traits_ev.22
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -703,7 +703,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.42
+	id = xte_traits_ev.23
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -750,7 +750,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.44
+	id = xte_traits_ev.24
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
@@ -788,7 +788,7 @@ country_event = {
 }
 
 country_event = {
-	id = xte_traits_ev.46
+	id = xte_traits_ev.25
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
