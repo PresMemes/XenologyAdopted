@@ -3,4 +3,4 @@ Unofficial update of [Xenology : Traits Expansion Neo](https://steamcommunity.co
 
 Created by: [Devious](https://steamcommunity.com/profiles/76561198060207474/myworkshopfiles/?appid=281990)
 
-Updated to 3.3.X by: [President Memes](https://steamcommunity.com/id/President_Memes/myworkshopfiles/?appid=281990)
+Updated to 3.4.X by: [President Memes](https://steamcommunity.com/id/President_Memes/myworkshopfiles/?appid=281990)
