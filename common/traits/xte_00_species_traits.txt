@@ -7,6 +7,12 @@ xte_trait_genetic_memory = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	potential_crossbreeding_chance = 0.5
 	opposites = {
 		"trait_nerve_stapled"
@@ -18,6 +24,16 @@ xte_trait_genetic_memory = {
 		species_empire_size_mult = 0.25
 		pop_government_ethic_attraction = -0.5
 	}
+	assembly_score = {
+		modifier = {
+			add = 1.5
+			from = { has_unity_designation = yes }
+		}
+		modifier = {
+			add = 1.0
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_stalwart = {
@@ -28,6 +44,12 @@ xte_trait_stalwart = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	potential_crossbreeding_chance = 0.5
 	opposites = {
@@ -42,6 +64,16 @@ xte_trait_stalwart = {
 	slave_cost = {
 		energy = 100
 	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_fortress_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_apex_predator = {
@@ -49,13 +81,19 @@ xte_trait_apex_predator = {
 	initial = yes
 	randomized = yes
 	advanced_trait = yes
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"xte_trait_nervous"
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
-	}
-	allowed_archetypes = {
-		BIOLOGICAL
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -65,6 +103,16 @@ xte_trait_apex_predator = {
 		planet_pops_food_upkeep_mult = 0.25
 		pop_growth_speed = -0.05
 	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_fortress_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_apex_predator_lithoid = {
@@ -72,13 +120,19 @@ xte_trait_apex_predator_lithoid = {
 	initial = yes
 	randomized = yes
 	advanced_trait = yes
+	allowed_archetypes = {
+		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"xte_trait_nervous"
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
-	}
-	allowed_archetypes = {
-		LITHOID
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -87,6 +141,16 @@ xte_trait_apex_predator_lithoid = {
 		pop_growth_from_immigration = 0.3
 		planet_pops_minerals_upkeep_mult = 0.25
 		pop_growth_speed = -0.05
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_fortress_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { is_capital = yes }
+		}
 	}
 }
 
@@ -97,6 +161,12 @@ xte_trait_analytical = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	potential_crossbreeding_chance = 1
 	opposites = {
@@ -110,6 +180,16 @@ xte_trait_analytical = {
 		planet_jobs_society_research_produces_mult = -0.15
 		planet_jobs_engineering_research_produces_mult = -0.15
 	}
+	assembly_score = {
+		modifier = {
+			add = 2.0
+			from = { has_research_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_theoretical = {
@@ -119,6 +199,12 @@ xte_trait_theoretical = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	potential_crossbreeding_chance = 1
 	opposites = {
@@ -132,6 +218,16 @@ xte_trait_theoretical = {
 		planet_jobs_society_research_produces_mult = 0.45
 		planet_jobs_engineering_research_produces_mult = -0.15
 	}
+	assembly_score = {
+		modifier = {
+			add = 2.0
+			from = { has_research_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_practical = {
@@ -141,6 +237,12 @@ xte_trait_practical = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	potential_crossbreeding_chance = 1
 	opposites = {
@@ -154,19 +256,35 @@ xte_trait_practical = {
 		planet_jobs_society_research_produces_mult = -0.15
 		planet_jobs_engineering_research_produces_mult = 0.45
 	}
+	assembly_score = {
+		modifier = {
+			add = 2.0
+			from = { has_research_designation = yes }
+		}
+		modifier = {
+			add = 0.5
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_oligotrophs = {
 	cost = 3
 	initial = yes
 	randomized = yes
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_gluttonous"
-	}
-	allowed_archetypes = {
-		BIOLOGICAL
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -181,13 +299,19 @@ xte_trait_oligotrophs_lithoid = {
 	cost = 3
 	initial = yes
 	randomized = yes
+	allowed_archetypes = {
+		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_gluttonous_lithoid"
-	}
-	allowed_archetypes = {
-		LITHOID
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -205,6 +329,12 @@ xte_trait_lawful = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -231,6 +361,12 @@ xte_trait_intrepid = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -243,6 +379,12 @@ xte_trait_intrepid = {
 	slave_cost = {
 		energy = 100
 	}
+	assembly_score = {
+		modifier = {
+			add = 0.5
+			from = { has_fortress_designation = yes }
+		}
+	}
 }
 
 xte_trait_urban = {
@@ -252,6 +394,12 @@ xte_trait_urban = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -265,6 +413,16 @@ xte_trait_urban = {
 	modifier = {
 		pop_housing_usage_mult = -0.15
 	}
+	assembly_score = {
+		modifier = {
+			add = 1.25
+			from = { is_capital = yes }
+		}
+		modifier = {
+			add = 0.75
+			from = { has_trade_designation = yes }
+		}
+	}
 }
 
 xte_trait_gifted_pilots = {
@@ -274,6 +432,12 @@ xte_trait_gifted_pilots = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -294,6 +458,12 @@ xte_trait_illustrious = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -304,6 +474,12 @@ xte_trait_illustrious = {
 	modifier = {
 		planet_jobs_ruler_produces_mult = 0.1
 	}
+	assembly_score = {
+		modifier = {
+			add = 0.25
+			from = { is_capital = yes }
+		}
+	}
 }
 
 xte_trait_humble = {
@@ -313,6 +489,12 @@ xte_trait_humble = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -340,6 +522,12 @@ xte_trait_crafty = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -347,6 +535,12 @@ xte_trait_crafty = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		planet_jobs_alloys_produces_mult = 0.15
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_foundry_designation = yes }
+		}
 	}
 }
 
@@ -358,6 +552,12 @@ xte_trait_creative = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -366,6 +566,12 @@ xte_trait_creative = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		planet_jobs_consumer_goods_produces_mult = 0.15
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_factory_designation = yes }
+		}
 	}
 }
 
@@ -398,6 +604,12 @@ xte_trait_natural_translucers = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -406,6 +618,12 @@ xte_trait_natural_translucers = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		planet_jobs_rare_crystals_produces_mult = 0.25
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_refinery_designation = yes }
+		}
 	}
 }
 
@@ -417,6 +635,12 @@ xte_trait_natural_refiners = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -425,6 +649,12 @@ xte_trait_natural_refiners = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		planet_jobs_exotic_gases_produces_mult = 0.25
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_refinery_designation = yes }
+		}
 	}
 }
 
@@ -436,6 +666,12 @@ xte_trait_natural_chemists = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -444,6 +680,12 @@ xte_trait_natural_chemists = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		planet_jobs_volatile_motes_produces_mult = 0.25
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_refinery_designation = yes }
+		}
 	}
 }
 
@@ -454,6 +696,12 @@ xte_trait_flexible = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -474,6 +722,12 @@ xte_trait_inquisitive = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -482,6 +736,12 @@ xte_trait_inquisitive = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		planet_researchers_upkeep_mult = -0.2
+	}
+	assembly_score = {
+		modifier = {
+			add = 1.0
+			from = { has_research_designation = yes }
+		}
 	}
 }
 
@@ -492,6 +752,12 @@ xte_trait_austere = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -515,6 +781,12 @@ xte_trait_sanguine = {
 		BIOLOGICAL
 		LITHOID
 	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
@@ -528,6 +800,12 @@ xte_trait_sanguine = {
 	}
 	slave_cost = {
 		energy = 25
+	}
+	assembly_score = {
+		modifier = {
+			add = 0.1
+			from = { has_fortress_designation = yes }
+		}
 	}
 }
 
@@ -547,6 +825,12 @@ xte_trait_intimidating = {
 	modifier = {
 		army_morale_damage_mult = 0.33
 	}
+	assembly_score = {
+		modifier = {
+			add = 0.75
+			from = { has_fortress_designation = yes }
+		}
+	}
 }
 
 xte_trait_avant_garde = {
@@ -556,6 +840,12 @@ xte_trait_avant_garde = {
 	allowed_archetypes = {
 		BIOLOGICAL
 		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
 	}
 	opposites = {
 		"trait_nerve_stapled"
@@ -589,6 +879,12 @@ xte_trait_disorderly = {
 	slave_cost = {
 		energy = -25
 	}
+	assembly_score = {
+		modifier = {
+			add = -1.0
+			from = { has_generator_designation = yes }
+		}
+	}
 }
 
 xte_trait_lazy = {
@@ -611,6 +907,12 @@ xte_trait_lazy = {
 	slave_cost = {
 		energy = -25
 	}
+	assembly_score = {
+		modifier = {
+			add = -1.0
+			from = { has_mining_designation = yes }
+		}
+	}
 }
 
 xte_trait_allergic = {
@@ -632,6 +934,16 @@ xte_trait_allergic = {
 	}
 	slave_cost = {
 		energy = -25
+	}
+	assembly_score = {
+		modifier = {
+			add = -1.0
+			from = { has_farming_designation = yes }
+		}
+		modifier = {
+			add = -0.5
+			from = { has_rural_designation = yes }
+		}
 	}
 }
 
@@ -698,6 +1010,12 @@ xte_trait_despondent = {
 	slave_cost = {
 		energy = -25
 	}
+	assembly_score = {
+		modifier = {
+			add = -1.0
+			from = { has_fortress_designation = yes }
+		}
+	}
 }
 
 xte_trait_inept = {
@@ -720,6 +1038,12 @@ xte_trait_inept = {
 		planet_jobs_rare_crystals_produces_mult = -0.33
 		planet_jobs_exotic_gases_produces_mult = -0.33
 		planet_jobs_volatile_motes_produces_mult = -0.33
+	}
+	assembly_score = {
+		modifier = {
+			add = -1.5
+			from = { has_refinery_designation = yes }
+		}
 	}
 }
 
@@ -762,6 +1086,12 @@ xte_trait_simple = {
 		planet_jobs_physics_research_produces_mult = -0.05
 		planet_jobs_society_research_produces_mult = -0.05
 		planet_jobs_engineering_research_produces_mult = -0.05
+	}
+	assembly_score = {
+		modifier = {
+			add = -0.75
+			from = { has_research_designation = yes }
+		}
 	}
 }
 
@@ -927,6 +1257,7 @@ xte_trait_polyploid = {
 		"trait_slow_breeders"
 		"trait_clone_soldier_infertile"
 		"trait_clone_soldier_infertile_full_potential"
+		"trait_incubator"
 	}
 	allowed_archetypes = {
 		BIOLOGICAL

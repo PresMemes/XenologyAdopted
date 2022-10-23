@@ -8,7 +8,7 @@ trait_scientist_ancestral_knowledge = {
 	modifier = {
 		all_technology_research_speed = 0.04
 		science_ship_survey_speed = 0.2
-		ship_archeaological_site_clues_add = 2
+		ship_archaeological_site_clues_add = 2
 	}
 	leader_trait = {
 		scientist
