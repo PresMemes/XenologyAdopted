@@ -8,7 +8,7 @@ xte_trait_genetic_memory = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -46,7 +46,7 @@ xte_trait_stalwart = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -85,7 +85,7 @@ xte_trait_apex_predator = {
 		BIOLOGICAL
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -124,7 +124,7 @@ xte_trait_apex_predator_lithoid = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -163,7 +163,7 @@ xte_trait_analytical = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -201,7 +201,7 @@ xte_trait_theoretical = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -239,7 +239,7 @@ xte_trait_practical = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -276,7 +276,7 @@ xte_trait_oligotrophs = {
 		BIOLOGICAL
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -303,7 +303,7 @@ xte_trait_oligotrophs_lithoid = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -331,7 +331,7 @@ xte_trait_lawful = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -362,7 +362,7 @@ xte_trait_intrepid = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -396,7 +396,7 @@ xte_trait_urban = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -434,7 +434,7 @@ xte_trait_gifted_pilots = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -459,7 +459,7 @@ xte_trait_illustrious = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -491,7 +491,7 @@ xte_trait_humble = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -523,7 +523,7 @@ xte_trait_crafty = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -553,7 +553,7 @@ xte_trait_creative = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -605,7 +605,7 @@ xte_trait_natural_translucers = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -636,7 +636,7 @@ xte_trait_natural_refiners = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -667,7 +667,7 @@ xte_trait_natural_chemists = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -698,7 +698,7 @@ xte_trait_flexible = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -723,7 +723,7 @@ xte_trait_inquisitive = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -754,7 +754,7 @@ xte_trait_austere = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -782,7 +782,7 @@ xte_trait_sanguine = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
@@ -842,7 +842,7 @@ xte_trait_avant_garde = {
 		LITHOID
 	}
 	species_possible_remove = {
-		can_remove_beneficial_traits = yes
+		can_remove_beneficial_genetic_traits = yes
 	}
 	species_possible_merge_remove = {
 		always = yes
