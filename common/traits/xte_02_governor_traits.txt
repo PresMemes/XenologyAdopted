@@ -51,7 +51,7 @@ trait_governor_machinist = {
 	randomized = no
 	icon = "gfx/interface/icons/traits/leader_traits/trait_governor_machinist.dds"
 	modifier = {
-		pop_assembly_speed = 0.1
+		planet_pop_assembly_mult = 0.1
 		planet_pops_robotics_upkeep_mult = -0.05
 		planet_jobs_robotic_produces_mult = 0.05
 	}

@@ -919,7 +919,7 @@ xte_trait_allergic = {
 	cost = -1
 	initial = yes
 	randomized = yes
-	improves_leaders = yes
+	#improves_leaders = yes #PM: ????
 	allowed_archetypes = {
 		BIOLOGICAL
 	}
