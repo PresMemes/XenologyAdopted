@@ -1,6 +1,6 @@
-﻿l_spanish:  
+﻿l_spanish:
 
- #For translation purposes
+ #For machine translation purposes
  xte_always:0 "Siempre"
  xte_sometimes:0 "A veces"
  xte_rulers:0 "reglas"
@@ -26,6 +26,9 @@
  trait_theoretical_desc:0 "§LLos miembros de esta especie tienen un talento sin igual para el pensamiento abstracto, pero tienen dificultades con las ciencias aplicadas y exactas. §W$xte_always$§! generar §G$trait_ruler_life_weaver$§! $xte_rulers$ y §G$trait_governor_naturalist$§! $xte_governors$.§!\n"
  trait_practical:0 "Práctico"
  trait_practical_desc:0 "§LLos miembros de esta especie destacan en la investigación empírica y tienen poco interés en los conceptos abstractos o matemáticos. §W$xte_always$§! generar §G$trait_ruler_life_crafter$§! $xte_rulers$ y §G$trait_governor_machinist$§! $xte_governors$.§!\n"
+ xte_trait_unbound:0 "Unbound"
+ xte_trait_unbound_desc:0 "§LMembers of this species have retained their natural wildness, and are extremely difficult to subjugate. §W$xte_always$§! generate §G$trait_ruler_land_of_the_free$§! $xte_rulers$.§!\n"
+ xte_unbound_no_slaves_bonus:0 "Happiness with no enslaved species: §G+20%§!\nResources from Jobs with with no enslaved species: §G+10%§!"
  trait_oligotrophs:0 "Oligótrofos"
  trait_oligotrophs_desc:0 "§LLos miembros de esta especie están adaptados a entornos pobres en nutrientes y pueden pasar largos periodos de tiempo sin comer. §W$xte_always$§! generar §G$trait_governor_reliable$§! $xte_governors$.§!\n"
  trait_oligotrophs_lithoid:0 "$trait_oligotrophs$"

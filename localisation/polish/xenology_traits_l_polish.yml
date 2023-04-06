@@ -1,6 +1,6 @@
-﻿l_polish:  
+﻿l_polish:
 
- #For translation purposes
+ #For machine translation purposes
  xte_always:0 "Zawsze"
  xte_sometimes:0 "Czasami"
  xte_rulers:0 "władcy"
@@ -26,6 +26,9 @@
  xte_trait_theoretical_desc:0 "§LCzłonkowie tego gatunku mają niezrównany talent do abstrakcyjnego myślenia, ale mają problemy z naukami stosowanymi i ścisłymi. §W$xte_always$§! generować §G$trait_ruler_life_weaver$§! $xte_rulers$ oraz §G$trait_governor_naturalist$§! $xte_governors$.§!\n"
  xte_trait_practical:0 "Praktyczna strona"
  xte_trait_practical_desc:0 "§LPrzedstawiciele tego gatunku doskonale radzą sobie z badaniami empirycznymi i nie interesują się pojęciami abstrakcyjnymi czy matematycznymi. §W$xte_always$§! generować §G$trait_ruler_life_crafter$§! $xte_rulers$ oraz §G$trait_governor_machinist$§! $xte_governors$.§!\n"
+ xte_trait_unbound:0 "Unbound"
+ xte_trait_unbound_desc:0 "§LMembers of this species have retained their natural wildness, and are extremely difficult to subjugate. §W$xte_always$§! generate §G$trait_ruler_land_of_the_free$§! $xte_rulers$.§!\n"
+ xte_unbound_no_slaves_bonus:0 "Happiness with no enslaved species: §G+20%§!\nResources from Jobs with with no enslaved species: §G+10%§!"
  xte_trait_oligotrophs:0 "Oligotrofy"
  xte_trait_oligotrophs_desc:0 "§LPrzedstawiciele tego gatunku są przystosowani do środowisk ubogich w składniki odżywcze i mogą przez długi czas obywać się bez jedzenia. §W$xte_always$§! generować §G$trait_governor_reliable$§! $xte_governors$.§!\n"
  xte_trait_oligotrophs_lithoid:0 "$xte_trait_oligotrophs$"

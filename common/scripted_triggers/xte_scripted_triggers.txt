@@ -1,0 +1,3 @@
+has_xte_unofficial_bio = {
+	always = yes
+}

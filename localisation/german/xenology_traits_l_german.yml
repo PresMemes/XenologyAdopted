@@ -1,6 +1,6 @@
-﻿l_german:  
+﻿l_german:
 
- #For translation purposes
+ #For machine translation purposes
  xte_always:0 "Immer"
  xte_sometimes:0 "Manchmal"
  xte_rulers:0 "herrscher"
@@ -26,6 +26,9 @@
  xte_trait_theoretical_desc:0 "§LMitglieder dieser Spezies haben ein unvergleichliches Talent für abstraktes Denken, tun sich aber mit angewandten und exakten Wissenschaften schwer. §W$xte_always$§! erzeugen §G$trait_ruler_life_weaver$§! $xte_rulers$ und §G$trait_governor_naturalist$§! $xte_governors$.§!\n"
  xte_trait_practical:0 "Praktisch"
  xte_trait_practical_desc:0 "§LMitglieder dieser Spezies zeichnen sich durch empirische Forschung aus und haben wenig Interesse an abstrakten oder mathematischen Konzepten. §W$xte_always$§! erzeugen §G$trait_ruler_life_crafter$§! $xte_rulers$ und §G$trait_governor_machinist$§! $xte_governors$.§!\n"
+ xte_trait_unbound:0 "Unbound"
+ xte_trait_unbound_desc:0 "§LMembers of this species have retained their natural wildness, and are extremely difficult to subjugate. §W$xte_always$§! generate §G$trait_ruler_land_of_the_free$§! $xte_rulers$.§!\n"
+ xte_unbound_no_slaves_bonus:0 "Happiness with no enslaved species: §G+20%§!\nResources from Jobs with with no enslaved species: §G+10%§!"
  xte_trait_oligotrophs:0 "Oligotrophe"
  xte_trait_oligotrophs_desc:0 "§LDie Mitglieder dieser Art sind an nährstoffarme Umgebungen angepasst und können lange Zeit ohne Nahrung auskommen. §W$xte_always$§! erzeugen §G$trait_governor_reliable$§! $xte_governors$.§!\n"
  xte_trait_oligotrophs_lithoid:0 "$xte_trait_oligotrophs$"

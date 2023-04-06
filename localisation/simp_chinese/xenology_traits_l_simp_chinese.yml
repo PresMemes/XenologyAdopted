@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
 
- #For translation purposes
+ #For machine translation purposes
  xte_always:0 "始终"
  xte_sometimes:0 "有时"
  xte_rulers:0 "统治者"
@@ -26,6 +26,9 @@
  xte_trait_theoretical_desc:0 "§L这个物种的成员在抽象思维方面的天赋是无与伦比的，但在应用和精确科学方面却很吃力。§W$xte_always$§! 产生 §G$trait_ruler_life_weaver$§! $xte_rulers$ 和 §G$trait_governor_naturalist$§! $xte_governors$。§!\n"
  xte_trait_practical:0 "实用"
  xte_trait_practical_desc:0 "§L这个物种的成员擅长实证研究，对抽象或数学概念兴趣不大。§W$xte_always$§! 产生 §G$trait_ruler_life_crafter$§! $xte_rulers$ 和 §G$trait_governor_machinist$§! $xte_governors$。§!\n"
+ xte_trait_unbound:0 "Unbound"
+ xte_trait_unbound_desc:0 "§LMembers of this species have retained their natural wildness, and are extremely difficult to subjugate. §W$xte_always$§! generate §G$trait_ruler_land_of_the_free$§! $xte_rulers$.§!\n"
+ xte_unbound_no_slaves_bonus:0 "Happiness with no enslaved species: §G+20%§!\nResources from Jobs with with no enslaved species: §G+10%§!"
  xte_trait_oligotrophs:0 "少子化生物"
  xte_trait_oligotrophs_desc:0 "§L该物种的成员适应于营养不良的环境，可以长时间不进食。§W$xte_always$§! 产生 §G$trait_governor_reliable$§! $xte_governors$。§!\n"
  xte_trait_oligotrophs_lithoid:0 "$xte_trait_oligotrophs$"

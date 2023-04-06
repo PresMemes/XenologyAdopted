@@ -1,60 +1,17 @@
+# a new leader is generated for an empire, to be available for recruitment
+# scope: country, from: leader
 on_leader_spawned = {
 	events = {
-		xte_traits_ev.1
-		xte_traits_ev.2
-		xte_traits_ev.3
-		xte_traits_ev.4
-		xte_traits_ev.5
-		xte_traits_ev.6
-		xte_traits_ev.7
-		xte_traits_ev.8
-		xte_traits_ev.9
-		xte_traits_ev.10
-		xte_traits_ev.11
-		xte_traits_ev.12
-		xte_traits_ev.13
-		xte_traits_ev.14
-		xte_traits_ev.15
-		xte_traits_ev.16
-		xte_traits_ev.17
-		xte_traits_ev.18
-		xte_traits_ev.19
-		xte_traits_ev.20
-		xte_traits_ev.21
-		xte_traits_ev.22
-		xte_traits_ev.23
-		xte_traits_ev.24
-		xte_traits_ev.25
+		xte_traits_ev.999
 	}
 }
 
+# Executed when the ruler is ousted and goes back to their pre-ruler class
+# From = Previous Ruler, already has the new class
+# This = Country
 on_ruler_back_to_pre_ruler_class = {
 	events = {
-		xte_traits_ev.1
-		xte_traits_ev.2
-		xte_traits_ev.3
-		xte_traits_ev.4
-		xte_traits_ev.5
-		xte_traits_ev.6
-		xte_traits_ev.7
-		xte_traits_ev.8
-		xte_traits_ev.9
-		xte_traits_ev.10
-		xte_traits_ev.11
-		xte_traits_ev.12
-		xte_traits_ev.13
-		xte_traits_ev.14
-		xte_traits_ev.15
-		xte_traits_ev.16
-		xte_traits_ev.17
-		xte_traits_ev.18
-		xte_traits_ev.19
-		xte_traits_ev.20
-		xte_traits_ev.21
-		xte_traits_ev.22
-		xte_traits_ev.23
-		xte_traits_ev.24
-		xte_traits_ev.25
+		xte_traits_ev.999
 	}
 }
 
