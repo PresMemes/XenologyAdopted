@@ -157,7 +157,7 @@ trait_ruler_land_of_the_free = {
 		ruler
 	}
 	requires_traits = {
-		trait_unbound
+		xte_trait_unbound
 	}	
 	ai_weight = {
 		weight = 20

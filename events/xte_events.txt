@@ -22,17 +22,6 @@ country_event = {
 		from = {
 			switch = {
 				trigger = leader_class
-				ruler = {
-					leader_event = { id =  xte_traits_ev.7 }
-					leader_event = { id =  xte_traits_ev.12 }
-					leader_event = { id =  xte_traits_ev.14 }
-					leader_event = { id =  xte_traits_ev.17 }
-					leader_event = { id =  xte_traits_ev.18 }
-					leader_event = { id =  xte_traits_ev.20 }
-					leader_event = { id =  xte_traits_ev.21 }
-					leader_event = { id =  xte_traits_ev.23 }
-					leader_event = { id =  xte_traits_ev.24 }
-				}
 				governor = {
 					leader_event = { id =  xte_traits_ev.7 }
 					leader_event = { id =  xte_traits_ev.9 }
@@ -67,8 +56,20 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.20 }
 				}
 			}
-			leader_event = { id = xte_traits_ev.22 } # Genetic Memory, no need to check for leader class
-			leader_event = { id = xte_traits_ev.3 } # Avant Garde, also no need to check
+
+			# Universal/Ruler traits
+			leader_event = { id = xte_traits_ev.3 }
+			leader_event = { id =  xte_traits_ev.7 }
+			leader_event = { id =  xte_traits_ev.12 }
+			leader_event = { id =  xte_traits_ev.14 }
+			leader_event = { id =  xte_traits_ev.17 }
+			leader_event = { id =  xte_traits_ev.18 }
+			leader_event = { id =  xte_traits_ev.20 }
+			leader_event = { id =  xte_traits_ev.21 }
+			leader_event = { id = xte_traits_ev.22 }
+			leader_event = { id =  xte_traits_ev.23 }
+			leader_event = { id =  xte_traits_ev.24 }
+			leader_event = { id =  xte_traits_ev.25 }
 		}
 	}
 }
@@ -180,7 +181,7 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_lawful }
 		NOR = {
-			has_trait = trait_ruler_lawbringer
+			# has_trait = trait_ruler_lawbringer
 			has_trait = trait_governor_sheriff
 			has_trait = trait_admiral_gendarme
 		}
@@ -333,8 +334,8 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_practical }
-		NOR = {
-			has_trait = trait_ruler_life_crafter
+		NOT = {
+			# has_trait = trait_ruler_life_crafter
 			has_trait = trait_governor_machinist
 		}
 	}
@@ -353,8 +354,8 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_theoretical }
-		NOR = {
-			has_trait = trait_ruler_life_weaver
+		NOT = {
+			# has_trait = trait_ruler_life_weaver
 			has_trait = trait_governor_naturalist
 		}
 	}
@@ -392,7 +393,7 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_analytical }
 		NOR = {
-			has_trait = trait_ruler_arcanist
+			# has_trait = trait_ruler_arcanist
 			has_trait = trait_general_forecaster
 			has_trait = trait_scientist_pioneer
 		}
@@ -417,8 +418,8 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_stalwart }
-		NOR = {
-			has_trait = trait_ruler_valiant
+		NOT = {
+			# has_trait = trait_ruler_valiant
 			has_trait = trait_admiral_paladin
 		}
 	}
@@ -438,7 +439,7 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_genetic_memory }
 		NOR = {
-			has_trait = trait_ruler_ancestral_knowledge
+			# has_trait = trait_ruler_ancestral_knowledge
 			has_trait = trait_governor_ancestral_knowledge
 			has_trait = trait_scientist_ancestral_knowledge
 			has_trait = trait_admiral_ancestral_knowledge
@@ -449,9 +450,6 @@ leader_event = {
 		add_ruler_trait = trait_ruler_ancestral_knowledge
 		switch = {
 			trigger = leader_class
-			ruler = {
-				add_trait = trait_ruler_ancestral_knowledge
-			}
 			governor = {
 				add_trait = trait_governor_ancestral_knowledge
 			}
@@ -492,8 +490,8 @@ leader_event = {
 				has_trait = xte_trait_apex_predator_lithoid
 			}
 		}
-		NOR = {
-			has_trait = trait_ruler_pertinacious
+		NOT = {
+			# has_trait = trait_ruler_pertinacious
 			has_trait = trait_admiral_opportunistic
 		}
 	}
@@ -512,14 +510,10 @@ leader_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		from = {
-			species = { has_trait = xte_trait_unbound }
-			NOT = { has_trait = trait_ruler_land_of_the_free }
-		}
+		species = { has_trait = xte_trait_unbound }
+		NOT = { has_trait = trait_ruler_land_of_the_free }
 	}
 	immediate = {
-		from = {
-			add_ruler_trait = trait_ruler_land_of_the_free
-		}
+		add_ruler_trait = trait_ruler_land_of_the_free
 	}
 }
