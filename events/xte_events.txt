@@ -426,7 +426,7 @@ leader_event = {
 		add_ruler_trait = trait_ruler_valiant
 		if = {
 			limit = { leader_class = admiral }
-			add_trait = trait_governor_reliable
+			add_trait = trait_admiral_paladin
 		}
 	}
 }
