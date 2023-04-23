@@ -275,6 +275,29 @@ trait_ruler_enlightened = {
 	}
 }
 
+trait_ruler_maladroit = {
+	cost = 0
+	randomized = no
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_maladroit.dds"
+	modifier = {
+		station_gatherers_volatile_motes_produces_mult = -0.2
+		station_gatherers_exotic_gases_produces_mult = -0.2
+		station_gatherers_rare_crystals_produces_mult = -0.2
+	}
+	leader_trait = {
+		ruler
+	}
+	leader_class = {
+		ruler
+	}
+	requires_traits = {
+		xte_trait_inept
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
 trait_ruler_tyrannical = {
 	cost = 1
 	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_tyrannical.dds"

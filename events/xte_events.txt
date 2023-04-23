@@ -59,17 +59,18 @@ country_event = {
 
 			# Universal/Ruler traits
 			leader_event = { id = xte_traits_ev.3 }
-			leader_event = { id =  xte_traits_ev.7 }
-			leader_event = { id =  xte_traits_ev.12 }
-			leader_event = { id =  xte_traits_ev.14 }
-			leader_event = { id =  xte_traits_ev.17 }
-			leader_event = { id =  xte_traits_ev.18 }
-			leader_event = { id =  xte_traits_ev.20 }
-			leader_event = { id =  xte_traits_ev.21 }
+			leader_event = { id = xte_traits_ev.7 }
+			leader_event = { id = xte_traits_ev.12 }
+			leader_event = { id = xte_traits_ev.14 }
+			leader_event = { id = xte_traits_ev.17 }
+			leader_event = { id = xte_traits_ev.18 }
+			leader_event = { id = xte_traits_ev.20 }
+			leader_event = { id = xte_traits_ev.21 }
 			leader_event = { id = xte_traits_ev.22 }
-			leader_event = { id =  xte_traits_ev.23 }
-			leader_event = { id =  xte_traits_ev.24 }
-			leader_event = { id =  xte_traits_ev.25 }
+			leader_event = { id = xte_traits_ev.23 }
+			leader_event = { id = xte_traits_ev.24 }
+			leader_event = { id = xte_traits_ev.25 }
+			leader_event = { id = xte_traits_ev.26 }
 		}
 	}
 }
@@ -128,7 +129,7 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_avant_garde }
-		NOT = { has_trait = trait_ruler_enlightened }
+		NOT = { has_ruler_trait = trait_ruler_enlightened }
 	}
 	immediate = {
 		add_ruler_trait = trait_ruler_enlightened
@@ -258,7 +259,7 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_illustrious }
-		NOT = { has_trait = trait_ruler_regal }
+		NOT = { has_ruler_trait = trait_ruler_regal }
 	}
 	immediate = {
 		add_ruler_trait = trait_ruler_regal
@@ -295,7 +296,7 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_flexible }
-		NOT = { has_trait = trait_ruler_polymath }
+		NOT = { has_ruler_trait = trait_ruler_polymath }
 	}
 	immediate = {
 		add_ruler_trait = trait_ruler_polymath
@@ -511,9 +512,22 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		species = { has_trait = xte_trait_unbound }
-		NOT = { has_trait = trait_ruler_land_of_the_free }
+		NOT = { has_ruler_trait = trait_ruler_land_of_the_free }
 	}
 	immediate = {
 		add_ruler_trait = trait_ruler_land_of_the_free
+	}
+}
+
+leader_event = {
+	id = xte_traits_ev.26
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		species = { has_trait = xte_trait_inept }
+		NOT = { has_ruler_trait = trait_ruler_maladroit }
+	}
+	immediate = {
+		add_ruler_trait = trait_ruler_maladroit
 	}
 }
