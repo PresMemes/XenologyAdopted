@@ -1,28 +1,25 @@
 ############################
 # Xenology Governor Traits #
 ############################
-trait_governor_ancestral_knowledge = {
-	cost = 1
-	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_governor_ancestral_knowledge.dds"
-	modifier = {
-		planet_jobs_produces_mult = 0.04
-		empire_size_pops_mult = -0.04
-		planet_crime_add = -6
-	}
-	leader_trait = {
-		governor
-	}
-	leader_class = {
-		governor
-	}
-	requires_traits = {
-		xte_trait_genetic_memory
-	}
-	ai_weight = {
-		weight = 150
-	}
-}
+# trait_governor_ancestral_knowledge = {
+# 	cost = 1
+# 	randomized = no
+# 	icon = "gfx/interface/icons/traits/leader_traits/trait_governor_ancestral_knowledge.dds"
+# 	modifier = {
+# 		planet_jobs_produces_mult = 0.04
+# 		empire_size_pops_mult = -0.04
+# 		planet_crime_add = -6
+# 	}
+# 	leader_class = {
+# 		governor
+# 	}
+# 	requires_traits = {
+# 		xte_trait_genetic_memory
+# 	}
+# 	ai_weight = {
+# 		weight = 150
+# 	}
+# }
 
 trait_governor_naturalist = {
 	cost = 1
@@ -31,9 +28,6 @@ trait_governor_naturalist = {
 	modifier = {
 		pop_environment_tolerance = 0.05
 		planet_pops_upkeep_mult = -0.05
-	}
-	leader_trait = {
-		governor
 	}
 	leader_class = {
 		governor
@@ -55,9 +49,6 @@ trait_governor_machinist = {
 		planet_pops_robotics_upkeep_mult = -0.05
 		planet_jobs_robotic_produces_mult = 0.05
 	}
-	leader_trait = {
-		governor
-	}
 	leader_class = {
 		governor
 	}
@@ -76,9 +67,6 @@ trait_governor_reliable = {
 	modifier = {
 		pop_growth_speed = 0.05
 		planet_jobs_food_produces_mult = 0.05
-	}
-	leader_trait = {
-		governor
 	}
 	leader_class = {
 		governor
@@ -100,9 +88,6 @@ trait_governor_sheriff = {
 		planet_crime_add = -10
 		planet_stability_add = 5
 	}
-	leader_trait = {
-		governor
-	}
 	leader_class = {
 		governor
 	}
@@ -121,9 +106,6 @@ trait_governor_efficient = {
 	modifier = {
 		trade_value_mult = 0.1
 	}
-	leader_trait = {
-		governor
-	}
 	leader_class = {
 		governor
 	}
@@ -141,9 +123,6 @@ trait_governor_diligent = {
 	icon = "gfx/interface/icons/traits/leader_traits/trait_governor_diligent.dds"
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.1
-	}
-	leader_trait = {
-		governor
 	}
 	leader_class = {
 		governor
@@ -164,9 +143,6 @@ trait_governor_forge_master = {
 		planet_metallurgists_upkeep_mult = -0.1
 		planet_jobs_engineering_research_produces_mult = 0.05
 	}
-	leader_trait = {
-		governor
-	}
 	leader_class = {
 		governor
 	}
@@ -185,9 +161,6 @@ trait_governor_patron_of_the_arts = {
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.05
 		planet_amenities_mult = 0.05
-	}
-	leader_trait = {
-		governor
 	}
 	leader_class = {
 		governor

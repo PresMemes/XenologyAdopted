@@ -1,26 +1,23 @@
 ###########################
 # Xenology Admiral Traits #
 ###########################
-trait_admiral_ancestral_knowledge = {
-	cost = 0
-	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_ancestral_knowledge.dds"
-	modifier = {
-		ship_fire_rate_mult = 0.06
-	}
-	leader_trait = {
-		admiral
-	}
-	leader_class = {
-		admiral
-	}
-	requires_traits = {
-		xte_trait_genetic_memory
-	}
-	ai_weight = {
-		weight = 100
-	}
-}
+# trait_admiral_ancestral_knowledge = {
+# 	cost = 0
+# 	randomized = no
+# 	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_ancestral_knowledge.dds"
+# 	modifier = {
+# 		ship_fire_rate_mult = 0.06
+# 	}
+# 	leader_class = {
+# 		admiral
+# 	}
+# 	requires_traits = {
+# 		xte_trait_genetic_memory
+# 	}
+# 	ai_weight = {
+# 		weight = 100
+# 	}
+# }
 
 trait_admiral_paladin = {
 	cost = 0
@@ -30,9 +27,6 @@ trait_admiral_paladin = {
 		ship_home_territory_fire_rate_mult = 0.15
 		ship_hull_regen_add_perc = 0.2
 		ship_armor_regen_add_perc = 0.2
-	}
-	leader_trait = {
-		admiral
 	}
 	leader_class = {
 		admiral
@@ -54,9 +48,6 @@ trait_admiral_opportunistic = {
 		damage_vs_country_type_awakened_fallen_empire_mult = 0.33
 		damage_vs_country_type_gate_builders_mult = 0.33
 		damage_vs_country_type_guardian_mult = 0.33
-	}
-	leader_trait = {
-		admiral
 	}
 	leader_class = {
 		admiral
@@ -80,9 +71,6 @@ trait_admiral_gendarme = {
 		damage_vs_country_type_ruined_marauders_mult = 0.25
 		damage_vs_country_type_marauder_raiders_mult = 0.25
 	}
-	leader_trait = {
-		admiral
-	}
 	leader_class = {
 		admiral
 	}
@@ -100,9 +88,6 @@ trait_admiral_underdog = {
 	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_underdog.dds"
 	modifier = {
 		force_disparity_fire_rate_mult = 0.15
-	}
-	leader_trait = {
-		admiral
 	}
 	leader_class = {
 		admiral
@@ -123,9 +108,6 @@ trait_admiral_carrier_commander = {
 		weapon_type_strike_craft_weapon_damage_mult = 0.1
 		weapon_type_point_defense_weapon_damage_mult = 0.1
 	}
-	leader_trait = {
-		admiral
-	}
 	leader_class = {
 		admiral
 	}
@@ -145,9 +127,6 @@ trait_admiral_computing_expert = {
 		ship_weapon_range_mult = 0.1
 		ship_accuracy_mult = 0.025
 	}
-	leader_trait = {
-		admiral
-	}
 	leader_class = {
 		admiral
 	}
@@ -165,9 +144,6 @@ trait_admiral_propulsion_expert = {
 	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_propulsion_expert.dds"
 	modifier = {
 		ship_speed_mult = 0.1
-	}
-	leader_trait = {
-		admiral
 	}
 	leader_class = {
 		admiral
@@ -187,9 +163,6 @@ trait_admiral_gunnery_expert = {
 	modifier = {
 		ship_weapon_damage = 0.05
 	}
-	leader_trait = {
-		admiral
-	}
 	leader_class = {
 		admiral
 	}
@@ -208,9 +181,6 @@ trait_admiral_arrogant = {
 	modifier = {
 		ship_disengage_chance_mult = -0.15
 		ship_emergency_ftl_min_days_mult = 0.25
-	}
-	leader_trait = {
-		admiral
 	}
 	leader_class = {
 		admiral
@@ -232,9 +202,6 @@ trait_admiral_inert = {
 	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds"
 	modifier = {
 		ship_evasion_mult = -0.1
-	}
-	leader_trait = {
-		admiral
 	}
 	leader_class = {
 		admiral

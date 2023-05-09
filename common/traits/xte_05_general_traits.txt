@@ -1,26 +1,23 @@
 ###########################
 # Xenology General Traits #
 ###########################
-trait_general_ancestral_knowledge = {
-	cost = 0
-	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_general_ancestral_knowledge.dds"
-	modifier = {
-		army_damage_mult = 0.1
-	}
-	leader_trait = {
-		general
-	}
-	leader_class = {
-		general
-	}
-	requires_traits = {
-		xte_trait_genetic_memory
-	}
-	ai_weight = {
-		weight = 150
-	}
-}
+# trait_general_ancestral_knowledge = {
+# 	cost = 0
+# 	randomized = no
+# 	icon = "gfx/interface/icons/traits/leader_traits/trait_general_ancestral_knowledge.dds"
+# 	modifier = {
+# 		army_damage_mult = 0.1
+# 	}
+# 	leader_class = {
+# 		general
+# 	}
+# 	requires_traits = {
+# 		xte_trait_genetic_memory
+# 	}
+# 	ai_weight = {
+# 		weight = 150
+# 	}
+# }
 
 trait_general_forecaster = {
 	cost = 0
@@ -30,9 +27,6 @@ trait_general_forecaster = {
 		army_experience_gain_mult = 0.25
 		army_damage_mult = 0.15
 		army_collateral_damage_mult = -0.15
-	}
-	leader_trait = {
-		general
 	}
 	leader_class = {
 		general
@@ -54,9 +48,6 @@ trait_general_battle_mounts = {
 		army_health = 0.1
 		army_collateral_damage_mult = 0.1
 	}
-	leader_trait = {
-		general
-	}
 	leader_class = {
 		general
 	}
@@ -74,9 +65,6 @@ trait_general_cavalier = {
 	icon = "gfx/interface/icons/traits/leader_traits/trait_general_cavalier.dds"
 	modifier = {
 		army_disengage_chance_mult = -0.2
-	}
-	leader_trait = {
-		general
 	}
 	leader_class = {
 		general

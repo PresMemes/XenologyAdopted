@@ -57,7 +57,7 @@ country_event = {
 				}
 			}
 
-			# Universal/Ruler traits
+			#Universal/Ruler traits
 			leader_event = { id = xte_traits_ev.3 }
 			leader_event = { id = xte_traits_ev.7 }
 			leader_event = { id = xte_traits_ev.12 }
@@ -90,10 +90,10 @@ leader_event = {
 		switch = {
 			trigger = leader_class
 			admiral = {
-				add_trait = trait_admiral_inert
+				add_trait_no_notify = trait_admiral_inert
 			}
 			scientist = {
-				add_trait = trait_scientist_fastidious
+				add_trait_no_notify = trait_scientist_fastidious
 			}
 		}
 	}
@@ -114,10 +114,10 @@ leader_event = {
 		switch = {
 			trigger = leader_class
 			admiral = {
-				add_trait = trait_admiral_arrogant
+				add_trait_no_notify = trait_admiral_arrogant
 			}
 			general = {
-				add_trait = trait_general_cavalier
+				add_trait_no_notify = trait_general_cavalier
 			}
 		}
 	}
@@ -129,10 +129,10 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_avant_garde }
-		NOT = { has_ruler_trait = trait_ruler_enlightened }
+		NOT = { has_trait = trait_ruler_enlightened }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_enlightened
+		add_trait_no_notify = trait_ruler_enlightened
 	}
 }
 
@@ -145,7 +145,7 @@ leader_event = {
 		NOT = { has_trait = trait_admiral_gunnery_expert }
 	}
 	immediate = {
-		add_trait = trait_admiral_gunnery_expert
+		add_trait_no_notify = trait_admiral_gunnery_expert
 	}
 }
 
@@ -158,7 +158,7 @@ leader_event = {
 		NOT = { has_trait = trait_admiral_propulsion_expert }
 	}
 	immediate = {
-		add_trait = trait_admiral_propulsion_expert
+		add_trait_no_notify = trait_admiral_propulsion_expert
 	}
 }
 
@@ -171,7 +171,7 @@ leader_event = {
 		NOT = { has_trait = trait_admiral_computing_expert }
 	}
 	immediate = {
-		add_trait = trait_admiral_computing_expert
+		add_trait_no_notify = trait_admiral_computing_expert
 	}
 }
 
@@ -182,20 +182,20 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_lawful }
 		NOR = {
-			# has_trait = trait_ruler_lawbringer
+			has_trait = trait_ruler_lawbringer
 			has_trait = trait_governor_sheriff
 			has_trait = trait_admiral_gendarme
 		}
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_lawbringer
+		add_trait_no_notify = trait_ruler_lawbringer
 		switch = {
 			trigger = leader_class
 			governor = {
-				add_trait = trait_governor_sheriff
+				add_trait_no_notify = trait_governor_sheriff
 			}
 			admiral = {
-				add_trait = trait_admiral_gendarme
+				add_trait_no_notify = trait_admiral_gendarme
 			}
 		}
 	}
@@ -210,7 +210,7 @@ leader_event = {
 		NOT = { has_trait = trait_scientist_pathfinder }
 	}
 	immediate = {
-		add_trait = trait_scientist_pathfinder
+		add_trait_no_notify = trait_scientist_pathfinder
 	}
 }
 
@@ -223,7 +223,7 @@ leader_event = {
 		NOT = { has_trait = trait_governor_patron_of_the_arts }
 	}
 	immediate = {
-		add_trait = trait_governor_patron_of_the_arts
+		add_trait_no_notify = trait_governor_patron_of_the_arts
 	}
 }
 
@@ -236,7 +236,7 @@ leader_event = {
 		NOT = { has_trait = trait_governor_forge_master }
 	}
 	immediate = {
-		add_trait = trait_governor_forge_master
+		add_trait_no_notify = trait_governor_forge_master
 	}
 }
 
@@ -249,7 +249,7 @@ leader_event = {
 		NOT = { has_trait = trait_governor_diligent }
 	}
 	immediate = {
-		add_trait = trait_governor_diligent
+		add_trait_no_notify = trait_governor_diligent
 	}
 }
 
@@ -259,10 +259,10 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_illustrious }
-		NOT = { has_ruler_trait = trait_ruler_regal }
+		NOT = { has_trait = trait_ruler_regal }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_regal
+		add_trait_no_notify = trait_ruler_regal
 	}
 }
 
@@ -281,10 +281,10 @@ leader_event = {
 		switch = {
 			trigger = leader_class
 			admiral = {
-				add_trait = trait_admiral_carrier_commander
+				add_trait_no_notify = trait_admiral_carrier_commander
 			}
 			general = {
-				add_trait = trait_general_battle_mounts
+				add_trait_no_notify = trait_general_battle_mounts
 			}
 		}
 	}
@@ -296,10 +296,10 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_flexible }
-		NOT = { has_ruler_trait = trait_ruler_polymath }
+		NOT = { has_trait = trait_ruler_polymath }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_polymath
+		add_trait_no_notify = trait_ruler_polymath
 	}
 }
 
@@ -312,7 +312,7 @@ leader_event = {
 		NOT = { has_trait = trait_governor_efficient }
 	}
 	immediate = {
-		add_trait = trait_governor_efficient
+		add_trait_no_notify = trait_governor_efficient
 	}
 }
 
@@ -325,7 +325,7 @@ leader_event = {
 		NOT = { has_trait = trait_admiral_underdog }
 	}
 	immediate = {
-		add_trait = trait_admiral_underdog
+		add_trait_no_notify = trait_admiral_underdog
 	}
 }
 
@@ -336,15 +336,15 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_practical }
 		NOT = {
-			# has_trait = trait_ruler_life_crafter
+			has_trait = trait_ruler_life_crafter
 			has_trait = trait_governor_machinist
 		}
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_life_crafter
+		add_trait_no_notify = trait_ruler_life_crafter
 		if = {
 			limit = { leader_class = governor }
-			add_trait = trait_governor_machinist
+			add_trait_no_notify = trait_governor_machinist
 		}
 	}
 }
@@ -356,15 +356,15 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_theoretical }
 		NOT = {
-			# has_trait = trait_ruler_life_weaver
+			has_trait = trait_ruler_life_weaver
 			has_trait = trait_governor_naturalist
 		}
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_life_weaver
+		add_trait_no_notify = trait_ruler_life_weaver
 		if = {
 			limit = { leader_class = governor }
-			add_trait = trait_governor_naturalist
+			add_trait_no_notify = trait_governor_naturalist
 		}
 	}
 }
@@ -383,7 +383,7 @@ leader_event = {
 		NOT = { has_trait = trait_governor_reliable }
 	}
 	immediate = {
-		add_trait = trait_governor_reliable
+		add_trait_no_notify = trait_governor_reliable
 	}
 }
 
@@ -394,20 +394,20 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_analytical }
 		NOR = {
-			# has_trait = trait_ruler_arcanist
+			has_trait = trait_ruler_arcanist
 			has_trait = trait_general_forecaster
 			has_trait = trait_scientist_pioneer
 		}
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_arcanist
+		add_trait_no_notify = trait_ruler_arcanist
 		switch = {
 			trigger = leader_class
 			general = {
-				add_trait = trait_general_forecaster
+				add_trait_no_notify = trait_general_forecaster
 			}
 			scientist = {
-				add_trait = trait_scientist_pioneer
+				add_trait_no_notify = trait_scientist_pioneer
 			}
 		}
 	}
@@ -420,15 +420,15 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_stalwart }
 		NOT = {
-			# has_trait = trait_ruler_valiant
+			has_trait = trait_ruler_valiant
 			has_trait = trait_admiral_paladin
 		}
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_valiant
+		add_trait_no_notify = trait_ruler_valiant
 		if = {
 			limit = { leader_class = admiral }
-			add_trait = trait_admiral_paladin
+			add_trait_no_notify = trait_admiral_paladin
 		}
 	}
 }
@@ -439,31 +439,10 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_genetic_memory }
-		NOR = {
-			# has_trait = trait_ruler_ancestral_knowledge
-			has_trait = trait_governor_ancestral_knowledge
-			has_trait = trait_scientist_ancestral_knowledge
-			has_trait = trait_admiral_ancestral_knowledge
-			has_trait = trait_general_ancestral_knowledge
-		}
+		NOT = { has_trait = trait_ruler_ancestral_knowledge }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_ancestral_knowledge
-		switch = {
-			trigger = leader_class
-			governor = {
-				add_trait = trait_governor_ancestral_knowledge
-			}
-			admiral = {
-				add_trait = trait_admiral_ancestral_knowledge
-			}
-			general = {
-				add_trait = trait_general_ancestral_knowledge
-			}
-			scientist = {
-				add_trait = trait_scientist_ancestral_knowledge
-			}
-		}
+		add_trait_no_notify = trait_ruler_ancestral_knowledge
 	}
 }
 
@@ -476,7 +455,7 @@ leader_event = {
 		NOT = { has_trait = trait_ruler_skyborne_architect }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_skyborne_architect
+		add_trait_no_notify = trait_ruler_skyborne_architect
 	}
 }
 
@@ -492,15 +471,15 @@ leader_event = {
 			}
 		}
 		NOT = {
-			# has_trait = trait_ruler_pertinacious
+			has_trait = trait_ruler_pertinacious
 			has_trait = trait_admiral_opportunistic
 		}
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_pertinacious
+		add_trait_no_notify = trait_ruler_pertinacious
 		if = {
 			limit = { leader_class = admiral }
-			add_trait = trait_admiral_opportunistic
+			add_trait_no_notify = trait_admiral_opportunistic
 		}
 	}
 }
@@ -512,10 +491,10 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		species = { has_trait = xte_trait_unbound }
-		NOT = { has_ruler_trait = trait_ruler_land_of_the_free }
+		NOT = { has_trait = trait_ruler_land_of_the_free }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_land_of_the_free
+		add_trait_no_notify = trait_ruler_land_of_the_free
 	}
 }
 
@@ -525,9 +504,9 @@ leader_event = {
 	is_triggered_only = yes
 	trigger = {
 		species = { has_trait = xte_trait_inept }
-		NOT = { has_ruler_trait = trait_ruler_maladroit }
+		NOT = { has_trait = trait_ruler_maladroit }
 	}
 	immediate = {
-		add_ruler_trait = trait_ruler_maladroit
+		add_trait_no_notify = trait_ruler_maladroit
 	}
 }
