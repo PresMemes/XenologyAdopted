@@ -9,7 +9,7 @@
  xte_admirals:0 "admirals"
  xte_generals:0 "generals"
 
- # Traits 
+ # Traits
  # common/traits/xte_00_species_traits.txt
 
  xte_trait_genetic_memory:0 "Genetic Memory"

@@ -1,36 +1,33 @@
 #############################
 # Xenology Scientist Traits #
 #############################
-trait_scientist_ancestral_knowledge = {
-	cost = 0
-	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_ancestral_knowledge.dds"
-	modifier = {
-		all_technology_research_speed = 0.04
-		science_ship_survey_speed = 0.2
-		ship_archaeological_site_clues_add = 2
-	}
-	leader_trait = {
-		scientist
-	}
-	leader_class = {
-		scientist
-	}
-	requires_traits = {
-		xte_trait_genetic_memory
-	}
-	ai_categories = {
-		survey
-		physics
-		society
-		engineering
-	}
-	ai_weight = {
-		weight = 300
-	}
-	initial = no
-	#randomized = no
-}
+# trait_scientist_ancestral_knowledge = {
+# 	cost = 0
+# 	randomized = no
+# 	icon = "gfx/interface/icons/traits/leader_traits/trait_scientist_ancestral_knowledge.dds"
+# 	modifier = {
+# 		all_technology_research_speed = 0.04
+# 		science_ship_survey_speed = 0.2
+# 		ship_archaeological_site_clues_add = 2
+# 	}
+# 	leader_class = {
+# 		scientist
+# 	}
+# 	requires_traits = {
+# 		xte_trait_genetic_memory
+# 	}
+# 	ai_categories = {
+# 		survey
+# 		physics
+# 		society
+# 		engineering
+# 	}
+# 	ai_weight = {
+# 		weight = 300
+# 	}
+# 	initial = no
+# 	#randomized = no
+# }
 
 trait_scientist_pioneer = {
 	cost = 0
@@ -39,9 +36,6 @@ trait_scientist_pioneer = {
 	modifier = {
 		science_ship_survey_speed = -0.35
 		ship_anomaly_generation_chance_mult = 0.25
-	}
-	leader_trait = {
-		scientist
 	}
 	leader_class = {
 		scientist
@@ -67,9 +61,6 @@ trait_scientist_pathfinder = {
 		science_ship_survey_speed = 0.25
 		ship_anomaly_generation_chance_mult = 0.05
 	}
-	leader_trait = {
-		scientist
-	}
 	leader_class = {
 		scientist
 	}
@@ -94,9 +85,6 @@ trait_scientist_fastidious = {
 		science_ship_survey_speed = -0.15
 		ship_anomaly_research_speed_mult = -0.33
 		ship_archaeological_site_excavation_speed_mult = -0.33
-	}
-	leader_trait = {
-		scientist
 	}
 	leader_class = {
 		scientist

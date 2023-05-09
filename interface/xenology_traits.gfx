@@ -1,0 +1,106 @@
+spriteTypes = {
+
+	# GOVERNORS
+	spriteType = {
+		name = "GFX_xte_leader_trait_naturalist"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_naturalist.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_machinist"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_machinist.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_reliable"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_reliable.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_sheriff"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_sheriff.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_efficient"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_efficient.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_diligent"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_diligent.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_forge_master"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_forge_master.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_patron_of_the_arts"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_patron_of_the_arts.dds"
+	}
+
+	# SCIENTISTS
+	spriteType = {
+		name = "GFX_xte_leader_trait_pioneer"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_scientist_pioneer.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_pathfinder"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_scientist_pathfinder.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_fastidious"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_scientist_fastidious.dds"
+	}
+
+	# ADMIRALS
+	spriteType = {
+		name = "GFX_xte_leader_trait_paladin"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_paladin.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_opportunistic"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_opportunistic.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_gendarme"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_gendarme.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_underdog"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_underdog.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_carrier_commander"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_carrier_commander.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_computing_expert"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_computing_expert.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_propulsion_expert"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_propulsion_expert.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_gunnery_expert"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_gunnery_expert.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_admiral_arrogant"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_arrogant.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_inert"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds"
+	}
+
+	# GENERALS
+	spriteType = {
+		name = "GFX_xte_leader_trait_forecaster"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_general_forecaster.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_battle_mounts"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_general_battle_mounts.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_cavalier"
+		texturefile = "gfx/interface/icons/traits/leader_traits/trait_general_cavalier.dds"
+	}
+}
