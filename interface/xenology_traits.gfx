@@ -1,106 +1,198 @@
 spriteTypes = {
 
+	#PM: If you're using icons8.com and IOS Filled/IOS Glyph (Devious' preferred style), set the custom download size to 21x21.
+
+	# COUNCILORS/GENERIC
+	spriteType = {
+		name = "GFX_xte_leader_trait_ancestral_knowledge"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_ancestral_knowledge.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_valaint"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_valiant.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_pertinacious"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_pertinacious.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_arcanist"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_arcanist.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_life_weaver"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_life_weaver.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_life_crafter"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_life_crafter.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_land_of_the_free"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_land_of_the_free.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_lawbringer"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_lawbringer.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_regal"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_regal.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_skyborne_architect"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_skyborne_architect.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_polymath"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_polymath.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_enlightened"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_enlightened.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_maladroit"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_maladroit.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_domineering"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_domineering.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_indulgent"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_indulgent.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_spineless"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_spineless.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_hateful"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_hateful.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_peacemonger"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_peacemonger.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_warmonger"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_warmonger.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_superstitious"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_superstitious.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_cynical"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_cynical.dds"
+	}
+	spriteType = {
+		name = "GFX_xte_leader_trait_profligate"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_profligate.dds"
+	}
+
 	# GOVERNORS
 	spriteType = {
 		name = "GFX_xte_leader_trait_naturalist"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_naturalist.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_naturalist.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_machinist"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_machinist.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_machinist.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_reliable"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_reliable.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_reliable.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_sheriff"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_sheriff.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_sheriff.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_efficient"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_efficient.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_efficient.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_diligent"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_diligent.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_diligent.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_forge_master"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_forge_master.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_forge_master.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_patron_of_the_arts"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_governor_patron_of_the_arts.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_patron_of_the_arts.dds"
 	}
 
 	# SCIENTISTS
 	spriteType = {
 		name = "GFX_xte_leader_trait_pioneer"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_scientist_pioneer.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_pioneer.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_pathfinder"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_scientist_pathfinder.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_pathfinder.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_fastidious"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_scientist_fastidious.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_fastidious.dds"
 	}
 
 	# ADMIRALS
 	spriteType = {
 		name = "GFX_xte_leader_trait_paladin"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_paladin.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_paladin.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_opportunistic"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_opportunistic.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_opportunistic.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_gendarme"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_gendarme.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_gendarme.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_underdog"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_underdog.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_underdog.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_carrier_commander"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_carrier_commander.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_carrier_commander.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_computing_expert"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_computing_expert.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_computing_expert.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_propulsion_expert"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_propulsion_expert.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_propulsion_expert.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_gunnery_expert"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_gunnery_expert.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_gunnery_expert.dds"
 	}
 	spriteType = {
-		name = "GFX_xte_leader_trait_admiral_arrogant"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_arrogant.dds"
+		name = "GFX_xte_leader_trait_arrogant"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_arrogant.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_inert"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_inert.dds"
 	}
 
 	# GENERALS
 	spriteType = {
 		name = "GFX_xte_leader_trait_forecaster"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_general_forecaster.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_forecaster.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_battle_mounts"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_general_battle_mounts.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_battle_mounts.dds"
 	}
 	spriteType = {
 		name = "GFX_xte_leader_trait_cavalier"
-		texturefile = "gfx/interface/icons/traits/leader_traits/trait_general_cavalier.dds"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_cavalier.dds"
 	}
 }

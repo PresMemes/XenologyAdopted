@@ -1,28 +1,18 @@
 ###########################
 # Xenology General Traits #
 ###########################
-# trait_general_ancestral_knowledge = {
-# 	cost = 0
-# 	randomized = no
-# 	icon = "gfx/interface/icons/traits/leader_traits/trait_general_ancestral_knowledge.dds"
-# 	modifier = {
-# 		army_damage_mult = 0.1
-# 	}
-# 	leader_class = {
-# 		general
-# 	}
-# 	requires_traits = {
-# 		xte_trait_genetic_memory
-# 	}
-# 	ai_weight = {
-# 		weight = 150
-# 	}
-# }
 
 trait_general_forecaster = {
+	inline_script = {
+		script = trait/icon
+		CLASS = general
+		ICON = GFX_xte_leader_trait_forcaster
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_general_forecaster.dds"
 	modifier = {
 		army_experience_gain_mult = 0.25
 		army_damage_mult = 0.15
@@ -40,9 +30,16 @@ trait_general_forecaster = {
 }
 
 trait_general_battle_mounts = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_battle_mounts
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_general_battle_mounts.dds"
 	modifier = {
 		army_morale_damage_mult = 0.1
 		army_health = 0.1
@@ -60,9 +57,14 @@ trait_general_battle_mounts = {
 }
 
 trait_general_cavalier = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_cavalier
+		COUNCIL = no
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_general_cavalier.dds"
+	negative = yes
 	modifier = {
 		army_disengage_chance_mult = -0.2
 	}

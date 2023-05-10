@@ -1,28 +1,18 @@
 ###########################
 # Xenology Admiral Traits #
 ###########################
-# trait_admiral_ancestral_knowledge = {
-# 	cost = 0
-# 	randomized = no
-# 	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_ancestral_knowledge.dds"
-# 	modifier = {
-# 		ship_fire_rate_mult = 0.06
-# 	}
-# 	leader_class = {
-# 		admiral
-# 	}
-# 	requires_traits = {
-# 		xte_trait_genetic_memory
-# 	}
-# 	ai_weight = {
-# 		weight = 100
-# 	}
-# }
 
 trait_admiral_paladin = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_paladin
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_paladin.dds"
 	modifier = {
 		ship_home_territory_fire_rate_mult = 0.15
 		ship_hull_regen_add_perc = 0.2
@@ -40,8 +30,16 @@ trait_admiral_paladin = {
 }
 
 trait_admiral_opportunistic = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_opportunistic
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_opportunistic.dds"
+	randomized = no
 	modifier = {
 		ship_evasion_mult = 0.15
 		damage_vs_country_type_fallen_empire_mult = 0.33
@@ -61,9 +59,16 @@ trait_admiral_opportunistic = {
 }
 
 trait_admiral_gendarme = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_gendarme
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_gendarme.dds"
 	modifier = {
 		damage_vs_country_type_pirate_mult = 0.25
 		damage_vs_country_type_dormant_marauders_mult = 0.25
@@ -83,9 +88,16 @@ trait_admiral_gendarme = {
 }
 
 trait_admiral_underdog = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_underdog
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_underdog.dds"
 	modifier = {
 		force_disparity_fire_rate_mult = 0.15
 	}
@@ -101,9 +113,16 @@ trait_admiral_underdog = {
 }
 
 trait_admiral_carrier_commander = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_carrier_commander
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_carrier_commander.dds"
 	modifier = {
 		weapon_type_strike_craft_weapon_damage_mult = 0.1
 		weapon_type_point_defense_weapon_damage_mult = 0.1
@@ -120,9 +139,16 @@ trait_admiral_carrier_commander = {
 }
 
 trait_admiral_computing_expert = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_computing_expert
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_computing_expert.dds"
 	modifier = {
 		ship_weapon_range_mult = 0.1
 		ship_accuracy_mult = 0.025
@@ -139,9 +165,16 @@ trait_admiral_computing_expert = {
 }
 
 trait_admiral_propulsion_expert = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_propulsion_expert
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_propulsion_expert.dds"
 	modifier = {
 		ship_speed_mult = 0.1
 	}
@@ -157,9 +190,16 @@ trait_admiral_propulsion_expert = {
 }
 
 trait_admiral_gunnery_expert = {
+	inline_script = {
+		script = trait/icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_gunnery_expert
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_gunnery_expert.dds"
 	modifier = {
 		ship_weapon_damage = 0.05
 	}
@@ -175,9 +215,14 @@ trait_admiral_gunnery_expert = {
 }
 
 trait_admiral_arrogant = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_arrogant
+		COUNCIL = no
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_arrogant.dds"
+	negative = yes
 	modifier = {
 		ship_disengage_chance_mult = -0.15
 		ship_emergency_ftl_min_days_mult = 0.25
@@ -197,9 +242,14 @@ trait_admiral_arrogant = {
 }
 
 trait_admiral_inert = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_inert
+		COUNCIL = no
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds"
+	negative = yes
 	modifier = {
 		ship_evasion_mult = -0.1
 	}

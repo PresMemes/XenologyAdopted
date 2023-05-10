@@ -3,9 +3,16 @@
 #########################
 trait_ruler_ancestral_knowledge = { # Technically not a ruler trait but I don't want to move it to a new file
 	is_councilor_trait_for_ruler = yes
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_ancestral_knowledge
+		RARITY = common
+		COUNCIL = no
+		TIER = none
+	}
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_ancestral_knowledge.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = no
@@ -53,11 +60,18 @@ trait_ruler_ancestral_knowledge = { # Technically not a ruler trait but I don't 
 }
 
 trait_ruler_valiant = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_valiant
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = yes
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_valiant.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -78,11 +92,18 @@ trait_ruler_valiant = {
 }
 
 trait_ruler_pertinacious = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_pertinacious
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_pertinacious.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -109,11 +130,18 @@ trait_ruler_pertinacious = {
 }
 
 trait_ruler_arcanist = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_arcanist
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_arcanist.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -134,11 +162,18 @@ trait_ruler_arcanist = {
 }
 
 trait_ruler_life_weaver = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_life_weaver
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_life_weaver.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -158,11 +193,18 @@ trait_ruler_life_weaver = {
 }
 
 trait_ruler_life_crafter = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_life_crafter
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_life_crafter.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -181,10 +223,17 @@ trait_ruler_life_crafter = {
 }
 
 trait_ruler_land_of_the_free = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_land_of_the_free
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_land_of_the_free.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -207,11 +256,18 @@ trait_ruler_land_of_the_free = {
 }
 
 trait_ruler_lawbringer = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_lawbringer
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_lawbringer.dds"
 	modifier = {
 		piracy_growth_mult = -0.15
 		local_trade_protection_add = 10
@@ -226,11 +282,18 @@ trait_ruler_lawbringer = {
 }
 
 trait_ruler_regal = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_regal
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_regal.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -250,11 +313,18 @@ trait_ruler_regal = {
 }
 
 trait_ruler_skyborne_architect = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_skyborne_architect
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_skyborne_architect.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -277,11 +347,18 @@ trait_ruler_skyborne_architect = {
 }
 
 trait_ruler_polymath = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_polymath
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_polymath.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -300,11 +377,18 @@ trait_ruler_polymath = {
 }
 
 trait_ruler_enlightened = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_enlightened
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_enlightened.dds"
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -323,11 +407,16 @@ trait_ruler_enlightened = {
 }
 
 trait_ruler_maladroit = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_maladroit
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_maladroit.dds"
+	negative = yes
 	triggered_modifier = {
 		potential = {
 			is_ruler = yes
@@ -348,10 +437,15 @@ trait_ruler_maladroit = {
 }
 
 trait_ruler_tyrannical = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_domineering
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_tyrannical.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_champion_of_the_people"
 		"trait_ruler_indulgent"
@@ -382,10 +476,15 @@ trait_ruler_tyrannical = {
 }
 
 trait_ruler_indulgent = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_indulgent
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_indulgent.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_tyrannical"
 		"trait_ruler_spineless"
@@ -415,10 +514,15 @@ trait_ruler_indulgent = {
 }
 
 trait_ruler_spineless = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_spineless
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_spineless.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_expansionist"
 		"trait_ruler_deep_connections"
@@ -451,10 +555,15 @@ trait_ruler_spineless = {
 }
 
 trait_ruler_hateful = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_hateful
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_hateful.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_tyrannical"
 		"trait_ruler_indulgent"
@@ -488,10 +597,15 @@ trait_ruler_hateful = {
 }
 
 trait_ruler_peacemonger = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_peacemonger
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_peacemonger.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_warlike"
 		"leader_trait_fleet_organizer"
@@ -524,10 +638,15 @@ trait_ruler_peacemonger = {
 }
 
 trait_ruler_warmonger = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_warmonger
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_warmonger.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_tyrannical"
@@ -540,7 +659,10 @@ trait_ruler_warmonger = {
 	}
 	triggered_modifier = {
 		potential = {
-			is_ruler = yes
+			OR = {
+				is_councilor = no
+				is_ruler = yes
+			}
 		}
 		modifier = {
 			country_consumer_goods_produces_mult = -0.1
@@ -558,10 +680,15 @@ trait_ruler_warmonger = {
 }
 
 trait_ruler_superstitious = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_superstitious
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_superstitious.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_explorer"
 		"trait_ruler_tyrannical"
@@ -592,10 +719,15 @@ trait_ruler_superstitious = {
 }
 
 trait_ruler_cynical = {
+	inline_script = {
+		script = trait/icon_negative_no_tiers
+		ICON = GFX_xte_leader_trait_cynical
+		COUNCIL = yes
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_cynical.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_fertility_preacher"
 		"trait_ruler_tyrannical"
@@ -625,10 +757,18 @@ trait_ruler_cynical = {
 }
 
 trait_ruler_profligate_1 = {
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_profligate
+		RARITY = common
+		COUNCIL = yes
+		TIER = none
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_profligate.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_profligate_4"
@@ -654,10 +794,18 @@ trait_ruler_profligate_1 = {
 }
 
 trait_ruler_profligate_2 = {
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_profligate
+		RARITY = common
+		COUNCIL = yes
+		TIER = 1
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_profligate.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_profligate_1"
@@ -684,20 +832,33 @@ trait_ruler_profligate_2 = {
 }
 
 trait_ruler_profligate_3 = {
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_profligate
+		RARITY = common
+		COUNCIL = yes
+		TIER = 2
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_profligate.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_profligate_1"
 		"trait_ruler_profligate_2"
 		"trait_ruler_profligate_4"
 	}
-	modifier = {
-		trade_value_mult = -0.2
-		pop_happiness = -0.2
-		leaders_unity_upkeep_mult = 0.1
+	triggered_modifier = {
+		potential = {
+			is_ruler = yes
+		}
+		modifier = {
+			trade_value_mult = -0.2
+			pop_happiness = -0.2
+			leaders_unity_upkeep_mult = 0.1
+		}
 	}
 	requires_traits = {
 		xte_trait_hedonistic
@@ -709,10 +870,18 @@ trait_ruler_profligate_3 = {
 }
 
 trait_ruler_profligate_4 = {
+	inline_script = {
+		script = trait/icon_negative
+		CLASS = leader
+		ICON = GFX_xte_leader_trait_profligate
+		RARITY = common
+		COUNCIL = yes
+		TIER = 3
+	}
 	councilor_trait = yes
 	is_councilor_trait_for_ruler = yes
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_profligate.dds"
+	negative = yes
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_profligate_1"
