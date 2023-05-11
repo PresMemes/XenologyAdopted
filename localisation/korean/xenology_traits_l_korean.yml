@@ -20,8 +20,8 @@
  xte_trait_apex_predator_lithoid:0 "$xte_trait_apex_predator$"
  xte_trait_apex_predator_lithoid_desc:0 "$xte_trait_apex_predator_desc$"
  xte_trait_analytical:0 "Analytical"
- xte_trait_analytical_desc:0 "§LMembers of this species are mathematical savants, and prefer cold logic to unrestrained imagination.\n$xte_always$\n$xte_generals$ §G$xte_general_trait_forecaster$§!\n$xte_scientists$ §Y$xte_scientist_trait_pioneer$§!\n$xte_all_leaders$ £council£ §G$xte_leader_trait_arcanist$§!" 
- xte_trait_theoretical:0 "Theoretical" 
+ xte_trait_analytical_desc:0 "§LMembers of this species are mathematical savants, and prefer cold logic to unrestrained imagination.\n$xte_always$\n$xte_generals$ §G$xte_general_trait_forecaster$§!\n$xte_scientists$ §Y$xte_scientist_trait_pioneer$§!\n$xte_all_leaders$ £council£ §G$xte_leader_trait_arcanist$§!"
+ xte_trait_theoretical:0 "Theoretical"
  xte_trait_theoretical_desc:0 "§LMembers of this species are unparalleled in their talent for abstract thinking, but struggle with applied and exact sciences.\n$xte_always$\n$xte_governors$ §G$xte_governor_trait_naturalist$§!\n$xte_all_leaders$ £council£ §G$xte_leader_trait_life_weaver$§!"
  xte_trait_practical:0 "Practical"
  xte_trait_practical_desc:0 "§LMembers of this species excel at empirical research, and have little interest in abstract or mathematical concepts.\n$xte_always$\n$xte_governors$ §G$xte_governor_trait_machinist$§!\n$xte_all_leaders$ £council£ §G$xte_leader_trait_life_crafter$§!"
@@ -34,7 +34,7 @@
  xte_trait_oligotrophs_lithoid_desc:0 "$xte_trait_oligotrophs_desc$"
  xte_trait_lawful:0 "Lawful"
  xte_trait_lawful_desc:0 "§LMembers of this species generally observe the rules and customs set by their society.\n$xte_always$\n$xte_admirals$ §G$xte_admiral_trait_gendarme$§!\n$xte_governors$ §G$xte_governor_trait_sheriff$§!\n$xte_all_leaders$ £council£ §G$xte_leader_trait_lawbringer$§!"
- xte_trait_intrepid:0 "Intrepid"    
+ xte_trait_intrepid:0 "Intrepid"
  xte_trait_intrepid_desc:0 "§LThis species has a greatly reduced ability to experience fear.\n$xte_always$\n$xte_admirals$ §G$xte_admiral_trait_underdog$§!"
  xte_trait_urban:0 "Urban"
  xte_trait_urban_desc:0 "§LMembers of this species are perfectly adapted to city life.\n$xte_always$\n$xte_governors$ §G$xte_governor_trait_efficient$§!"
@@ -57,35 +57,35 @@
  xte_trait_natural_chemists:0 "Natural Chemists"
  xte_trait_natural_chemists_desc:0 "§LMembers of this species handle reactive compounds with instinctive ease.\n$xte_always$\n$xte_admirals$ §G$xte_admiral_trait_gunnery_expert$§!"
  xte_trait_flexible:0 "Flexible"
- xte_trait_flexible_desc:0 "§LMembers of this species are mentally versatile.\n$xte_always$\n$xte_all_leaders$ £council£ §G$xte_leader_trait_polymath$§!" 
+ xte_trait_flexible_desc:0 "§LMembers of this species are mentally versatile.\n$xte_always$\n$xte_all_leaders$ £council£ §G$xte_leader_trait_polymath$§!"
  xte_trait_inquisitive:0 "Inquisitive"
- xte_trait_inquisitive_desc:0 "§LMembers of this species are intensely curious.\n$xte_always$\n$xte_scientists$ §G$xte_scientist_trait_pathfinder$§!" 
+ xte_trait_inquisitive_desc:0 "§LMembers of this species are intensely curious.\n$xte_always$\n$xte_scientists$ §G$xte_scientist_trait_pathfinder$§!"
  xte_trait_austere:0 "Austere"
- xte_trait_austere_desc:0 "§LMembers of this species tend to favor a strict and frugal lifestyle."
+ xte_trait_austere_desc:0 "§LMembers of this species tend to favor a strict and frugal lifestyle.§!"
  xte_trait_sanguine:0 "Sanguine"
- xte_trait_sanguine_desc:0 "§LMembers of this species are naturally upbeat and optimistic. They are easily satisfied with their lot in life."
+ xte_trait_sanguine_desc:0 "§LMembers of this species are naturally upbeat and optimistic. They are easily satisfied with their lot in life.§!"
  xte_trait_intimidating:0 "Intimidating"
- xte_trait_intimidating_desc:0 "§LMembers of this species might be perfectly amiable under normal circumstances, but their aggressive displays are a terrifying thing to behold."
+ xte_trait_intimidating_desc:0 "§LMembers of this species might be perfectly amiable under normal circumstances, but their aggressive displays are a terrifying thing to behold.§!"
  xte_trait_avant_garde:0 "Avant-Garde"
  xte_trait_avant_garde_desc:0 "§LMembers of this species are quick to adopt new ideas.\n$xte_always$\n$xte_all_leaders$ £council£ §G$xte_leader_trait_enlightened$§!"
  xte_trait_disorderly:0 "Disorderly"
- xte_trait_disorderly_desc:0 "§LMembers of this species are quite disorganized. They have difficulty accomplishing their tasks methodically and efficiently."
+ xte_trait_disorderly_desc:0 "§LMembers of this species are quite disorganized. They have difficulty accomplishing their tasks methodically and efficiently.§!"
  xte_trait_lazy:0 "Lazy"
- xte_trait_lazy_desc:0 "§LMembers of this species are rather slothful and averse to hard labor."
+ xte_trait_lazy_desc:0 "§LMembers of this species are rather slothful and averse to hard labor.§!"
  xte_trait_allergic:0 "Allergic"
- xte_trait_allergic_desc:0 "§LMembers of this species are vulnerable to airborne allergens, making them poorly suited for a rural lifestyle."
+ xte_trait_allergic_desc:0 "§LMembers of this species are vulnerable to airborne allergens, making them poorly suited for a rural lifestyle.§!"
  xte_trait_whimsical:0 "Whimsical"
- xte_trait_whimsical_desc:0 "§LMembers of this species are rather capricious."
+ xte_trait_whimsical_desc:0 "§LMembers of this species are rather capricious.§!"
  xte_trait_nervous:0 "Nervous"
- xte_trait_nervous_desc:0 "§LMembers of this species are naturally anxious. They prefer the comfort of routine to the stresses of leadership."
+ xte_trait_nervous_desc:0 "§LMembers of this species are naturally anxious. They prefer the comfort of routine to the stresses of leadership.§!"
  xte_trait_despondent:0 "Despondent"
- xte_trait_despondent_desc:0 "§LMembers of this species are prone to severe depressive episodes"
+ xte_trait_despondent_desc:0 "§LMembers of this species are prone to severe depressive episodes.§!"
  xte_trait_inept:0 "Inept"
  xte_trait_inept_desc:0 "§LMembers of this species are remarkably clumsy and accident-prone.\n$xte_always$\n$xte_all_leaders$ £council£ §R$xte_leader_trait_maladroit$§!"
  xte_trait_simple:0 "Simple"
- xte_trait_simple_desc:0 "§LMembers of this species tend to be rather limited. There is no gentler way to put it."
+ xte_trait_simple_desc:0 "§LMembers of this species tend to be rather limited. There is no gentler way to put it.§!"
  xte_trait_greedy:0 "Greedy"
- xte_trait_greedy_desc:0 "§LMembers of this species rarely miss an opportunity to enrich themselves."
+ xte_trait_greedy_desc:0 "§LMembers of this species rarely miss an opportunity to enrich themselves.§!"
  xte_trait_prideful:0 "Prideful"
  xte_trait_prideful_desc:0 "§LMembers of this species are very reluctant to take on work they consider beneath their station.\n$xte_always$\n$xte_admirals$ §R$xte_admiral_trait_arrogant$§!\n$xte_generals$ §R$xte_general_trait_cavalier$§!"
  xte_trait_obstinate:0 "Obstinate"
@@ -93,21 +93,21 @@
  xte_trait_sluggish:0 "Sluggish"
  xte_trait_sluggish_desc:0 "§LMembers of this species are slow, ponderous beings.\n$xte_always$\n$xte_admirals$ §R$xte_admiral_trait_inert$§!\n$xte_scientists$ §R$xte_scientist_trait_fastidious$§!"
  xte_trait_gigantic:0 "Gigantic"
- xte_trait_gigantic_desc:0 "§LMembers of this species can grow to colossal sizes. They require a proportionally large amount of living space."
+ xte_trait_gigantic_desc:0 "§LMembers of this species can grow to colossal sizes. They require a proportionally large amount of living space.§!"
  xte_trait_gluttonous:0 "Gluttonous"
- xte_trait_gluttonous_desc:0 "§LMembers of this species are voracious eaters."
+ xte_trait_gluttonous_desc:0 "§LMembers of this species are voracious eaters.§!"
  xte_trait_gluttonous_lithoid:0 "$xte_trait_gluttonous$"
  xte_trait_gluttonous_lithoid_desc:0 "$xte_trait_gluttonous_desc$"
  xte_trait_hedonistic:0 "Hedonistic"
- xte_trait_hedonistic_desc:0 "§LMembers of this species are notoriously self-indulgent. $xte_sometimes$\n$xte_all_leaders$ £council£ §R$xte_leader_trait_profligate$"
+ xte_trait_hedonistic_desc:0 "§LMembers of this species are notoriously self-indulgent. $xte_sometimes$\n$xte_all_leaders$ £council£ §R$xte_leader_trait_profligate$§!"
  xte_trait_polyploid:0 "Polyploid"
- xte_trait_polyploid_desc:0 "§LThis species has more than two biological sexes. Several sets of chromosomes are required for reproduction."
+ xte_trait_polyploid_desc:0 "§LThis species has more than two biological sexes. Several sets of chromosomes are required for reproduction.§!"
 
  # Univseral Traits
 
  xte_leader_trait_ancestral_knowledge:0 "Ancestral Knowledge"
  xte_leader_trait_ancestral_knowledge_desc:0 "This leader's genetic history grants them additional proficiency in their field."
- 
+
  # Councilor Traits
  # common/traits/xte_councilor_traits.txt
 
@@ -144,10 +144,10 @@
  xte_leader_trait_hateful:0 "Hateful"
  xte_leader_trait_hateful_desc:0 "This leader's racial attitudes are considered offensive by their society's standards. Their people are becoming more open-minded as a result."
  xte_leader_trait_peacemonger:0 "Peacemonger"
- xte_leader_trait_peacemonger_desc:0 "This leader is perceived as cowardly and excessively dovish. Their subjects are becoming more jingoistic as a result." 
+ xte_leader_trait_peacemonger_desc:0 "This leader is perceived as cowardly and excessively dovish. Their subjects are becoming more jingoistic as a result."
  xte_leader_trait_warmonger:0 "Warmonger"
- xte_leader_trait_warmonger_desc:0 "This leader is perceived as excessively hawkish. Their subjects are becoming more conciliatory as a result." 
- xte_leader_trait_cynical:0 "Cynical"    
+ xte_leader_trait_warmonger_desc:0 "This leader is perceived as excessively hawkish. Their subjects are becoming more conciliatory as a result."
+ xte_leader_trait_cynical:0 "Cynical"
  xte_leader_trait_cynical_desc:0 "This leader exhibits shocking disregard for their society's traditions, pushing their nation in a more spiritualistic direction."
  xte_leader_trait_superstitious:0 "Superstitious"
  xte_leader_trait_superstitious_desc:0 "This leader has a tenuous grasp on reality. Many of their subjects are adopting a more skeptical worldview."
@@ -161,7 +161,7 @@
  xte_leader_trait_profligate_3_desc:0 "$xte_leader_trait_profligate_desc$"
  xte_leader_trait_profligate_4:0 "$xte_leader_trait_profligate$"
  xte_leader_trait_profligate_4_desc:0 "$xte_leader_trait_profligate_desc$"
- 
+
  # Governor Traits
  # common/traits/xte_governor_traits.txt
 
@@ -176,12 +176,12 @@
  xte_governor_trait_efficient:0 "Efficient"
  xte_governor_trait_efficient_desc:0 "With impeccable city and transportation planning, this leader greatly increases the productivity of white-collar workers."
  xte_governor_trait_diligent:0 "Diligent"
- xte_governor_trait_diligent_desc:0 "In spite of their position, this leader regularly finds the time to volunteer for public works projects, inspiring workers to accomplish their tasks with vigor and pride." 
+ xte_governor_trait_diligent_desc:0 "In spite of their position, this leader regularly finds the time to volunteer for public works projects, inspiring workers to accomplish their tasks with vigor and pride."
  xte_governor_trait_forge_master:0 "Forge Master"
  xte_governor_trait_forge_master_desc:0 "This leader is an expert on alloy engineering. Their knowledge allow them to greatly optimize production processes."
  xte_governor_trait_patron_of_the_arts:0 "Patron of the Arts"
  xte_governor_trait_patron_of_the_arts_desc:0 "This leader subsidizes and supports talented artists. The pieces they commission are the envy of the galaxy."
- 
+
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
@@ -191,7 +191,7 @@
  xte_scientist_trait_pathfinder_desc:0 "This leader is a talented explorer, cataloguing celestial bodies and their features with haste and precision."
  xte_scientist_trait_fastidious:0 "Fastidious"
  xte_scientist_trait_fastidious_desc:0 "This leader's inflexible adherence to protocol greatly diminishes the efficacy of their survey efforts."
- 
+
  # Admiral Traits
  # common/traits/xte_admiral_traits.txt
 
@@ -206,16 +206,16 @@
  xte_admiral_trait_carrier_commander:0 "Carrier Commander"
  xte_admiral_trait_carrier_commander_desc:0 "This leader is a genius of carrier warfare."
  xte_admiral_trait_computing_expert:0 "Computing Expert"
- xte_admiral_trait_computing_expert_desc:0 "This leader is proficient in the use of advanced electronics in space warfare." 
+ xte_admiral_trait_computing_expert_desc:0 "This leader is proficient in the use of advanced electronics in space warfare."
  xte_admiral_trait_propulsion_expert:0 "Propulsion Expert"
- xte_admiral_trait_propulsion_expert_desc:0 "This leader is familiar with the use of exotic fuels and catalysts." 
+ xte_admiral_trait_propulsion_expert_desc:0 "This leader is familiar with the use of exotic fuels and catalysts."
  xte_admiral_trait_gunnery_expert:0 "Gunnery Expert"
  xte_admiral_trait_gunnery_expert_desc:0 "This leader is well-versed in the inner workings of complex weapon systems, and might have developed some themselves."
  xte_admiral_trait_arrogant:0 "Arrogant"
  xte_admiral_trait_arrogant_desc:0 "This leader tends to underestimate the enemy and overestimate their own strength. They will usually ignore orders to retreat until the very last minute."
  xte_admiral_trait_inert:0 "Inert"
  xte_admiral_trait_inert_desc:0 "This leader is slow and indecisive in battle, responding to new circumstances with their species' usual languor."
- 
+
  # General Traits
  # common/traits/xte_general_traits.txt
 
@@ -225,7 +225,7 @@
  xte_general_trait_battle_mounts_desc:0 "This leader uses domesticated or tamed animals in battle. These modernized cavalry units can prove quite difficult to control, however."
  xte_general_trait_cavalier:0 "Cavalier"
  xte_general_trait_cavalier_desc:0 "This reckless leader refuses to retreat, even in the face of insurmountable odds."
- 
+
  # Tooltips
  mod_planet_pops_food_upkeep_mult:0 "Food Upkeep"
  mod_planet_pops_minerals_upkeep_mult:0 "Minerals Upkeep"
