@@ -8,7 +8,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_ancestral_knowledge.dds"
 	}
 	spriteType = {
-		name = "GFX_xte_leader_trait_valaint"
+		name = "GFX_xte_leader_trait_valiant"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_valiant.dds"
 	}
 	spriteType = {

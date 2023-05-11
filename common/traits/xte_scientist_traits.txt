@@ -2,7 +2,7 @@
 # Xenology Scientist Traits #
 #############################
 
-trait_scientist_pioneer = {
+xte_scientist_trait_pioneer = {
 	inline_script = {
 		script = trait/icon
 		CLASS = scientist
@@ -33,7 +33,7 @@ trait_scientist_pioneer = {
 	#randomized = no
 }
 
-trait_scientist_pathfinder = {
+xte_scientist_trait_pathfinder = {
 	inline_script = {
 		script = trait/icon
 		CLASS = scientist
@@ -64,7 +64,7 @@ trait_scientist_pathfinder = {
 	#randomized = no
 }
 
-trait_scientist_fastidious = {
+xte_scientist_trait_fastidious = {
 	inline_script = {
 		script = trait/icon_negative_no_tiers
 		ICON = GFX_xte_leader_trait_fastidious

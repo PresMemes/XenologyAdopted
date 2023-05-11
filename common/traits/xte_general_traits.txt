@@ -2,11 +2,11 @@
 # Xenology General Traits #
 ###########################
 
-trait_general_forecaster = {
+xte_general_trait_forecaster = {
 	inline_script = {
 		script = trait/icon
 		CLASS = general
-		ICON = GFX_xte_leader_trait_forcaster
+		ICON = GFX_xte_leader_trait_forecaster
 		RARITY = common
 		COUNCIL = no
 		TIER = none
@@ -29,7 +29,7 @@ trait_general_forecaster = {
 	}
 }
 
-trait_general_battle_mounts = {
+xte_general_trait_battle_mounts = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -56,7 +56,7 @@ trait_general_battle_mounts = {
 	}
 }
 
-trait_general_cavalier = {
+xte_general_trait_cavalier = {
 	inline_script = {
 		script = trait/icon_negative_no_tiers
 		ICON = GFX_xte_leader_trait_cavalier

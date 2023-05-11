@@ -2,7 +2,7 @@
 # Xenology Governor Traits #
 ############################
 
-trait_governor_naturalist = {
+xte_governor_trait_naturalist = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -28,7 +28,7 @@ trait_governor_naturalist = {
 	}
 }
 
-trait_governor_machinist = {
+xte_governor_trait_machinist = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -55,7 +55,7 @@ trait_governor_machinist = {
 	}
 }
 
-trait_governor_reliable = {
+xte_governor_trait_reliable = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -82,7 +82,7 @@ trait_governor_reliable = {
 	}
 }
 
-trait_governor_sheriff = {
+xte_governor_trait_sheriff = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -108,7 +108,7 @@ trait_governor_sheriff = {
 	}
 }
 
-trait_governor_efficient = {
+xte_governor_trait_efficient = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -133,7 +133,7 @@ trait_governor_efficient = {
 	}
 }
 
-trait_governor_diligent = {
+xte_governor_trait_diligent = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -158,7 +158,7 @@ trait_governor_diligent = {
 	}
 }
 
-trait_governor_forge_master = {
+xte_governor_trait_forge_master = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor
@@ -184,7 +184,7 @@ trait_governor_forge_master = {
 	}
 }
 
-trait_governor_patron_of_the_arts = {
+xte_governor_trait_patron_of_the_arts = {
 	inline_script = {
 		script = trait/icon
 		CLASS = governor

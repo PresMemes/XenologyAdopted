@@ -2,7 +2,7 @@
 # Xenology Admiral Traits #
 ###########################
 
-trait_admiral_paladin = {
+xte_admiral_trait_paladin = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -29,7 +29,7 @@ trait_admiral_paladin = {
 	}
 }
 
-trait_admiral_opportunistic = {
+xte_admiral_trait_opportunistic = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -58,7 +58,7 @@ trait_admiral_opportunistic = {
 	}
 }
 
-trait_admiral_gendarme = {
+xte_admiral_trait_gendarme = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -87,7 +87,7 @@ trait_admiral_gendarme = {
 	}
 }
 
-trait_admiral_underdog = {
+xte_admiral_trait_underdog = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -112,7 +112,7 @@ trait_admiral_underdog = {
 	}
 }
 
-trait_admiral_carrier_commander = {
+xte_admiral_trait_carrier_commander = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -138,7 +138,7 @@ trait_admiral_carrier_commander = {
 	}
 }
 
-trait_admiral_computing_expert = {
+xte_admiral_trait_computing_expert = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -164,7 +164,7 @@ trait_admiral_computing_expert = {
 	}
 }
 
-trait_admiral_propulsion_expert = {
+xte_admiral_trait_propulsion_expert = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -189,7 +189,7 @@ trait_admiral_propulsion_expert = {
 	}
 }
 
-trait_admiral_gunnery_expert = {
+xte_admiral_trait_gunnery_expert = {
 	inline_script = {
 		script = trait/icon
 		CLASS = admiral
@@ -214,7 +214,7 @@ trait_admiral_gunnery_expert = {
 	}
 }
 
-trait_admiral_arrogant = {
+xte_admiral_trait_arrogant = {
 	inline_script = {
 		script = trait/icon_negative_no_tiers
 		ICON = GFX_xte_leader_trait_arrogant
@@ -241,7 +241,7 @@ trait_admiral_arrogant = {
 	}
 }
 
-trait_admiral_inert = {
+xte_admiral_trait_inert = {
 	inline_script = {
 		script = trait/icon_negative_no_tiers
 		ICON = GFX_xte_leader_trait_inert
