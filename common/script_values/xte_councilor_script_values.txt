@@ -1,0 +1,59 @@
+# This is to prevent balance fuckery if you have 3-6 leaders with the same trait in your council
+xte_anti_stacking_value = {
+	base = 1
+
+	divide = value:xte_div_by_zero_workaround|LEADER_TRAIT|$LEADER_TRAIT$|
+
+	#round_to = 0.34
+
+	min = 0
+}
+
+# Same as above, but to account for the four (4) version of profligate
+xte_anti_stacking_profligate_value = {
+	base = 1
+
+	divide = value:xte_div_by_zero_workaround|PROFLIGATE|yes|
+
+	min = 0
+}
+
+# Avoid error.log spamming divide by 0 warnings
+xte_div_by_zero_workaround = {
+	base = 0
+
+	[[ !PROFLIGATE ]
+	complex_trigger_modifier = {
+		trigger = count_owned_leader
+		trigger_scope = owner
+		parameters = {
+			limit = {
+				is_councilor = yes
+				has_trait = $LEADER_TRAIT|xte_trait_genetic_memory$
+			}
+		}
+		mode = add
+	}
+	]
+
+	[[ PROFLIGATE ]
+	complex_trigger_modifier = {
+		trigger = count_owned_leader
+		trigger_scope = owner
+		parameters = {
+			limit = {
+				is_councilor = yes
+				OR = {
+					has_trait = xte_leader_trait_profligate_1
+					has_trait = xte_leader_trait_profligate_2
+					has_trait = xte_leader_trait_profligate_3
+					has_trait = xte_leader_trait_profligate_4
+				}
+			}
+		}
+		mode = add
+	}
+	]
+
+	min = 1
+}

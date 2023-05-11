@@ -6,15 +6,6 @@ on_leader_spawned = {
 	}
 }
 
-# Executed when the ruler is ousted and goes back to their pre-ruler class
-# From = Previous Ruler, already has the new class
-# This = Country
-on_ruler_back_to_pre_ruler_class = {
-	events = {
-		xte_traits_ev.999
-	}
-}
-
 on_game_start = {
 	events = {
 		xte_traits_ev.1000
