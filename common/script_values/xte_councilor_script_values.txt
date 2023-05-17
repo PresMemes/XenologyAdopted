@@ -22,7 +22,7 @@ xte_anti_stacking_profligate_value = {
 xte_div_by_zero_workaround = {
 	base = 0
 
-	[[ !PROFLIGATE ]
+	[[!PROFLIGATE]
 	complex_trigger_modifier = {
 		trigger = count_owned_leader
 		trigger_scope = owner
@@ -36,7 +36,7 @@ xte_div_by_zero_workaround = {
 	}
 	]
 
-	[[ PROFLIGATE ]
+	[[PROFLIGATE]
 	complex_trigger_modifier = {
 		trigger = count_owned_leader
 		trigger_scope = owner
