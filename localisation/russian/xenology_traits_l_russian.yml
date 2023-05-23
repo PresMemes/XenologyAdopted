@@ -6,7 +6,7 @@
  xte_generals:0 "    £general£ §E$general_plural$:§!"
  xte_scientists:0 "    £scientist£ §E$scientist_plural$:§!"
  xte_governors:0 "    £governor£ §E$governor_plural$:§!"
- xte_all_leaders:0 "    £noclass£ §EAll $leaders$:§!"
+ xte_all_leaders:0 "    £noclass£ §EВсе $leaders$:§!"
 
  # Traits
  # common/traits/xte_species_traits.txt
