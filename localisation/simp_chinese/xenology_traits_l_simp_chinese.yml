@@ -99,7 +99,7 @@
  xte_trait_gluttonous_lithoid:0 "$xte_trait_gluttonous$"
  xte_trait_gluttonous_lithoid_desc:0 "$xte_trait_gluttonous_desc$"
  xte_trait_hedonistic:0 "Hedonistic"
- xte_trait_hedonistic_desc:0 "§LMembers of this species are notoriously self-indulgent. $xte_sometimes$\n$xte_all_leaders$ £council£ §R$xte_leader_trait_profligate$§!"
+ xte_trait_hedonistic_desc:0 "§LMembers of this species are notoriously self-indulgent.\n$xte_sometimes$\n$xte_all_leaders$ £council£ §R$xte_leader_trait_profligate$§!"
  xte_trait_polyploid:0 "Polyploid"
  xte_trait_polyploid_desc:0 "§LThis species has more than two biological sexes. Several sets of chromosomes are required for reproduction.§!"
 
