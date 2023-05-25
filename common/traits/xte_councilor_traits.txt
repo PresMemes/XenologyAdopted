@@ -19,7 +19,6 @@ xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but
 			leader_class = admiral
 		}
 		ship_fire_rate_mult = 0.06
-		command_limit_add = 20
 		ship_disengage_opportunities_add = 0.4
 	}
 	triggered_modifier = {
