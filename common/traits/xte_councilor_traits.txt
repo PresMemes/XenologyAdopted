@@ -184,9 +184,9 @@ xte_leader_trait_life_weaver = {
 		potential = {
 			always = yes
 		}
-		BIOLOGICAL_species_trait_points_add = 1.02
-		LITHOID_species_trait_points_add = 1.02
-		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_weaver|
+		BIOLOGICAL_species_trait_points_add = 1.02 													# The reason why this (and others) are 1.02 and not 1.00 is due to rounding errors
+		LITHOID_species_trait_points_add = 1.02														# 1.00 / 3 = 0.33333334 -> rounded to 0.33 -> 0.33*3 = 0.99
+		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_weaver|		# Unless PDS makes councilor traits not stack, this value should stay at 1.02 otherwise it'll feel terrible missing out on a trait point
 	}
 	leader_potential_add = {
 		species = { has_trait = xte_trait_theoretical }
@@ -216,7 +216,7 @@ xte_leader_trait_life_crafter = {
 		potential = {
 			always = yes
 		}
-		ROBOT_species_trait_points_add = 1
+		ROBOT_species_trait_points_add = 1.02
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_crafter|
 	}
 	leader_potential_add = {
