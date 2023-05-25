@@ -1,0 +1,206 @@
+# Feel free to use for translating or w/e.
+# The triple new lines between some keys is because DeepL can only translate so much at a time.
+# You can use the replace function most text editors have to get rid of the #'s, just do "# " w/o the quotes and that should get rid of them.
+
+
+
+# Genetic Memory
+# Members of this species can inherit thoughts and knowledge by heredity. This makes them much more difficult to control, however.
+# Stalwart
+# This species displays abnormally ferocious territorial instincts. As defensive fighters, they are practically unmatched throughout the galaxy.
+# Apex Predators
+# This species is one of the galaxy's deadliest predators.
+# Analytical
+# Members of this species are mathematical savants, and prefer cold logic to unrestrained imagination.
+# Theoretical
+# Members of this species are unparalleled in their talent for abstract thinking, but struggle with applied and exact sciences.
+# Practical
+# Members of this species excel at empirical research, and have little interest in abstract or mathematical concepts.
+# Unbound
+# Members of this species have retained their natural wildness, and are extremely difficult to subjugate.
+# Happiness with no enslaved species: +20% Resources from Jobs with no enslaved species: +10%
+# Oligotrophs
+# Members of this species are adapted to nutrient-poor environments, and can go without food for long periods of time.
+# Lawful
+# Members of this species generally observe the rules and customs set by their society.
+# Intrepid
+# This species has a greatly reduced ability to experience fear.
+# Urban
+# Members of this species are perfectly adapted to city life.
+# Gifted Pilots
+# Members of this species excel at driving all manners of vehicles and beasts.
+# Illustrious
+# Members of this species carry themselves with poise and allure, and inspire respect by their mere presence.
+# Humble
+# Members of this species find hard labor noble and fulfilling, and demand little more than their daily bread.
+# Crafty
+# Members of this species are renowned metal workers.
+# Creative
+# Members of this species are especially imaginative. Their works of art explore entirely new dimensions of aesthetics.
+# Megalomaniacs
+# Members of this species are obsessed with the massive, the superb and the grandiose. Grants no bonuses to pops.
+# Natural Translucers
+# Members of this species are unusually skilled crystal engineers.
+# Natural Refiners
+# Members of this species excel at the extraction and processing of exotic gases.
+# Natural Chemists
+# Members of this species handle reactive compounds with instinctive ease.
+# Flexible
+# Members of this species are mentally versatile.
+# Inquisitive
+# Members of this species are intensely curious.
+# Austere
+# Members of this species tend to favor a strict and frugal lifestyle.
+# Sanguine
+# Members of this species are naturally upbeat and optimistic. They are easily satisfied with their lot in life.
+# Intimidating
+# Members of this species might be perfectly amiable under normal circumstances, but their aggressive displays are a terrifying thing to behold.
+# Avant-Garde
+# Members of this species are quick to adopt new ideas.
+# Disorderly
+# Members of this species are quite disorganized. They have difficulty accomplishing their tasks methodically and efficiently.
+# Lazy
+# Members of this species are rather slothful and averse to hard labor.
+
+
+
+# Allergic
+# Members of this species are vulnerable to airborne allergens, making them poorly suited for a rural lifestyle.
+# Whimsical
+# Members of this species are rather capricious.
+# Nervous
+# Members of this species are naturally anxious. They prefer the comfort of routine to the stresses of leadership.
+# Despondent
+# Members of this species are prone to severe depressive episodes.
+# Inept
+# Members of this species are remarkably clumsy and accident-prone.
+# Simple
+# Members of this species tend to be rather limited. There is no gentler way to put it.
+# Greedy
+# Members of this species rarely miss an opportunity to enrich themselves.
+# Prideful
+# Members of this species are very reluctant to take on work they consider beneath their station.
+# Obstinate
+# Members of this species are pathologically stubborn and dogmatic.
+# Sluggish
+# Members of this species are slow, ponderous beings.
+# Gigantic
+# Members of this species can grow to colossal sizes. They require a proportionally large amount of living space.
+# Gluttonous
+# Members of this species are voracious eaters.
+# Hedonistic
+# Members of this species are notoriously self-indulgent.
+# Polyploid
+# This species has more than two biological sexes. Several sets of chromosomes are required for reproduction.
+# Ancestral Knowledge
+# This leader's genetic history grants them additional proficiency in their field.
+# Valiant
+# This leader is implacable in the face of adversity.
+# Pertinacious
+# In a galaxy gone mad, this leader will keep their people safe. Whether they like it or not.
+# Arcanist
+# This leader makes it a priority to secure rare and powerful materials.
+# Life Weaver
+# This leader is a master of biology, and aims to improve all lifeforms through genetic modification.
+# Life Crafter
+# This leader is a brilliant engineer. The machines designed under their rule are second to none.
+# Land of the Free
+# This leader champions the values of individual freedom above all else.
+# Lawbringer
+# This leader rules with a strong but fair hand, fighting banditry and corruption wherever they may be found.
+# Regal
+# This leader's commands carry an almost mystical sway over their subordinates.
+# Skyborne Architect
+# This leader is fascinated by ambitious megaprojects, and is willing to invest considerable resources towards their completion.
+# Polymath
+# This leader has working knowledge of a wide variety of scientific fields, and can dedicate time and resources to multiple projects.
+# Enlightened
+# This leader is quite broad-minded and amenable to new ideas.
+# Maladroit
+# This leader is particularly ineffective when it comes to the logistics of space-bound materials.
+# Domineering
+# This leader is overly cruel and sadistic. In view of their gruesome deeds, their subjects are becoming more egalitarian.
+# Indulgent
+# This leader is overly lenient and flexible. In reaction to their lax leadership, their subjects are demanding that a firmer hand guide the nation.
+
+
+
+# Spineless
+# This leader is considered too agreeable or even deferential towards alien empires. In reaction to their flaccid rule, their people are adopting more tribalistic attitudes.
+# Hateful
+# This leader's racial attitudes are considered offensive by their society's standards. Their people are becoming more open-minded as a result.
+# Peacemonger
+# This leader is perceived as cowardly and excessively dovish. Their subjects are becoming more jingoistic as a result.
+# Warmonger
+# This leader is perceived as excessively hawkish. Their subjects are becoming more conciliatory as a result.
+# Cynical
+# This leader exhibits shocking disregard for their society's traditions, pushing their nation in a more spiritualistic direction.
+# Superstitious
+# This leader has a tenuous grasp on reality. Many of their subjects are adopting a more skeptical worldview.
+# Profligate
+# This leader is a corrupt spendthrift. Their nation's economy can barely sustain their extravagant vices.
+# Naturalist
+# This leader expertly uses natural environments to their advantage, improving quality of life without damaging the ecosystem.
+# Machinist
+# This leader is a talented roboticist, with deep knowledge of all things mechanical.
+# Reliable
+# In times good and bad, this leader always manages to provide for their people.
+# Sheriff
+# This leader excels at maintaining order and managing crises.
+# Efficient
+# With impeccable city and transportation planning, this leader greatly increases the productivity of white-collar workers.
+# Diligent
+# In spite of their position, this leader regularly finds the time to volunteer for public works projects, inspiring workers to accomplish their tasks with vigor and pride.
+# Forge Master
+# This leader is an expert on alloy engineering. Their knowledge allow them to greatly optimize production processes.
+# Patron of the Arts
+# This leader subsidizes and supports talented artists. The pieces they commission are the envy of the galaxy.
+# Pioneer
+# Though perhaps not the most flexible, this leader notices even the slightest irregularities during the survey process.
+# Pathfinder
+# This leader is a talented explorer, cataloguing celestial bodies and their features with haste and precision.
+# Fastidious
+# This leader's inflexible adherence to protocol greatly diminishes the efficacy of their survey efforts.
+# Paladin
+# This leader is particularly zealous in driving off hostile invaders, leading battle after battle with neither rest nor respite.
+# Opportunistic
+# This leader has few qualms about using every chance they get to turn the tide of battle.
+# Gendarme
+# This leader shows no mercy to pirates, terrorists and anarchists standing in the way of peace and order.
+# Underdog
+# This daring leader can turn the tide of the most desperate battles.
+# Carrier Commander
+# This leader is a genius of carrier warfare.
+# Computing Expert
+# This leader is proficient in the use of advanced electronics in space warfare.
+# Propulsion Expert
+# This leader is familiar with the use of exotic fuels and catalysts.
+
+
+
+# Gunnery Expert
+# This leader is well-versed in the inner workings of complex weapon systems, and might have developed some themselves.
+# Arrogant
+# This leader tends to underestimate the enemy and overestimate their own strength. They will usually ignore orders to retreat until the very last minute.
+# Inert
+# This leader is slow and indecisive in battle, responding to new circumstances with their species' usual languor.
+# Forecaster
+# This leader uses advanced mathematical models to predict and plan for the enemy's actions.
+# Battle Mounts
+# This leader uses domesticated or tamed animals in battle. These modernized cavalry units can prove quite difficult to control, however.
+# Cavalier
+# This reckless leader refuses to retreat, even in the face of insurmountable odds.
+# Food Upkeep
+# Minerals Upkeep
+# Titan Build Speed
+# Colossus Build Speed
+# Juggernaut Build Speed
+# Monthly Living Metal
+# Monthly Dark Matter
+# Leader Upkeep
+# Damage vs Ruined Marauders
+# Damage vs Marauder Raiders
+# Damage to Guardians
+# Mining Station Volatile Motes Output
+# Mining Station Exotic Gases Output
+# Mining Station Rare Crystals Output
