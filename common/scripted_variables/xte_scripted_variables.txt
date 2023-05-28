@@ -1,0 +1,2 @@
+# Used for the anti-stacking script values
+@xte_anti_stack_base_value = 1

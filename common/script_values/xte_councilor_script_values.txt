@@ -1,6 +1,6 @@
 # This is to prevent balance fuckery if you have 3-6 leaders with the same trait in your council
 xte_anti_stacking_value = {
-	base = 1
+	base = @xte_anti_stack_base_value # 1
 
 	divide = value:xte_div_by_zero_workaround|LEADER_TRAIT|$LEADER_TRAIT$|
 
@@ -11,7 +11,7 @@ xte_anti_stacking_value = {
 
 # Same as above, but to account for the four (4) version of profligate
 xte_anti_stacking_profligate_value = {
-	base = 1
+	base = @xte_anti_stack_base_value # 1
 
 	divide = value:xte_div_by_zero_workaround|PROFLIGATE|yes|
 
@@ -55,5 +55,7 @@ xte_div_by_zero_workaround = {
 	}
 	]
 
-	min = 1
+	add = @\[( @xte_anti_stack_base_value - 1 )]
+
+	min = @xte_anti_stack_base_value # 1
 }
