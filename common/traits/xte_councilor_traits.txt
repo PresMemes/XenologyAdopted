@@ -49,7 +49,7 @@ xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but
 		potential = {
 			is_ruler = yes
 		}
-		country_edict_fund_add = 10
+		councilor_skill_add = 1
 	}
 	leader_potential_add = {
 		species = { has_trait = xte_trait_genetic_memory }
@@ -313,8 +313,8 @@ xte_leader_trait_regal = {
 		potential = {
 			always = yes
 		}
-		country_edict_fund_add = 20
-		edicts_upkeep_mult = -0.05
+		councilor_exp_gain = 0.25
+		council_agenda_progress_speed = 0.15
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_regal|
 	}
 	leader_potential_add = {
