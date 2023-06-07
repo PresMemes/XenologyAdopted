@@ -3,7 +3,6 @@
 on_leader_spawned = {
 	events = {
 		xte_traits_ev.999
-		# xte_traits_ev.997
 	}
 }
 
