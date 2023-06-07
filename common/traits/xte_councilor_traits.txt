@@ -51,6 +51,13 @@ xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but
 		}
 		councilor_skill_add = 1
 	}
+	triggered_self_modifier = {
+		potential = {
+			is_ruler = yes
+		}
+		leader_trait_selection_options_add = 1
+		negative_traits_leader = -1
+	}
 	leader_potential_add = {
 		species = { has_trait = xte_trait_genetic_memory }
 	}

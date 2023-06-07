@@ -9,6 +9,88 @@ event = {
 	}
 }
 
+# Fires the "gestalt node un-fucker" event
+# on_leader_spawned
+# this = country, from = leader
+country_event = {
+	id = xte_traits_ev.997
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		is_gestalt = yes
+	}
+
+	immediate = {
+		from = { leader_event = { id = xte_traits_ev.998 days = 1 } }
+	}
+}
+
+# For some reason, the on_leader_spawned on_action fires BEFORE the create_leader = { } effect is fully finished, 
+# forcing me to do this stupid shit if I don't want the gestalt nodes to have some traits. PDS please fix this ffs
+leader_event = {
+	id = xte_traits_ev.998
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		is_councilor = yes 
+		is_ruler = no
+		log = "[this.GetName]"
+	}
+
+	immediate = {
+		while = {
+			count = trigger:num_traits
+			switch = {
+				trigger = has_trait
+				xte_leader_trait_enlightened = {
+					remove_trait = xte_leader_trait_enlightened
+				}
+				xte_leader_trait_lawbringer = {
+					remove_trait = xte_leader_trait_lawbringer
+				}
+				xte_leader_trait_regal = {
+					remove_trait = xte_leader_trait_regal
+				}
+				xte_leader_trait_polymath = {
+					remove_trait = xte_leader_trait_polymath
+				}
+				xte_leader_trait_life_crafter = {
+					remove_trait = xte_leader_trait_life_crafter
+				}
+				xte_leader_trait_life_weaver = {
+					remove_trait = xte_leader_trait_life_weaver
+				}
+				xte_leader_trait_arcanist = {
+					remove_trait = xte_leader_trait_arcanist
+				}
+				xte_leader_trait_valiant = {
+					remove_trait = xte_leader_trait_valiant
+				}
+				xte_leader_trait_ancestral_knowledge = {
+					remove_trait = xte_leader_trait_ancestral_knowledge
+				}
+				xte_leader_trait_skyborne_architect = {
+					remove_trait = xte_leader_trait_skyborne_architect
+				}
+				xte_leader_trait_pertinacious = {
+					remove_trait = xte_leader_trait_pertinacious
+				}
+				xte_leader_trait_land_of_the_free = {
+					remove_trait = xte_leader_trait_land_of_the_free
+				}
+				xte_leader_trait_maladroit = {
+					remove_trait = xte_leader_trait_maladroit
+				}
+			}
+		}
+	}
+}
+
+# Handles leader trait generation for every non-envoy spawned
+# on_leader_spawned
+# this = country, from = leader
 country_event = {
 	id = xte_traits_ev.999
 	is_triggered_only = yes
@@ -20,7 +102,6 @@ country_event = {
 
 	immediate = {
 		from = {
-			# print_scope_effect = yes
 			switch = {
 				trigger = leader_class
 				governor = {
@@ -183,7 +264,6 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_lawful }
 		NOR = {
-			#has_trait = xte_leader_trait_lawbringer
 			has_trait = xte_governor_trait_sheriff
 			has_trait = xte_admiral_trait_gendarme
 		}
@@ -285,7 +365,6 @@ leader_event = {
 				add_trait_no_notify = xte_admiral_trait_carrier_commander
 			}
 			general = {
-				log = "- This: \\[This.GetName]"
 				add_trait_no_notify = xte_general_trait_battle_mounts
 			}
 		}
@@ -338,7 +417,6 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_practical }
 		NOT = {
-			#has_trait = xte_leader_trait_life_crafter
 			has_trait = xte_governor_trait_machinist
 		}
 	}
@@ -358,7 +436,6 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_theoretical }
 		NOT = {
-			#has_trait = xte_leader_trait_life_weaver
 			has_trait = xte_governor_trait_naturalist
 		}
 	}
@@ -396,7 +473,6 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_analytical }
 		NOR = {
-			#has_trait = xte_leader_trait_arcanist
 			has_trait = xte_general_trait_forecaster
 			has_trait = xte_scientist_trait_pioneer
 		}
@@ -422,7 +498,6 @@ leader_event = {
 	trigger = {
 		species = { has_trait = xte_trait_stalwart }
 		NOT = {
-			#has_trait = xte_leader_trait_valiant
 			has_trait = xte_admiral_trait_paladin
 		}
 	}
@@ -473,7 +548,6 @@ leader_event = {
 			}
 		}
 		NOT = {
-			#has_trait = xte_leader_trait_pertinacious
 			has_trait = xte_admiral_trait_opportunistic
 		}
 	}
