@@ -241,3 +241,8 @@
  mod_station_gatherers_volatile_motes_produces_mult:0 "Wydajność lotnych motywów stacji górniczej"
  mod_station_gatherers_exotic_gases_produces_mult:0 "Wydobycie egzotycznych gazów przez stację górniczą"
  mod_station_gatherers_rare_crystals_produces_mult:0 "Wydobycie rzadkich kryształów przez stację górniczą"
+ mod_xte_fake_biological_trait_point_add:0 "$mod_BIOLOGICAL_species_trait_points_add$"
+ mod_xte_fake_lithoid_trait_point_add:0 "$mod_LITHOID_species_trait_points_add$"
+ mod_xte_fake_robot_trait_point_add:0 "$mod_ROBOT_species_trait_points_add$"
+ xte_non_robot_trait_points:0 "XTEU $species_trait_points_add$"
+ xte_robot_trait_points:0 "XTEU $species_trait_points_add$"

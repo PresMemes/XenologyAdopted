@@ -1,0 +1,11 @@
+# Modifiers for leader trait tooltip stuff
+xte_non_robot_trait_points = {
+	hide_from_country_list = yes
+	BIOLOGICAL_species_trait_points_add = 1
+	LITHOID_species_trait_points_add = 1
+}
+
+xte_robot_trait_points = {
+	hide_from_country_list = yes
+	ROBOT_species_trait_points_add = 1
+}
