@@ -1,3 +1,32 @@
+# Standard ID trigger
+# Scopes: this = any
 has_xte_unofficial_bio = {
 	always = yes
+}
+
+# For detecting my trait point tooltip work-around
+# Scopes: this = country
+xte_has_trait_point_workaround_modifiers = {
+	OR = {
+		has_modifier = xte_non_robot_trait_points
+		has_modifier = xte_robot_trait_points
+	}
+}
+
+# Scopes: this = country
+xte_has_greater_than_one_fake_modifiers = {
+	OR = {
+		check_modifier_value = {
+			modifier = xte_fake_biological_trait_point_add
+			value >= 1.00
+		}
+		check_modifier_value = {
+			modifier = xte_fake_lithoid_trait_point_add
+			value >= 1.00
+		}
+		check_modifier_value = {
+			modifier = xte_fake_robot_trait_point_add
+			value >= 1.00
+		}
+	}
 }

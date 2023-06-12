@@ -12,6 +12,18 @@ on_game_start = {
 	}
 }
 
+on_game_start_country = {
+	events = {
+		xte_traits_ev.998
+	}
+}
+
+on_modification_complete = {
+	events = {
+		xte_traits_ev.997
+	}
+}
+
 on_single_player_save_game_load = {
 	events = {
 		xte_traits_ev.1000
