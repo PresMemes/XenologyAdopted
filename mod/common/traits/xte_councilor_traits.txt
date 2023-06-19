@@ -803,16 +803,11 @@ xte_leader_trait_cynical = {
 }
 
 xte_leader_trait_profligate_1 = {
-	#inline_script = {
-	#	script = trait/icon_negative
-	#	ICON = GFX_xte_leader_trait_profligate
-	#	COUNCIL = yes
-	#	TIER = none
-	#}
 	inline_script = {
-		script = trait/icon_negative_no_tiers
+		script = trait/icon_negative
 		ICON = GFX_xte_leader_trait_profligate
 		COUNCIL = yes
+		TIER = none
 	}
 	councilor_trait = yes
 	cost = 1
