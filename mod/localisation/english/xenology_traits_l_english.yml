@@ -103,7 +103,7 @@
  xte_trait_polyploid:0 "Polyploid"
  xte_trait_polyploid_desc:0 "§LThis species has more than two biological sexes. Several sets of chromosomes are required for reproduction.§!"
 
- # Univseral Traits
+ # Universal Traits
 
  xte_leader_trait_ancestral_knowledge:0 "Ancestral Knowledge"
  xte_leader_trait_ancestral_knowledge_desc:0 "This leader's genetic history grants them additional proficiency in their field."
