@@ -1,17 +1,17 @@
 # This is to prevent balance fuckery if you have 3-6 leaders with the same trait in your council
+# Scopes: this = leader
 xte_anti_stacking_value = {
-	base = @xte_anti_stack_base_value # 1
+	base = @xte_anti_stack_base_value
 
 	divide = value:xte_div_by_zero_workaround|LEADER_TRAIT|$LEADER_TRAIT$|
-
-	#round_to = 0.34
 
 	min = 0
 }
 
 # Same as above, but to account for the four (4) version of profligate
+# Scopes: this = leader
 xte_anti_stacking_profligate_value = {
-	base = @xte_anti_stack_base_value # 1
+	base = @xte_anti_stack_base_value
 
 	divide = value:xte_div_by_zero_workaround|PROFLIGATE|yes|
 
@@ -19,6 +19,7 @@ xte_anti_stacking_profligate_value = {
 }
 
 # Avoid error.log spamming divide by 0 warnings
+# Scopes: this = leader (technically anything that owner = country scope should also work)
 xte_div_by_zero_workaround = {
 	base = 0
 
@@ -57,5 +58,5 @@ xte_div_by_zero_workaround = {
 
 	add = @\[( @xte_anti_stack_base_value - 1 )]
 
-	min = @xte_anti_stack_base_value # 1
+	min = @xte_anti_stack_base_value
 }

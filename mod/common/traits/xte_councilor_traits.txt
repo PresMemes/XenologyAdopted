@@ -191,8 +191,8 @@ xte_leader_trait_life_weaver = {
 		potential = {
 			always = yes
 		}
-		xte_fake_biological_trait_point_add = 1.02 				# The reason why this (and others) are 1.02 and not 1.00 is due to rounding errors
-		xte_fake_lithoid_trait_point_add = 1.02				# 1.00 / 3 = 0.33333334 -> rounded to 0.33 -> 0.33*3 = 0.99
+		xte_fake_biological_trait_point_add = 1.02 													# The reason why this (and others) are 1.02 and not 1.00 is due to rounding errors
+		xte_fake_lithoid_trait_point_add = 1.02														# 1.00 / 3 = 0.33333334 -> rounded to 0.33 -> 0.33*3 = 0.99
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_weaver|		# Unless PDS makes councilor traits not stack, this value should stay at 1.02 otherwise it'll feel terrible missing out on a trait point
 	}
 	leader_potential_add = {
@@ -765,7 +765,7 @@ xte_leader_trait_superstitious = {
 xte_leader_trait_cynical = {
 	inline_script = {
 		script = trait/icon_negative_no_tiers
-		ICON = GFX_xte_leader_trait_cynical	
+		ICON = GFX_xte_leader_trait_cynical
 		COUNCIL = yes
 	}
 	councilor_trait = yes

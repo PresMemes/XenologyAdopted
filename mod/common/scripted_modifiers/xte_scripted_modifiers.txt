@@ -16,3 +16,13 @@ xte_fake_robot_trait_point_add = {
 	good = yes
 	category = country
 }
+
+# ##########################
+# ### VANILLA OVERWRITES ###
+# ##########################
+# #PM: Until PDS adds decimals to these, I overwrite them so they don't display as +0
+# num_tech_alternatives_add = {
+# 	icon = mod_country_num_tech_alternatives_add
+# 	good = yes
+# 	category = country
+# }
