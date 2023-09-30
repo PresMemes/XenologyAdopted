@@ -177,8 +177,8 @@ xte_trait_analytical = {
 	}
 	modifier = {
 		planet_jobs_physics_research_produces_mult = 0.45
-		planet_jobs_society_research_produces_mult = -0.15
-		planet_jobs_engineering_research_produces_mult = -0.15
+		planet_jobs_society_research_produces_mult = -0.30
+		planet_jobs_engineering_research_produces_mult = -0.30
 	}
 	assembly_score = {
 		modifier = {
@@ -214,9 +214,9 @@ xte_trait_theoretical = {
 		"xte_trait_practical"
 	}
 	modifier = {
-		planet_jobs_physics_research_produces_mult = -0.15
+		planet_jobs_physics_research_produces_mult = -0.30
 		planet_jobs_society_research_produces_mult = 0.45
-		planet_jobs_engineering_research_produces_mult = -0.15
+		planet_jobs_engineering_research_produces_mult = -0.30
 	}
 	assembly_score = {
 		modifier = {
@@ -252,9 +252,9 @@ xte_trait_practical = {
 		"xte_trait_theoretical"
 	}
 	modifier = {
-		planet_jobs_physics_research_produces_mult = -0.15
+		planet_jobs_physics_research_produces_mult = -0.30
 		planet_jobs_society_research_produces_mult = -0.15
-		planet_jobs_engineering_research_produces_mult = 0.45
+		planet_jobs_engineering_research_produces_mult = 0.30
 	}
 	assembly_score = {
 		modifier = {

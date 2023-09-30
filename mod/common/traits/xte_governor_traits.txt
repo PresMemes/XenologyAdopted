@@ -68,7 +68,20 @@ xte_governor_trait_reliable = {
 	randomized = no
 	modifier = {
 		pop_growth_speed = 0.05
+	}
+	triggered_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_lithoid_empire = no }
+		}
 		planet_jobs_food_produces_mult = 0.05
+	}
+	triggered_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_lithoid_empire = yes }
+		}
+		planet_jobs_minerals_produces_mult = 0.033
 	}
 	leader_class = {
 		governor

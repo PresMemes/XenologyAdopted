@@ -78,50 +78,6 @@ country_event = {
 	}
 }
 
-# Handles adding and removing my tooltip workaround modifiers
-country_event = {
-	id = xte_traits_ev.998
-	is_triggered_only = yes
-	hide_window = yes
-
-	trigger = {
-		OR = {
-			xte_has_trait_point_workaround_modifiers = yes
-			xte_has_greater_than_one_fake_modifiers = yes
-		}
-	}
-
-	immediate = {
-		if = {
-			limit = {
-				OR = {
-					check_modifier_value = { modifier = xte_fake_biological_trait_point_add value >= 1.00 }
-					check_modifier_value = { modifier = xte_fake_lithoid_trait_point_add value >= 1.00 }
-				}
-			}
-			add_modifier = { modifier = xte_non_robot_trait_points days = -1 }
-		}
-		else = { remove_modifier = xte_non_robot_trait_points }
-
-		if = {
-			limit = { check_modifier_value = { modifier = xte_fake_robot_trait_point_add value >= 1.00 } }
-			add_modifier = { modifier = xte_robot_trait_points days = -1 }
-		}
-		else = { remove_modifier = xte_robot_trait_points }
-	}
-}
-
-# Delay to account for modifier updates
-country_event = {
-	id = xte_traits_ev.997
-	is_triggered_only = yes
-	hide_window = yes
-
-	immediate = {
-		country_event = { id = xte_traits_ev.998 days = 31 }
-	}
-}
-
 leader_event = {
 	id = xte_traits_ev.1
 	is_triggered_only = yes
