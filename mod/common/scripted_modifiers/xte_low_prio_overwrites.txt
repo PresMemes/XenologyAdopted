@@ -1,0 +1,34 @@
+##########################
+### VANILLA OVERWRITES ###
+##########################
+#PM: Until PDS adds decimals to these, I overwrite them so they don't display as +0. If you (somehow) find a mod that also overwrites these, they're probably doing the same thing
+
+num_tech_alternatives_add = {
+	icon = mod_country_num_tech_alternatives_add
+	good = yes
+	category = country
+}
+
+BIOLOGICAL_species_trait_points_add = {
+	icon = mod_species_trait_points_add
+	good = yes
+	category = country
+}
+
+LITHOID_species_trait_points_add = {
+	icon = mod_species_trait_points_add
+	good = yes
+	category = country
+}
+
+ROBOT_species_trait_points_add = {
+	icon = mod_species_trait_points_add
+	good = yes
+	category = country
+}
+
+country_megastructure_build_cap_add = {
+	icon = mod_country_megastructure_build_cap_add
+	good = yes
+	category = country
+}

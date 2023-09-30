@@ -6,14 +6,6 @@ on_game_start = {
  	}
 }
 
-# Triggers when a country is generated/created
-# Scopes: this = country
-on_game_start_country = {
- 	events = {
- 		xte_traits_ev.998
-	}
-}
-
 # No scope, like on_game_start
 # Does not run when loading MP saves due to OOS concerns
 # Scopes: this = global/noscope
@@ -29,13 +21,4 @@ on_leader_spawned = {
 	events = {
 		xte_traits_ev.999
  	}
-}
-
-# Triggers when a Special Project to apply a species modification template has completed.
-# Note that this will trigger once for each combination of planet & original species.
-# Scopes: this = country | from = species ( Post Modification )
-on_modification_complete = {
-	events = {
-		xte_traits_ev.997
-	}
 }
