@@ -5,7 +5,7 @@
  xte_dmg_to_endgame_crises: "Danos às facções da Crise de Final de Jogo:"
  xte_obstinate_title: "Traço aleatório associado ao Ethos"
  xte_profligate_desc_text: "Somente os valores mínimo e máximo são mostrados, pois os efeitos dessa característica são escalonados."
-
+ xte_metallurgist_upkeep: "£job_foundry£ $job_foundry$ Manutenção"
 
  ######################
  # UNIVERSAL CONCEPTS #
@@ -87,7 +87,7 @@
  concept_xte_governor_trait_diligent: "$xte_governor_trait_diligent$"
  concept_xte_governor_trait_diligent_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_unity_produces_mult$: §G+10%§!"
  concept_xte_governor_trait_forge_master: "$xte_governor_trait_forge_master$"
- concept_xte_governor_trait_forge_master_desc: "$PLANET_EFFECTS_TXT$:\n- $job_foundry$: §G-5%§!\n- $mod_planet_jobs_engineering_research_produces_mult$: §G+5%§!"
+ concept_xte_governor_trait_forge_master_desc: "$PLANET_EFFECTS_TXT$:\n- $xte_metallurgist_upkeep$: §G-5%§!\n- $mod_planet_jobs_engineering_research_produces_mult$: §G+5%§!"
  concept_xte_governor_trait_patron_of_the_arts: "$xte_governor_trait_patron_of_the_arts$"
  concept_xte_governor_trait_patron_of_the_arts_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_unity_produces_mult$: §G+5%§!\n- $MOD_PLANET_AMENITIES_MULT$: §G+5%§!"
 

@@ -5,7 +5,7 @@
  xte_dmg_too_endgame_crises: "对终局危机派系造成的伤害："
  xte_obstinate_title: "随机种族相关特质"
  xte_profligate_desc_text: "由于该特质的效果是分级的，因此只显示了最小值和最大值。"
-
+ xte_metallurgist_upkeep: "£job_foundry£ $job_foundry$ 维护"
 
  ######################
  # UNIVERSAL CONCEPTS #
@@ -87,7 +87,7 @@
  concept_xte_governor_trait_diligent: "$xte_governor_trait_diligent$"
  concept_xte_governor_trait_diligent_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_unity_produces_mult$: §G+10%§!"
  concept_xte_governor_trait_forge_master: "$xte_governor_trait_forge_master$"
- concept_xte_governor_trait_forge_master_desc: "$PLANET_EFFECTS_TXT$:\n- $job_foundry$: §G-5%§!\n- $mod_planet_jobs_engineering_research_produces_mult$: §G+5%§!"
+ concept_xte_governor_trait_forge_master_desc: "$PLANET_EFFECTS_TXT$:\n- $xte_metallurgist_upkeep$: §G-5%§!\n- $mod_planet_jobs_engineering_research_produces_mult$: §G+5%§!"
  concept_xte_governor_trait_patron_of_the_arts: "$xte_governor_trait_patron_of_the_arts$"
  concept_xte_governor_trait_patron_of_the_arts_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_unity_produces_mult$: §G+5%§!\n- $MOD_PLANET_AMENITIES_MULT$: §G+5%§!"
 
