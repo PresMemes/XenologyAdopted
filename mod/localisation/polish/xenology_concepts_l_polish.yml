@@ -13,7 +13,7 @@
  concept_xte_leader_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
  concept_xte_leader_trait_ancestral_knowledge_desc: "§L$xte_ancestral_knowledge_desc_text$§!\n\n- ['concept_xte_ancestral_knowledge_ruler']\n- ['concept_xte_ancestral_knowledge_governor']\n- ['concept_xte_ancestral_knowledge_admiral']\n- ['concept_xte_ancestral_knowledge_general']\n- ['concept_xte_ancestral_knowledge_scientist']"
  concept_xte_ancestral_knowledge_ruler: "$ruler_plural$"
- concept_xte_ancestral_knowledge_ruler_desc: "$THIS_LEADER_TXT$:\n- $MOD_COUNCILOR_SKILL_ADD$: §G+1§!\n\n$EMPIRE_EFFECTS_TXT$:\n- $MOD_LEADER_TRAIT_SELECTION_OPTIONS_ADD$: §G+1§!\n- $mod_negative_traits_leader$: §G-1§!\n"
+ concept_xte_ancestral_knowledge_ruler_desc: "$THIS_LEADER_TXT$:\n- $MOD_LEADER_TRAIT_SELECTION_OPTIONS_ADD$: §G+1§!\n- $mod_negative_traits_leader$: §G-1§!\n\n$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNCILOR_SKILL_ADD$: §G+1§!"
  concept_xte_ancestral_knowledge_governor: "$governor_plural$"
  concept_xte_ancestral_knowledge_governor_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+4%§!\n- $MOD_EMPIRE_SIZE_POPS_MULT$: §G-4%§!\n- $PLANET_CRIME_TITLE$: §G-6§!\n"
  concept_xte_ancestral_knowledge_admiral: "$admiral_plural$"

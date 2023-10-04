@@ -22,3 +22,12 @@ on_leader_spawned = {
 		xte_traits_ev.999
  	}
 }
+
+# Executed as a leader is hired
+# This = Leader
+# on_leader_hired = {
+# 	events = {
+#		#PM: Possible optimization for councilor traits by
+#		# setting a flag which is checked before doing math
+# 	}
+# }
