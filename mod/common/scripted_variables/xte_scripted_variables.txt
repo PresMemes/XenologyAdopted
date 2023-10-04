@@ -1,2 +1,9 @@
+###################################
+### XENOLOGY SCRIPTED VARIABLES ###
+###################################
+
+# ID Variable
+@has_xte_unofficial = 1
+
 # Used for the anti-stacking script values
 @xte_anti_stack_base_value = 1

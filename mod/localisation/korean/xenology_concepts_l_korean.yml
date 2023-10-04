@@ -79,7 +79,7 @@
  concept_xte_governor_trait_machinist: "$xte_governor_trait_machinist$"
  concept_xte_governor_trait_machinist_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_PLANET_POP_ASSEMBLY_MULT$: §G+10%§!\n- $mod_planet_pops_robotics_upkeep_mult$: §G-5%§!\n- $mod_planet_jobs_robotic_produces_mult$: §G+5%§!"
  concept_xte_governor_trait_reliable: "$xte_governor_trait_reliable$"
- concept_xte_governor_trait_reliable_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_POP_GROWTH_SPEED$: §G+5%§!\n\n$TRIGGER_FAIL$ $LITHOID$\n$t$- $mod_planet_jobs_food_produces_mult$: §G+5%§!\n\n$TRIGGER_PASS$ $LITHOID$\n$t$- $mod_planet_jobs_minerals_produces_mult$: §G+3.3%§!"
+ concept_xte_governor_trait_reliable_desc: "$PLANET_EFFECTS_TXT$:\n- $MOD_POP_GROWTH_SPEED$: §G+5%§!\n\n$TRIGGER_FAIL$§I$LITHOID$§! $empire_upper$\n$t$- $mod_planet_jobs_food_produces_mult$: §G+5%§!\n\n$TRIGGER_PASS$§I$LITHOID$§! $empire_upper$\n$t$- $mod_planet_jobs_minerals_produces_mult$: §G+3.3%§!"
  concept_xte_governor_trait_sheriff: "$xte_governor_trait_sheriff$"
  concept_xte_governor_trait_sheriff_desc: "$PLANET_EFFECTS_TXT$:\n- $PLANET_CRIME_TITLE$: §G-10§!\n- $MOD_PLANET_STABILITY_ADD$: §G+5§!"
  concept_xte_governor_trait_efficient: "$xte_governor_trait_efficient$"
