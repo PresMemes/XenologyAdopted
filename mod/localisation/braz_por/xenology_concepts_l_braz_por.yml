@@ -5,7 +5,8 @@
  xte_dmg_to_endgame_crises: "Danos às facções da Crise de Final de Jogo:"
  xte_obstinate_title: "Traço aleatório associado ao Ethos"
  xte_profligate_desc_text: "Somente os valores mínimo e máximo são mostrados, pois os efeitos dessa característica são escalonados."
- xte_metallurgist_upkeep: "£job_foundry£ $job_foundry$ Manutenção"
+ xte_metallurgist_upkeep: "£job_foundry£ $job_foundry$ Manutenção" # Scripted Loc don't work in concepts
+ xte_megastrucutre_build_cap_add: "Capacidade de Construção da Megaestrutura" # See above
 
  ######################
  # UNIVERSAL CONCEPTS #
@@ -43,7 +44,7 @@
  concept_xte_leader_trait_regal: "$xte_leader_trait_regal$"
  concept_xte_leader_trait_regal_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_LEADER_COUNCILOR_EXP_GAIN$: §G+25%§!\n- $MOD_COUNCIL_AGENDA_PROGRESS_SPEED$: §G+15%§!"
  concept_xte_leader_trait_skyborne_architect: "$xte_leader_trait_skyborne_architect$"
- concept_xte_leader_trait_skyborne_architect_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD$: §G+1.02§!\n- $MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$: §G+33%§!\n- $mod_shipsize_titan_build_speed_mult$: §G+33%§!\n- $mod_shipsize_colossus_build_speed_mult$: §G+33%§!\n- $mod_shipsize_juggernaut_build_speed_mult$: §G+33%§!"
+ concept_xte_leader_trait_skyborne_architect_desc: "$EMPIRE_EFFECTS_TXT$:\n- $xte_megastrucutre_build_cap_add$: §G+1.02§!\n- $MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$: §G+33%§!\n- $mod_shipsize_titan_build_speed_mult$: §G+33%§!\n- $mod_shipsize_colossus_build_speed_mult$: §G+33%§!\n- $mod_shipsize_juggernaut_build_speed_mult$: §G+33%§!"
  concept_xte_leader_trait_polymath: "$xte_leader_trait_polymath$"
  concept_xte_leader_trait_polymath_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$: §G+1.02§!"
  concept_xte_leader_trait_enlightened: "$xte_leader_trait_enlightened$"
