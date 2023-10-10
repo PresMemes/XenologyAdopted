@@ -18,6 +18,7 @@ xte_trait_genetic_memory = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	modifier = {
 		planet_jobs_unity_produces_mult = 0.25
@@ -56,6 +57,7 @@ xte_trait_stalwart = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"trait_resilient"
+		"trait_invasive"
 	}
 	modifier = {
 		army_defense_damage_mult = 1
@@ -94,6 +96,7 @@ xte_trait_apex_predator = {
 		"xte_trait_nervous"
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -133,6 +136,7 @@ xte_trait_apex_predator_lithoid = {
 		"xte_trait_nervous"
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -174,6 +178,7 @@ xte_trait_analytical = {
 		"trait_syncretic_proles"
 		"xte_trait_theoretical"
 		"xte_trait_practical"
+		"trait_invasive"
 	}
 	modifier = {
 		planet_jobs_physics_research_produces_mult = 0.45
@@ -212,6 +217,7 @@ xte_trait_theoretical = {
 		"trait_syncretic_proles"
 		"xte_trait_analytical"
 		"xte_trait_practical"
+		"trait_invasive"
 	}
 	modifier = {
 		planet_jobs_physics_research_produces_mult = -0.30
@@ -250,6 +256,7 @@ xte_trait_practical = {
 		"trait_syncretic_proles"
 		"xte_trait_analytical"
 		"xte_trait_theoretical"
+		"trait_invasive"
 	}
 	modifier = {
 		planet_jobs_physics_research_produces_mult = -0.30
@@ -285,6 +292,7 @@ xte_trait_unbound = {
 		"trait_decadent"
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1.0 #1.0 100% of being considered for new traits when forming half-species. doe snot guarantee the trait will be added if it costs points.
 	custom_tooltip_with_modifiers = xte_unbound_no_slaves_bonus
@@ -343,6 +351,7 @@ xte_trait_oligotrophs = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_gluttonous"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -370,6 +379,7 @@ xte_trait_oligotrophs_lithoid = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_gluttonous_lithoid"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -400,6 +410,7 @@ xte_trait_lawful = {
 		"trait_unruly"
 		"trait_deviants"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -429,6 +440,7 @@ xte_trait_intrepid = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -466,6 +478,7 @@ xte_trait_urban = {
 		"trait_solitary"
 		"trait_agrarian"
 		"xte_trait_gigantic"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -501,6 +514,7 @@ xte_trait_gifted_pilots = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -527,6 +541,7 @@ xte_trait_illustrious = {
 		"trait_syncretic_proles"
 		"xte_trait_nervous"
 		"xte_trait_humble"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -561,6 +576,7 @@ xte_trait_humble = {
 		"xte_trait_illustrious"
 		"trait_weak"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -589,6 +605,7 @@ xte_trait_crafty = {
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -620,6 +637,7 @@ xte_trait_creative = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -650,6 +668,7 @@ xte_trait_megalomaniacs = {
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 }
@@ -672,6 +691,7 @@ xte_trait_natural_translucers = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_inept"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -703,6 +723,7 @@ xte_trait_natural_refiners = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_inept"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -734,6 +755,7 @@ xte_trait_natural_chemists = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_inept"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -765,6 +787,7 @@ xte_trait_flexible = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_simple"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -790,6 +813,7 @@ xte_trait_inquisitive = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_simple"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -821,6 +845,7 @@ xte_trait_austere = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
 		"xte_trait_hedonistic"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -850,6 +875,7 @@ xte_trait_sanguine = {
 		"trait_syncretic_proles"
 		"xte_trait_despondent"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -878,6 +904,7 @@ xte_trait_intimidating = {
 	opposites = {
 		"trait_nerve_stapled"
 		"trait_syncretic_proles"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
@@ -910,6 +937,7 @@ xte_trait_avant_garde = {
 		"trait_syncretic_proles"
 		"xte_trait_obstinate"
 		"trait_hive_mind"
+		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
