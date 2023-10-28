@@ -260,8 +260,8 @@ xte_trait_practical = {
 	}
 	modifier = {
 		planet_jobs_physics_research_produces_mult = -0.30
-		planet_jobs_society_research_produces_mult = -0.15
-		planet_jobs_engineering_research_produces_mult = 0.30
+		planet_jobs_society_research_produces_mult = -0.30
+		planet_jobs_engineering_research_produces_mult = 0.45
 	}
 	assembly_score = {
 		modifier = {
