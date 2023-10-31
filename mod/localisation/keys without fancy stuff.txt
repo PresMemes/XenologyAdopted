@@ -19,10 +19,14 @@
 # Unbound
 # Members of this species have retained their natural wildness, and are extremely difficult to subjugate.
 # Happiness with no enslaved species: +20% Resources from Jobs with no enslaved species: +10%
+# Ectothermic
+# This species relies on external sources of heat to achieve thermoregulation.
 # Oligotrophs
 # Members of this species are adapted to nutrient-poor environments, and can go without food for long periods of time.
 # Lawful
 # Members of this species generally observe the rules and customs set by their society.
+# Hypermetabolism
+# This species' metabolic processes produce waste heat far in excess of what is needed.
 # Intrepid
 # This species has a greatly reduced ability to experience fear.
 # Urban
@@ -61,9 +65,6 @@
 # Members of this species are quite disorganized. They have difficulty accomplishing their tasks methodically and efficiently.
 # Lazy
 # Members of this species are rather slothful and averse to hard labor.
-
-
-
 # Allergic
 # Members of this species are vulnerable to airborne allergens, making them poorly suited for a rural lifestyle.
 # Whimsical
@@ -86,6 +87,8 @@
 # Members of this species are slow, ponderous beings.
 # Gigantic
 # Members of this species can grow to colossal sizes. They require a proportionally large amount of living space.
+# Truculent
+# This species has naturally inclined to be the dominant lifeform in any room.
 # Gluttonous
 # Members of this species are voracious eaters.
 # Hedonistic
@@ -122,9 +125,6 @@
 # This leader is overly cruel and sadistic. In view of their gruesome deeds, their subjects are becoming more egalitarian.
 # Indulgent
 # This leader is overly lenient and flexible. In reaction to their lax leadership, their subjects are demanding that a firmer hand guide the nation.
-
-
-
 # Spineless
 # This leader is considered too agreeable or even deferential towards alien empires. In reaction to their flaccid rule, their people are adopting more tribalistic attitudes.
 # Hateful
@@ -137,7 +137,7 @@
 # This leader exhibits shocking disregard for their society's traditions, pushing their nation in a more spiritualistic direction.
 # Superstitious
 # This leader has a tenuous grasp on reality. Many of their subjects are adopting a more skeptical worldview.
-# Profligate
+# Extravagant
 # This leader is a corrupt spendthrift. Their nation's economy can barely sustain their extravagant vices.
 # Naturalist
 # This leader expertly uses natural environments to their advantage, improving quality of life without damaging the ecosystem.
@@ -175,9 +175,6 @@
 # This leader is proficient in the use of advanced electronics in space warfare.
 # Propulsion Expert
 # This leader is familiar with the use of exotic fuels and catalysts.
-
-
-
 # Gunnery Expert
 # This leader is well-versed in the inner workings of complex weapon systems, and might have developed some themselves.
 # Arrogant

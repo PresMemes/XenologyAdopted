@@ -3,17 +3,33 @@
 xte_anti_stacking_value = {
 	base = @xte_anti_stack_base_value
 
-	divide = value:xte_div_by_zero_workaround|LEADER_TRAIT|$LEADER_TRAIT$|
+	modifier = {
+		is_councilor = no
+		add = 0
+	}
+
+	modifier = {
+		is_councilor = yes
+		divide = value:xte_div_by_zero_workaround|LEADER_TRAIT|$LEADER_TRAIT$|
+	}
 
 	min = 0
 }
 
-# Same as above, but to account for the four (4) version of profligate
+# Same as above, but to account for the four (4) version of extravagant
 # Scopes: this = leader
-xte_anti_stacking_profligate_value = {
+xte_anti_stacking_extravagant_value = {
 	base = @xte_anti_stack_base_value
 
-	divide = value:xte_div_by_zero_workaround|PROFLIGATE|yes|
+	modifier = {
+		is_councilor = no
+		add = 0
+	}
+
+	modifier = {
+		is_councilor = yes
+		divide = value:xte_div_by_zero_workaround|EXTRAVAGANT|yes|
+	}
 
 	min = 0
 }
@@ -23,7 +39,7 @@ xte_anti_stacking_profligate_value = {
 xte_div_by_zero_workaround = {
 	base = 0
 
-	[[!PROFLIGATE]
+	[[!EXTRAVAGANT]
 	complex_trigger_modifier = {
 		trigger = count_owned_leader
 		trigger_scope = owner
@@ -37,7 +53,7 @@ xte_div_by_zero_workaround = {
 	}
 	]
 
-	[[PROFLIGATE]
+	[[EXTRAVAGANT]
 	complex_trigger_modifier = {
 		trigger = count_owned_leader
 		trigger_scope = owner
@@ -45,10 +61,10 @@ xte_div_by_zero_workaround = {
 			limit = {
 				is_councilor = yes
 				OR = {
-					has_trait = xte_leader_trait_profligate_1
-					has_trait = xte_leader_trait_profligate_2
-					has_trait = xte_leader_trait_profligate_3
-					has_trait = xte_leader_trait_profligate_4
+					has_trait = xte_leader_trait_extravagant_1
+					has_trait = xte_leader_trait_extravagant_2
+					has_trait = xte_leader_trait_extravagant_3
+					has_trait = xte_leader_trait_extravagant_4
 				}
 			}
 		}
@@ -56,7 +72,7 @@ xte_div_by_zero_workaround = {
 	}
 	]
 
-	add = @\[( @xte_anti_stack_base_value - 1 )]
+	add = @\[( xte_anti_stack_base_value - 1 )]
 
 	min = @xte_anti_stack_base_value
 }

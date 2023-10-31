@@ -4,10 +4,10 @@
 
 xte_admiral_trait_paladin = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_paladin
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -31,10 +31,10 @@ xte_admiral_trait_paladin = {
 
 xte_admiral_trait_opportunistic = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_opportunistic
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -58,12 +58,50 @@ xte_admiral_trait_opportunistic = {
 	}
 }
 
+xte_admiral_trait_inspired_thermal_engineer = {
+	inline_script = {
+		script = trait/xte_icon
+		CLASS = admiral
+		ICON = GFX_xte_leader_trait_inspired_thermal_engineer
+		RARITY = xte_positive
+		COUNCIL = no
+		TIER = none
+	}
+	cost = 0
+	randomized = no
+	modifier = {
+		weapon_type_energy_weapon_fire_rate_mult = 0.1
+		ship_shield_regen_add_static = 25
+	}
+	triggered_modifier = {
+		potential = {
+			has_first_contact_dlc = yes
+		}
+		ship_cloaking_strength_add = 1
+	}
+	leader_class = {
+		admiral
+	}
+	requires_traits = {
+		xte_trait_hypermetabolism
+	}
+	species_potential_add = {
+		OR = {
+			has_trait = xte_trait_hypermetabolism
+			has_trait = xte_trait_hypermetabolism_lithoid
+		}
+	}
+	ai_weight = {
+		weight = 150
+	}
+}
+
 xte_admiral_trait_gendarme = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_gendarme
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -89,10 +127,10 @@ xte_admiral_trait_gendarme = {
 
 xte_admiral_trait_underdog = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_underdog
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -114,10 +152,10 @@ xte_admiral_trait_underdog = {
 
 xte_admiral_trait_carrier_commander = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_carrier_commander
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -140,10 +178,10 @@ xte_admiral_trait_carrier_commander = {
 
 xte_admiral_trait_computing_expert = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_computing_expert
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -166,10 +204,10 @@ xte_admiral_trait_computing_expert = {
 
 xte_admiral_trait_propulsion_expert = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_propulsion_expert
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -191,10 +229,10 @@ xte_admiral_trait_propulsion_expert = {
 
 xte_admiral_trait_gunnery_expert = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_gunnery_expert
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}

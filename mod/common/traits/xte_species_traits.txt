@@ -25,6 +25,7 @@ xte_trait_genetic_memory = {
 		species_empire_size_mult = 0.25
 		pop_government_ethic_attraction = -0.5
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.5
@@ -34,6 +35,9 @@ xte_trait_genetic_memory = {
 			add = 1.0
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 1000
 	}
 }
 
@@ -63,8 +67,9 @@ xte_trait_stalwart = {
 		army_defense_damage_mult = 1
 		pop_decline_speed = -0.5
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = 100
+		energy = 750
 	}
 	assembly_score = {
 		modifier = {
@@ -106,6 +111,7 @@ xte_trait_apex_predator = {
 		planet_pops_food_upkeep_mult = 0.25
 		pop_growth_speed = -0.05
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
@@ -115,6 +121,9 @@ xte_trait_apex_predator = {
 			add = 0.5
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 800
 	}
 }
 
@@ -146,6 +155,7 @@ xte_trait_apex_predator_lithoid = {
 		planet_pops_minerals_upkeep_mult = 0.25
 		pop_growth_speed = -0.05
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
@@ -155,6 +165,9 @@ xte_trait_apex_predator_lithoid = {
 			add = 0.5
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 800
 	}
 }
 
@@ -185,6 +198,7 @@ xte_trait_analytical = {
 		planet_jobs_society_research_produces_mult = -0.30
 		planet_jobs_engineering_research_produces_mult = -0.30
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 2.0
@@ -194,6 +208,9 @@ xte_trait_analytical = {
 			add = 0.5
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 700
 	}
 }
 
@@ -224,6 +241,7 @@ xte_trait_theoretical = {
 		planet_jobs_society_research_produces_mult = 0.45
 		planet_jobs_engineering_research_produces_mult = -0.30
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 2.0
@@ -233,6 +251,9 @@ xte_trait_theoretical = {
 			add = 0.5
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 700
 	}
 }
 
@@ -263,6 +284,7 @@ xte_trait_practical = {
 		planet_jobs_society_research_produces_mult = -0.30
 		planet_jobs_engineering_research_produces_mult = 0.45
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 2.0
@@ -272,6 +294,9 @@ xte_trait_practical = {
 			add = 0.5
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 700
 	}
 }
 
@@ -308,17 +333,15 @@ xte_trait_unbound = {
 		planet_jobs_produces_mult = 0.1
 		pop_happiness = 0.2
 	}
-
 	modifier = {
 		pop_ethic_egalitarian_attraction_mult = 0.25
 		planet_jobs_slave_produces_mult = -0.33
 		pop_cat_slave_happiness = -0.5
 	}
-
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -300
+		energy = -800
 	}
-
 	assembly_score = {
 		modifier = {
 			add = 1.0 #PM: Always good unless you have slaves
@@ -331,6 +354,63 @@ xte_trait_unbound = {
 				}
 			}
 		}
+	}
+}
+
+xte_trait_ectothermic = {
+	cost = 3
+	initial = yes
+	randomized = yes
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	opposites = {
+		"trait_nerve_stapled"
+		"trait_invasive"
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		planet_pops_food_upkeep_mult = -0.4
+		pop_environment_tolerance = -0.1
+	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 600
+	}
+}
+
+xte_trait_ectothermic_lithoid = {
+	icon = "gfx/interface/icons/traits/xte_trait_ectothermic.dds"
+	cost = 3
+	initial = yes
+	randomized = yes
+	allowed_archetypes = {
+		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	opposites = {
+		"trait_nerve_stapled"
+		"trait_invasive"
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		planet_pops_minerals_upkeep_mult = -0.4
+		pop_environment_tolerance = -0.075
+	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 600
 	}
 }
 
@@ -357,8 +437,9 @@ xte_trait_oligotrophs = {
 	modifier = {
 		planet_pops_food_upkeep_mult = -0.2
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = 150
+		energy = 575
 	}
 }
 
@@ -385,8 +466,9 @@ xte_trait_oligotrophs_lithoid = {
 	modifier = {
 		planet_pops_minerals_upkeep_mult = -0.2
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = 150
+		energy = 575
 	}
 }
 
@@ -417,8 +499,71 @@ xte_trait_lawful = {
 		species_empire_size_mult = -0.05
 		pop_government_ethic_attraction = 0.15
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = 50
+		energy = 500
+	}
+}
+
+xte_trait_hypermetabolism = {
+	cost = 3
+	initial = yes
+	randomized = yes
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	opposites = {
+		"trait_nerve_stapled"
+		"xte_trait_whimsical"
+		"xte_trait_oligotrophs"
+		"trait_invasive"
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+		planet_pops_food_upkeep_mult = 0.35
+	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 700
+	}
+}
+
+xte_trait_hypermetabolism_lithoid = {
+	icon = "gfx/interface/icons/traits/xte_trait_hypermetabolism.dds"
+	cost = 3
+	initial = yes
+	randomized = yes
+	allowed_archetypes = {
+		LITHOID
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+	opposites = {
+		"trait_nerve_stapled"
+		"xte_trait_whimsical"
+		"xte_trait_oligotrophs_lithoid"
+		"trait_invasive"
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		planet_jobs_energy_produces_mult = 0.25
+		planet_pops_minerals_upkeep_mult = 0.35
+	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 700
 	}
 }
 
@@ -446,14 +591,15 @@ xte_trait_intrepid = {
 	modifier = {
 		army_morale = 0.5
 	}
-	slave_cost = {
-		energy = 100
-	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 0.5
 			from = { has_fortress_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 500
 	}
 }
 
@@ -484,6 +630,7 @@ xte_trait_urban = {
 	modifier = {
 		pop_housing_usage_mult = -0.15
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.25
@@ -493,6 +640,9 @@ xte_trait_urban = {
 			add = 0.75
 			from = { has_trade_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 600
 	}
 }
 
@@ -519,6 +669,10 @@ xte_trait_gifted_pilots = {
 	potential_crossbreeding_chance = 1
 	modifier = {
 		pop_growth_from_immigration = 0.3
+	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 500
 	}
 }
 
@@ -547,11 +701,15 @@ xte_trait_illustrious = {
 	modifier = {
 		planet_jobs_ruler_produces_mult = 0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 0.25
 			from = { is_capital = yes }
 		}
+	}
+	slave_cost = {
+		energy = 200
 	}
 }
 
@@ -583,8 +741,9 @@ xte_trait_humble = {
 		planet_jobs_worker_produces_mult = 0.05
 		pop_cat_worker_happiness = 0.05
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = 125
+		energy = 750
 	}
 }
 
@@ -611,11 +770,15 @@ xte_trait_crafty = {
 	modifier = {
 		planet_jobs_alloys_produces_mult = 0.15
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
 			from = { has_foundry_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 1000
 	}
 }
 
@@ -643,11 +806,15 @@ xte_trait_creative = {
 	modifier = {
 		planet_jobs_consumer_goods_produces_mult = 0.15
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
 			from = { has_factory_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 800
 	}
 }
 
@@ -671,6 +838,9 @@ xte_trait_megalomaniacs = {
 		"trait_invasive"
 	}
 	potential_crossbreeding_chance = 1
+	slave_cost = {
+		energy = 200
+	}
 }
 
 xte_trait_natural_translucers = {
@@ -697,11 +867,15 @@ xte_trait_natural_translucers = {
 	modifier = {
 		planet_jobs_rare_crystals_produces_mult = 0.25
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
 			from = { has_refinery_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 500
 	}
 }
 
@@ -729,11 +903,15 @@ xte_trait_natural_refiners = {
 	modifier = {
 		planet_jobs_exotic_gases_produces_mult = 0.25
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
 			from = { has_refinery_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 500
 	}
 }
 
@@ -761,11 +939,15 @@ xte_trait_natural_chemists = {
 	modifier = {
 		planet_jobs_volatile_motes_produces_mult = 0.25
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
 			from = { has_refinery_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 500
 	}
 }
 
@@ -793,6 +975,10 @@ xte_trait_flexible = {
 	modifier = {
 		planet_jobs_specialist_produces_mult = 0.025
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 600
+	}
 }
 
 xte_trait_inquisitive = {
@@ -819,11 +1005,15 @@ xte_trait_inquisitive = {
 	modifier = {
 		planet_researchers_upkeep_mult = -0.2
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 1.0
 			from = { has_research_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 700
 	}
 }
 
@@ -851,8 +1041,9 @@ xte_trait_austere = {
 	modifier = {
 		pop_amenities_usage_mult = -0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = 25
+		energy = 400
 	}
 }
 
@@ -882,14 +1073,15 @@ xte_trait_sanguine = {
 		pop_happiness = 0.05
 		army_morale = 0.1
 	}
-	slave_cost = {
-		energy = 25
-	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 0.1
 			from = { has_fortress_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 600
 	}
 }
 
@@ -910,11 +1102,15 @@ xte_trait_intimidating = {
 	modifier = {
 		army_morale_damage_mult = 0.33
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = 0.75
 			from = { has_fortress_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = 500
 	}
 }
 
@@ -943,6 +1139,10 @@ xte_trait_avant_garde = {
 	modifier = {
 		pop_ethics_shift_speed_mult = 1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = 100
+	}
 }
 
 xte_trait_disorderly = {
@@ -962,8 +1162,9 @@ xte_trait_disorderly = {
 	modifier = {
 		planet_jobs_energy_produces_mult = -0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -25
+		energy = -150
 	}
 	assembly_score = {
 		modifier = {
@@ -990,8 +1191,9 @@ xte_trait_lazy = {
 	modifier = {
 		planet_jobs_minerals_produces_mult = -0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -25
+		energy = -150
 	}
 	assembly_score = {
 		modifier = {
@@ -1018,8 +1220,9 @@ xte_trait_allergic = {
 	modifier = {
 		planet_jobs_food_produces_mult = -0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -25
+		energy = -150
 	}
 	assembly_score = {
 		modifier = {
@@ -1050,8 +1253,9 @@ xte_trait_whimsical = {
 	modifier = {
 		pop_amenities_usage_mult = 0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -25
+		energy = -200
 	}
 }
 
@@ -1070,8 +1274,9 @@ xte_trait_nervous = {
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
-		leader_skill_levels = -1
+		leader_trait_selection_options_add = -1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 }
 
 xte_trait_despondent = {
@@ -1093,8 +1298,9 @@ xte_trait_despondent = {
 		pop_happiness = -0.05
 		army_morale = -0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -25
+		energy = -350
 	}
 	assembly_score = {
 		modifier = {
@@ -1125,11 +1331,15 @@ xte_trait_inept = {
 		planet_jobs_exotic_gases_produces_mult = -0.33
 		planet_jobs_volatile_motes_produces_mult = -0.33
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = -1.5
 			from = { has_refinery_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = -500
 	}
 }
 
@@ -1173,11 +1383,15 @@ xte_trait_simple = {
 		planet_jobs_society_research_produces_mult = -0.05
 		planet_jobs_engineering_research_produces_mult = -0.05
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	assembly_score = {
 		modifier = {
 			add = -0.75
 			from = { has_research_designation = yes }
 		}
+	}
+	slave_cost = {
+		energy = -500
 	}
 }
 
@@ -1199,6 +1413,10 @@ xte_trait_prideful = {
 	modifier = {
 		pop_demotion_time_mult = 1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = -500
+	}
 }
 
 xte_trait_obstinate = {
@@ -1219,6 +1437,10 @@ xte_trait_obstinate = {
 	modifier = {
 		pop_ethics_shift_speed_mult = -0.5
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = -400
+	}
 }
 
 xte_trait_sluggish = {
@@ -1237,8 +1459,9 @@ xte_trait_sluggish = {
 	modifier = {
 		planet_jobs_produces_mult = -0.05
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -50
+		energy = -1000
 	}
 }
 
@@ -1260,6 +1483,34 @@ xte_trait_gigantic = {
 	modifier = {
 		pop_housing_usage_mult = 0.4
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = -700
+	}
+}
+
+xte_trait_truculent = {
+	cost = -3
+	initial = yes
+	randomized = yes
+	opposites = {
+		"trait_nerve_stapled"
+		"trait_traditional"
+	}
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+	potential_crossbreeding_chance = 1
+	modifier = {
+		pop_demotion_time_mult = 0.5
+		planet_jobs_unity_produces_mult = -0.25
+		army_attack_damage_mult = 0.15
+	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
+	slave_cost = {
+		energy = -700
+	}
 }
 
 xte_trait_gluttonous = {
@@ -1278,8 +1529,9 @@ xte_trait_gluttonous = {
 	modifier = {
 		planet_pops_food_upkeep_mult = 0.3
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -100
+		energy = -750
 	}
 }
 
@@ -1299,8 +1551,9 @@ xte_trait_gluttonous_lithoid = {
 	modifier = {
 		planet_pops_minerals_upkeep_mult = 0.3
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -100
+		energy = -750
 	}
 }
 
@@ -1325,8 +1578,9 @@ xte_trait_hedonistic = {
 		planet_pops_consumer_goods_upkeep_mult = 0.15
 		pop_happiness = 0.1
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -150
+		energy = -1000
 	}
 }
 
@@ -1352,7 +1606,8 @@ xte_trait_polyploid = {
 	modifier = {
 		pop_growth_speed = -0.33
 	}
+	custom_tooltip_with_modifiers = xte_added_by_notification
 	slave_cost = {
-		energy = -300
+		energy = -1250
 	}
 }

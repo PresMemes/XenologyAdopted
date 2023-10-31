@@ -1,0 +1,8 @@
+layer = {
+	icon = "GFX_trait_glow_xte_positive"
+	color = "trait_bg_councilor"
+}
+layer = {
+	icon = "GFX_trait_frame_xte_positive"
+	color = "trait_bg_councilor"
+}

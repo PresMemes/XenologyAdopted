@@ -4,10 +4,10 @@
 
 xte_general_trait_forecaster = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = general
 		ICON = GFX_xte_leader_trait_forecaster
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -29,12 +29,51 @@ xte_general_trait_forecaster = {
 	}
 }
 
+xte_general_trait_thermic_symbiote = {
+	inline_script = {
+		script = trait/xte_icon
+		CLASS = general
+		ICON = GFX_xte_leader_trait_thermic_symbiote
+		RARITY = xte_positive
+		COUNCIL = no
+		TIER = none
+	}
+	cost = 0
+	randomized = no
+	triggered_modifier = {
+		potential = {
+			exists = planet
+			planet = { has_climate = dry }
+		}
+		army_damage_mult = 0.3
+		army_morale = 0.3
+	}
+	triggered_modifier = {
+		potential = {
+			exists = planet
+			planet = { has_climate = cold }
+		}
+		army_damage_mult = -0.3
+		army_morale = -0.3
+	}
+	custom_tooltip_with_modifiers = xte_general_trait_thermic_symbiote_effects
+	leader_class = {
+		general
+	}
+	requires_traits = {
+		xte_trait_analytical
+	}
+	ai_weight = {
+		weight = 150
+	}
+}
+
 xte_general_trait_battle_mounts = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = admiral
 		ICON = GFX_xte_leader_trait_battle_mounts
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}

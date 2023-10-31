@@ -35,11 +35,14 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.18 }
 					leader_event = { id =  xte_traits_ev.19 }
 					leader_event = { id =  xte_traits_ev.21 }
+					leader_event = { id =  xte_traits_ev.28 }
+					leader_event = { id =  xte_traits_ev.29 }
 				}
 				scientist = {
 					leader_event = { id =  xte_traits_ev.1 }
 					leader_event = { id =  xte_traits_ev.8 }
 					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.28 }
 				}
 				admiral = {
 					leader_event = { id =  xte_traits_ev.1 }
@@ -52,11 +55,13 @@ country_event = {
 					leader_event = { id =  xte_traits_ev.16 }
 					leader_event = { id =  xte_traits_ev.21 }
 					leader_event = { id =  xte_traits_ev.24 }
+					leader_event = { id =  xte_traits_ev.27 }
 				}
 				general = {
 					leader_event = { id =  xte_traits_ev.2 }
 					leader_event = { id =  xte_traits_ev.13 }
 					leader_event = { id =  xte_traits_ev.20 }
+					leader_event = { id =  xte_traits_ev.27 }
 				}
 			}
 
@@ -337,9 +342,7 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_practical }
-		NOT = {
-			has_trait = xte_governor_trait_machinist
-		}
+		NOT = { has_trait = xte_governor_trait_machinist }
 	}
 	immediate = {
 		add_trait_no_notify = xte_leader_trait_life_crafter
@@ -356,9 +359,7 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_theoretical }
-		NOT = {
-			has_trait = xte_governor_trait_naturalist
-		}
+		NOT = { has_trait = xte_governor_trait_naturalist }
 	}
 	immediate = {
 		add_trait_no_notify = xte_leader_trait_life_weaver
@@ -418,9 +419,7 @@ leader_event = {
 	hide_window = yes
 	trigger = {
 		species = { has_trait = xte_trait_stalwart }
-		NOT = {
-			has_trait = xte_admiral_trait_paladin
-		}
+		NOT = { has_trait = xte_admiral_trait_paladin }
 	}
 	immediate = {
 		add_trait_no_notify = xte_leader_trait_valiant
@@ -468,9 +467,7 @@ leader_event = {
 				has_trait = xte_trait_apex_predator_lithoid
 			}
 		}
-		NOT = {
-			has_trait = xte_admiral_trait_opportunistic
-		}
+		NOT = { has_trait = xte_admiral_trait_opportunistic }
 	}
 	immediate = {
 		add_trait_no_notify = xte_leader_trait_pertinacious
@@ -505,5 +502,76 @@ leader_event = {
 	}
 	immediate = {
 		add_trait_no_notify = xte_leader_trait_maladroit
+	}
+}
+
+leader_event = {
+	id = xte_traits_ev.27
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		species = {
+			OR = {
+				has_trait = xte_trait_ectothermic
+				has_trait = xte_trait_ectothermic_lithoid
+			}
+		}
+		NOR = {
+			has_trait = xte_admiral_trait_inspired_thermal_engineer
+			has_trait = xte_general_trait_thermic_symbiote
+		}
+	}
+	immediate = {
+		switch = {
+			trigger = leader_class
+			admiral = {
+				add_trait_no_notify = xte_admiral_trait_inspired_thermal_engineer
+			}
+			general = {
+				add_trait_no_notify = xte_general_trait_thermic_symbiote
+			}
+		}
+	}
+}
+
+leader_event = {
+	id = xte_traits_ev.28
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		species = {
+			OR = {
+				has_trait = xte_trait_hypermetabolism
+				has_trait = xte_trait_hypermetabolism_lithoid
+			}
+		}
+		NOR = {
+			has_trait = xte_governor_trait_fanatic_thermopile
+			has_trait = xte_scientist_trait_enzyme_curator
+		}
+	}
+	immediate = {
+		switch = {
+			trigger = leader_class
+			governor = {
+				add_trait_no_notify = xte_governor_trait_fanatic_thermopile
+			}
+			scientist = {
+				add_trait_no_notify = xte_scientist_trait_enzyme_curator
+			}
+		}
+	}
+}
+
+leader_event = {
+	id = xte_traits_ev.29
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		species = { has_trait = xte_trait_truculent }
+		NOT = { has_trait = xte_governor_trait_inattentive }
+	}
+	immediate = {
+		add_trait_no_notify = xte_governor_trait_inattentive
 	}
 }

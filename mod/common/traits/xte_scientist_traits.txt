@@ -4,10 +4,10 @@
 
 xte_scientist_trait_pioneer = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = scientist
 		ICON = GFX_xte_leader_trait_pioneer
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -30,15 +30,44 @@ xte_scientist_trait_pioneer = {
 		weight = 300
 	}
 	initial = no
-	#randomized = no
+}
+
+xte_scientist_trait_enzyme_curator = {
+	inline_script = {
+		script = trait/xte_icon
+		CLASS = scientist
+		ICON = GFX_xte_leader_trait_enzyme_curator
+		RARITY = xte_positive
+		COUNCIL = no
+		TIER = none
+	}
+	cost = 0
+	randomized = no
+	assist_research_planet_modifier = {
+		planet_jobs_produces_mult = 0.033
+		pop_happiness = 0.1
+	}
+	leader_class = {
+		scientist
+	}
+	requires_traits = {
+		xte_trait_analytical
+	}
+	ai_categories = {
+		survey
+	}
+	ai_weight = {
+		weight = 300
+	}
+	initial = no
 }
 
 xte_scientist_trait_pathfinder = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = scientist
 		ICON = GFX_xte_leader_trait_pathfinder
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}

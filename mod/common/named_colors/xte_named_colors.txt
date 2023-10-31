@@ -1,0 +1,3 @@
+trait_bg_xte_positive = {
+	color = { 28 236 126 255 }
+}

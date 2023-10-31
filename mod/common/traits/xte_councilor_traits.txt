@@ -4,10 +4,10 @@
 xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but I don't want to move it to a new file
 	is_councilor_trait_for_ruler = yes
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_ancestral_knowledge
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = no
 		TIER = none
 	}
@@ -72,10 +72,10 @@ xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but
 
 xte_leader_trait_valiant = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_valiant
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -91,6 +91,7 @@ xte_leader_trait_valiant = {
 		country_war_exhaustion_mult = -0.1
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_valiant|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_stalwart }
 	}
@@ -105,10 +106,10 @@ xte_leader_trait_valiant = {
 
 xte_leader_trait_pertinacious = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_pertinacious
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -130,6 +131,7 @@ xte_leader_trait_pertinacious = {
 		pop_happiness = -0.1
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_pertinacious|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = {	OR = { has_trait = xte_trait_apex_predator has_trait = xte_trait_apex_predator_lithoid } }
 	}
@@ -144,10 +146,10 @@ xte_leader_trait_pertinacious = {
 
 xte_leader_trait_arcanist = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_arcanist
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -163,6 +165,7 @@ xte_leader_trait_arcanist = {
 		country_sr_zro_produces_mult = 0.33
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_arcanist|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_analytical }
 	}
@@ -177,10 +180,10 @@ xte_leader_trait_arcanist = {
 
 xte_leader_trait_life_weaver = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_life_weaver
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -195,6 +198,7 @@ xte_leader_trait_life_weaver = {
 		LITHOID_species_trait_points_add = 1.03														# 1.00 / 3 = 0.33333334 -> rounded to 0.33 -> 0.33*3 = 0.99
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_weaver|		# Unless PDS makes councilor traits not stack, this value should stay at 1.03 otherwise it'll feel terrible missing out on a trait point
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_theoretical }
 	}
@@ -209,10 +213,10 @@ xte_leader_trait_life_weaver = {
 
 xte_leader_trait_life_crafter = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_life_crafter
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -226,6 +230,7 @@ xte_leader_trait_life_crafter = {
 		ROBOT_species_trait_points_add = 1.03
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_crafter|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_practical }
 	}
@@ -240,10 +245,10 @@ xte_leader_trait_life_crafter = {
 
 xte_leader_trait_land_of_the_free = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_land_of_the_free
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -260,6 +265,7 @@ xte_leader_trait_land_of_the_free = {
 		pop_factions_produces_mult = 0.2
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_land_of_the_free|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_unbound }
 	}
@@ -274,10 +280,10 @@ xte_leader_trait_land_of_the_free = {
 
 xte_leader_trait_lawbringer = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_lawbringer
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -292,6 +298,7 @@ xte_leader_trait_lawbringer = {
 		local_trade_protection_add = 10
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_lawbringer|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_lawful }
 	}
@@ -306,10 +313,10 @@ xte_leader_trait_lawbringer = {
 
 xte_leader_trait_regal = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_regal
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -324,6 +331,7 @@ xte_leader_trait_regal = {
 		council_agenda_progress_speed = 0.15
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_regal|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_illustrious }
 	}
@@ -338,10 +346,10 @@ xte_leader_trait_regal = {
 
 xte_leader_trait_skyborne_architect = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_skyborne_architect
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -359,6 +367,7 @@ xte_leader_trait_skyborne_architect = {
 		shipsize_juggernaut_build_speed_mult = 0.33
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_skyborne_architect|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_megalomaniacs }
 	}
@@ -373,10 +382,10 @@ xte_leader_trait_skyborne_architect = {
 
 xte_leader_trait_polymath = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_polymath
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -391,6 +400,7 @@ xte_leader_trait_polymath = {
 		num_tech_alternatives_add = 1.03
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_polymath|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_flexible }
 	}
@@ -405,10 +415,10 @@ xte_leader_trait_polymath = {
 
 xte_leader_trait_enlightened = {
 	inline_script = {
-		script = trait/icon
+		script = trait/xte_icon
 		CLASS = leader
 		ICON = GFX_xte_leader_trait_enlightened
-		RARITY = common
+		RARITY = xte_positive
 		COUNCIL = yes
 		TIER = none
 	}
@@ -422,6 +432,7 @@ xte_leader_trait_enlightened = {
 		pop_factions_produces_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_enlightened|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_avant_garde }
 	}
@@ -453,6 +464,7 @@ xte_leader_trait_maladroit = {
 		station_gatherers_rare_crystals_produces_mult = -0.2
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_maladroit|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_inept }
 	}
@@ -494,6 +506,7 @@ xte_leader_trait_domineering = {
 		pop_ethic_egalitarian_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_valiant|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -533,6 +546,7 @@ xte_leader_trait_indulgent = {
 		pop_ethic_authoritarian_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_indulgent|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -579,6 +593,7 @@ xte_leader_trait_spineless = {
 		pop_ethic_xenophobe_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_spineless|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -619,6 +634,7 @@ xte_leader_trait_hateful = {
 		pop_ethic_xenophile_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_hateful|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		from = { NOT = { has_valid_civic = "civic_fanatic_purifiers" } }
 		species = { has_trait = xte_trait_obstinate }
@@ -666,6 +682,7 @@ xte_leader_trait_peacemonger = {
 		pop_ethic_militarist_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_peacemonger|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -708,6 +725,7 @@ xte_leader_trait_warmonger = {
 		pop_ethic_pacifist_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_warmonger|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -750,6 +768,7 @@ xte_leader_trait_superstitious = {
 		pop_ethic_materialist_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_superstitious|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -790,6 +809,7 @@ xte_leader_trait_cynical = {
 		pop_ethic_spiritualist_attraction_mult = 0.5
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_cynical|
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_obstinate }
 	}
@@ -802,10 +822,10 @@ xte_leader_trait_cynical = {
 	}
 }
 
-xte_leader_trait_profligate_1 = {
+xte_leader_trait_extravagant_1 = {
 	inline_script = {
 		script = trait/icon_negative
-		ICON = GFX_xte_leader_trait_profligate
+		ICON = GFX_xte_leader_trait_extravagant
 		COUNCIL = yes
 		TIER = none
 	}
@@ -816,9 +836,9 @@ xte_leader_trait_profligate_1 = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
 		"trait_ruler_investor_3"
-		#"xte_leader_trait_profligate_4"
-		#"xte_leader_trait_profligate_2"
-		#"xte_leader_trait_profligate_3"
+		#"xte_leader_trait_extravagant_4"
+		#"xte_leader_trait_extravagant_2"
+		#"xte_leader_trait_extravagant_3"
 	}
 	triggered_modifier = {
 		potential = {
@@ -826,8 +846,9 @@ xte_leader_trait_profligate_1 = {
 		}
 		trade_value_mult = -0.1
 		pop_happiness = -0.1
-		multiplier = value:xte_anti_stacking_profligate_value
+		multiplier = value:xte_anti_stacking_extravagant_value
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_hedonistic }
 	}
@@ -840,10 +861,10 @@ xte_leader_trait_profligate_1 = {
 	}
 }
 
-xte_leader_trait_profligate_2 = {
+xte_leader_trait_extravagant_2 = {
 	inline_script = {
 		script = trait/icon_negative
-		ICON = GFX_xte_leader_trait_profligate
+		ICON = GFX_xte_leader_trait_extravagant
 		COUNCIL = yes
 		TIER = 1
 	}
@@ -854,10 +875,11 @@ xte_leader_trait_profligate_2 = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
 		"trait_ruler_investor_3"
-		#"xte_leader_trait_profligate_1"
-		#"xte_leader_trait_profligate_4"
-		#"xte_leader_trait_profligate_3"
+		#"xte_leader_trait_extravagant_1"
+		#"xte_leader_trait_extravagant_4"
+		#"xte_leader_trait_extravagant_3"
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	triggered_modifier = {
 		potential = {
 			always = yes
@@ -865,7 +887,7 @@ xte_leader_trait_profligate_2 = {
 		trade_value_mult = -0.15
 		pop_happiness = -0.15
 		leaders_unity_upkeep_mult = 0.05
-		multiplier = value:xte_anti_stacking_profligate_value
+		multiplier = value:xte_anti_stacking_extravagant_value
 	}
 	leader_potential_add = {
 		species = { has_trait = xte_trait_hedonistic }
@@ -874,7 +896,7 @@ xte_leader_trait_profligate_2 = {
 		xte_trait_hedonistic
 	}
 	replace_traits = {
-		xte_leader_trait_profligate_1
+		xte_leader_trait_extravagant_1
 	}
 	leader_class = { admiral scientist general governor }
 	ai_weight = {
@@ -882,10 +904,10 @@ xte_leader_trait_profligate_2 = {
 	}
 }
 
-xte_leader_trait_profligate_3 = {
+xte_leader_trait_extravagant_3 = {
 	inline_script = {
 		script = trait/icon_negative
-		ICON = GFX_xte_leader_trait_profligate
+		ICON = GFX_xte_leader_trait_extravagant
 		COUNCIL = yes
 		TIER = 2
 	}
@@ -896,10 +918,11 @@ xte_leader_trait_profligate_3 = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
 		"trait_ruler_investor_3"
-		#"xte_leader_trait_profligate_1"
-		#"xte_leader_trait_profligate_2"
-		#"xte_leader_trait_profligate_4"
+		#"xte_leader_trait_extravagant_1"
+		#"xte_leader_trait_extravagant_2"
+		#"xte_leader_trait_extravagant_4"
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	triggered_modifier = {
 		potential = {
 			always = yes
@@ -907,7 +930,7 @@ xte_leader_trait_profligate_3 = {
 		trade_value_mult = -0.2
 		pop_happiness = -0.2
 		leaders_unity_upkeep_mult = 0.1
-		multiplier = value:xte_anti_stacking_profligate_value
+		multiplier = value:xte_anti_stacking_extravagant_value
 	}
 	leader_potential_add = {
 		species = { has_trait = xte_trait_hedonistic }
@@ -916,8 +939,8 @@ xte_leader_trait_profligate_3 = {
 		xte_trait_hedonistic
 	}
 	replace_traits = {
-		xte_leader_trait_profligate_1
-		xte_leader_trait_profligate_2
+		xte_leader_trait_extravagant_1
+		xte_leader_trait_extravagant_2
 	}
 	leader_class = { admiral scientist general governor }
 	ai_weight = {
@@ -925,10 +948,10 @@ xte_leader_trait_profligate_3 = {
 	}
 }
 
-xte_leader_trait_profligate_4 = {
+xte_leader_trait_extravagant_4 = {
 	inline_script = {
 		script = trait/icon_negative
-		ICON = GFX_xte_leader_trait_profligate
+		ICON = GFX_xte_leader_trait_extravagant
 		COUNCIL = yes
 		TIER = 3
 	}
@@ -939,10 +962,11 @@ xte_leader_trait_profligate_4 = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
 		"trait_ruler_investor_3"
-		#"xte_leader_trait_profligate_1"
-		#"xte_leader_trait_profligate_2"
-		#"xte_leader_trait_profligate_3"
+		#"xte_leader_trait_extravagant_1"
+		#"xte_leader_trait_extravagant_2"
+		#"xte_leader_trait_extravagant_3"
 	}
+	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = {
 		species = { has_trait = xte_trait_hedonistic }
 	}
@@ -953,15 +977,15 @@ xte_leader_trait_profligate_4 = {
 		trade_value_mult = -0.25
 		pop_happiness = -0.25
 		leaders_unity_upkeep_mult = 0.15
-		multiplier = value:xte_anti_stacking_profligate_value
+		multiplier = value:xte_anti_stacking_extravagant_value
 	}
 	requires_traits = {
 		xte_trait_hedonistic
 	}
 	replace_traits = {
-		xte_leader_trait_profligate_1
-		xte_leader_trait_profligate_2
-		xte_leader_trait_profligate_3
+		xte_leader_trait_extravagant_1
+		xte_leader_trait_extravagant_2
+		xte_leader_trait_extravagant_3
 	}
 	leader_class = { admiral scientist general governor }
 	ai_weight = {
