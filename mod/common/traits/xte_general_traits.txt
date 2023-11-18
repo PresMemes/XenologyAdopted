@@ -5,7 +5,7 @@
 xte_general_trait_forecaster = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = general
+		CLASS = commander
 		ICON = GFX_xte_leader_trait_forecaster
 		RARITY = xte_positive
 		COUNCIL = no
@@ -13,13 +13,13 @@ xte_general_trait_forecaster = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	army_modifier = {
 		army_experience_gain_mult = 0.25
 		army_damage_mult = 0.15
 		army_collateral_damage_mult = -0.15
 	}
 	leader_class = {
-		general
+		commander
 	}
 	requires_traits = {
 		xte_trait_analytical
@@ -32,7 +32,7 @@ xte_general_trait_forecaster = {
 xte_general_trait_thermic_symbiote = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = general
+		CLASS = commander
 		ICON = GFX_xte_leader_trait_thermic_symbiote
 		RARITY = xte_positive
 		COUNCIL = no
@@ -40,28 +40,28 @@ xte_general_trait_thermic_symbiote = {
 	}
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_army_modifier = {
 		potential = {
 			exists = planet
-			planet = { has_climate = dry }
+			planet = { is_dry = yes }
 		}
 		army_damage_mult = 0.3
 		army_morale = 0.3
 	}
-	triggered_modifier = {
+	triggered_army_modifier = {
 		potential = {
 			exists = planet
-			planet = { has_climate = cold }
+			planet = { is_cold = yes }
 		}
 		army_damage_mult = -0.3
 		army_morale = -0.3
 	}
 	custom_tooltip_with_modifiers = xte_general_trait_thermic_symbiote_effects
 	leader_class = {
-		general
+		commander
 	}
 	requires_traits = {
-		xte_trait_analytical
+		xte_trait_ectothermic
 	}
 	ai_weight = {
 		weight = 150
@@ -71,7 +71,7 @@ xte_general_trait_thermic_symbiote = {
 xte_general_trait_battle_mounts = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = admiral
+		CLASS = commander
 		ICON = GFX_xte_leader_trait_battle_mounts
 		RARITY = xte_positive
 		COUNCIL = no
@@ -79,13 +79,13 @@ xte_general_trait_battle_mounts = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	army_modifier = {
 		army_morale_damage_mult = 0.1
 		army_health = 0.1
 		army_collateral_damage_mult = 0.1
 	}
 	leader_class = {
-		general
+		commander
 	}
 	requires_traits = {
 		xte_trait_gifted_pilots
@@ -104,11 +104,11 @@ xte_general_trait_cavalier = {
 	cost = 0
 	randomized = no
 	negative = yes
-	modifier = {
+	army_modifier = {
 		army_disengage_chance_mult = -0.2
 	}
 	leader_class = {
-		general
+		commander
 	}
 	requires_traits = {
 		xte_trait_prideful

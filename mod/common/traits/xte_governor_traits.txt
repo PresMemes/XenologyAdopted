@@ -5,7 +5,7 @@
 xte_governor_trait_naturalist = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_naturalist
 		RARITY = xte_positive
 		COUNCIL = no
@@ -13,12 +13,16 @@ xte_governor_trait_naturalist = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		pop_environment_tolerance = 0.05
 		planet_pops_upkeep_mult = -0.05
 	}
+	sector_modifier = {
+		pop_environment_tolerance = 0.025
+		planet_pops_upkeep_mult = -0.025
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_theoretical
@@ -31,7 +35,7 @@ xte_governor_trait_naturalist = {
 xte_governor_trait_machinist = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_machinist
 		RARITY = xte_positive
 		COUNCIL = no
@@ -39,13 +43,18 @@ xte_governor_trait_machinist = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		planet_pop_assembly_mult = 0.1
 		planet_pops_robotics_upkeep_mult = -0.05
 		planet_jobs_robotic_produces_mult = 0.05
 	}
+	sector_modifier = {
+		planet_pop_assembly_mult = 0.05
+		planet_pops_robotics_upkeep_mult = -0.025
+		planet_jobs_robotic_produces_mult = 0.025
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_practical
@@ -58,7 +67,7 @@ xte_governor_trait_machinist = {
 xte_governor_trait_fanatic_thermopile = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_fanatic_thermopile
 		RARITY = xte_positive
 		COUNCIL = no
@@ -66,14 +75,20 @@ xte_governor_trait_fanatic_thermopile = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		planet_buildings_cost_mult = 0.2
 		planet_districts_cost_mult = 0.2
 		planet_buildings_energy_upkeep_mult = -0.33
 		planet_districts_energy_upkeep_mult = -0.33
 	}
+	sector_modifier = {
+		planet_buildings_cost_mult = 0.1
+		planet_districts_cost_mult = 0.1
+		planet_buildings_energy_upkeep_mult = -0.15
+		planet_districts_energy_upkeep_mult = -0.15
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_ectothermic
@@ -89,7 +104,7 @@ xte_governor_trait_fanatic_thermopile = {
 xte_governor_trait_reliable = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_reliable
 		RARITY = xte_positive
 		COUNCIL = no
@@ -97,25 +112,38 @@ xte_governor_trait_reliable = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
-		pop_growth_speed = 0.05
-	}
-	triggered_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { is_lithoid_empire = no }
 		}
+		pop_growth_speed = 0.05
 		planet_jobs_food_produces_mult = 0.05
 	}
-	triggered_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { is_lithoid_empire = yes }
 		}
+		pop_growth_speed = 0.05
 		planet_jobs_minerals_produces_mult = 0.033
 	}
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_lithoid_empire = no }
+		}
+		planet_jobs_food_produces_mult = 0.025
+	}
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_lithoid_empire = yes }
+		}
+		planet_jobs_food_produces_mult = 0.015
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_oligotrophs
@@ -129,7 +157,7 @@ xte_governor_trait_reliable = {
 xte_governor_trait_sheriff = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_sheriff
 		RARITY = xte_positive
 		COUNCIL = no
@@ -137,12 +165,16 @@ xte_governor_trait_sheriff = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		planet_crime_add = -10
 		planet_stability_add = 5
 	}
+	sector_modifier = {
+		planet_crime_add = -5
+		planet_stability_add = 3
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_lawful
@@ -155,7 +187,7 @@ xte_governor_trait_sheriff = {
 xte_governor_trait_efficient = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_efficient
 		RARITY = xte_positive
 		COUNCIL = no
@@ -163,11 +195,14 @@ xte_governor_trait_efficient = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		trade_value_mult = 0.1
 	}
+	sector_modifier = {
+		trade_value_mult = 0.05
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_urban
@@ -180,7 +215,7 @@ xte_governor_trait_efficient = {
 xte_governor_trait_diligent = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_diligent
 		RARITY = xte_positive
 		COUNCIL = no
@@ -188,11 +223,14 @@ xte_governor_trait_diligent = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		planet_jobs_unity_produces_mult = 0.1
 	}
+	sector_modifier = {
+		planet_jobs_unity_produces_mult = 0.05
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_humble
@@ -205,7 +243,7 @@ xte_governor_trait_diligent = {
 xte_governor_trait_forge_master = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_forge_master
 		RARITY = xte_positive
 		COUNCIL = no
@@ -213,12 +251,16 @@ xte_governor_trait_forge_master = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		planet_metallurgists_upkeep_mult = -0.1
 		planet_jobs_engineering_research_produces_mult = 0.05
 	}
+	sector_modifier = {
+		planet_metallurgists_upkeep_mult = -0.05
+		planet_jobs_engineering_research_produces_mult = 0.025
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_crafty
@@ -231,7 +273,7 @@ xte_governor_trait_forge_master = {
 xte_governor_trait_patron_of_the_arts = {
 	inline_script = {
 		script = trait/xte_icon
-		CLASS = governor
+		CLASS = official
 		ICON = GFX_xte_leader_trait_patron_of_the_arts
 		RARITY = xte_positive
 		COUNCIL = no
@@ -239,12 +281,16 @@ xte_governor_trait_patron_of_the_arts = {
 	}
 	cost = 0
 	randomized = no
-	modifier = {
+	planet_modifier = {
 		planet_jobs_unity_produces_mult = 0.05
 		planet_amenities_mult = 0.05
 	}
+	sector_modifier = {
+		planet_jobs_unity_produces_mult = 0.025
+		planet_amenities_mult = 0.025
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_creative
@@ -263,22 +309,36 @@ xte_governor_trait_inattentive = {
 	cost = 0
 	randomized = no
 	negative = yes
-	triggered_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { is_gestalt = no }
 		}
 		pop_amenities_usage_add = 1
 	}
-	triggered_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
 		pop_amenities_usage_no_happiness_add = 1
 	}
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		pop_amenities_usage_add = 0.5
+	}
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		pop_amenities_usage_no_happiness_add = 0.5
+	}
 	leader_class = {
-		governor
+		official
 	}
 	requires_traits = {
 		xte_trait_truculent

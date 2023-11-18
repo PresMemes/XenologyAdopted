@@ -2,7 +2,6 @@
 # Xenology Councilor Traits #
 #############################
 xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but I don't want to move it to a new file
-	is_councilor_trait_for_ruler = yes
 	inline_script = {
 		script = trait/xte_icon
 		CLASS = leader
@@ -13,10 +12,10 @@ xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but
 	}
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_fleet_modifier = {
 		potential = {
 			is_ruler = no
-			leader_class = admiral
+			leader_class = commander
 		}
 		ship_fire_rate_mult = 0.06
 		ship_disengage_opportunities_add = 0.4
@@ -32,20 +31,41 @@ xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but
 	triggered_modifier = {
 		potential = {
 			is_ruler = no
-			leader_class = general
+			leader_class = commander
 		}
 		army_damage_mult = 0.1
 	}
-	triggered_modifier = {
+	triggered_planet_modifier = {
 		potential = {
 			is_ruler = no
-			leader_class = governor
+			leader_class = official
 		}
-		planet_jobs_produces_mult = 0.04
-		empire_size_pops_mult = -0.04
-		planet_crime_add = -6
+		planet_jobs_energy_produces_mult = @[planet_job_mult*2]
+		planet_jobs_minerals_produces_mult = @[planet_job_mult*2]
+		planet_jobs_food_produces_mult = @[planet_job_mult*2]
+		planet_jobs_alloys_produces_mult = @[planet_job_mult*2]
+		planet_jobs_consumer_goods_produces_mult = @[planet_job_mult*2]
+		planet_jobs_exotic_gases_produces_mult = @[planet_job_mult*2]
+		planet_jobs_rare_crystals_produces_mult = @[planet_job_mult*2]
+		planet_jobs_volatile_motes_produces_mult = @[planet_job_mult*2]
+		species_empire_size_mult = @[planet_empire_size*2]
 	}
-	triggered_modifier = {
+	triggered_sector_modifier = {
+		potential = {
+			is_ruler = no
+			leader_class = official
+		}
+		planet_jobs_energy_produces_mult = @planet_job_mult
+		planet_jobs_minerals_produces_mult = @planet_job_mult
+		planet_jobs_food_produces_mult = @planet_job_mult
+		planet_jobs_alloys_produces_mult = @planet_job_mult
+		planet_jobs_consumer_goods_produces_mult = @planet_job_mult
+		planet_jobs_exotic_gases_produces_mult = @planet_job_mult
+		planet_jobs_rare_crystals_produces_mult = @planet_job_mult
+		planet_jobs_volatile_motes_produces_mult = @planet_job_mult
+		species_empire_size_mult = @planet_empire_size
+	}
+	triggered_councilor_modifier = {
 		potential = {
 			is_ruler = yes
 		}
@@ -79,10 +99,9 @@ xte_leader_trait_valiant = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -113,10 +132,9 @@ xte_leader_trait_pertinacious = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -153,10 +171,9 @@ xte_leader_trait_arcanist = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -187,10 +204,9 @@ xte_leader_trait_life_weaver = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -220,10 +236,9 @@ xte_leader_trait_life_crafter = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -252,9 +267,8 @@ xte_leader_trait_land_of_the_free = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -287,10 +301,9 @@ xte_leader_trait_lawbringer = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -320,10 +333,9 @@ xte_leader_trait_regal = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -353,10 +365,9 @@ xte_leader_trait_skyborne_architect = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -389,11 +400,9 @@ xte_leader_trait_polymath = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
-	is_councilor_trait_for_ruler = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -422,10 +431,9 @@ xte_leader_trait_enlightened = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -451,11 +459,10 @@ xte_leader_trait_maladroit = {
 		ICON = GFX_xte_leader_trait_maladroit
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 0
 	randomized = no
 	negative = yes
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -483,7 +490,6 @@ xte_leader_trait_domineering = {
 		ICON = GFX_xte_leader_trait_domineering
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -497,7 +503,7 @@ xte_leader_trait_domineering = {
 		"xte_leader_trait_superstitious"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -525,7 +531,6 @@ xte_leader_trait_indulgent = {
 		ICON = GFX_xte_leader_trait_indulgent
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -537,7 +542,7 @@ xte_leader_trait_indulgent = {
 		"xte_leader_trait_superstitious"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -565,7 +570,6 @@ xte_leader_trait_spineless = {
 		ICON = GFX_xte_leader_trait_spineless
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -583,7 +587,7 @@ xte_leader_trait_spineless = {
 		"xte_leader_trait_superstitious"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -612,7 +616,6 @@ xte_leader_trait_hateful = {
 		ICON = GFX_xte_leader_trait_hateful
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -624,7 +627,7 @@ xte_leader_trait_hateful = {
 		"xte_leader_trait_superstitious"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -654,7 +657,6 @@ xte_leader_trait_peacemonger = {
 		ICON = GFX_xte_leader_trait_peacemonger
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -673,7 +675,7 @@ xte_leader_trait_peacemonger = {
 		"xte_leader_trait_superstitious"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -701,7 +703,6 @@ xte_leader_trait_warmonger = {
 		ICON = GFX_xte_leader_trait_warmonger
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -716,7 +717,7 @@ xte_leader_trait_warmonger = {
 		"xte_leader_trait_superstitious"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -744,13 +745,9 @@ xte_leader_trait_superstitious = {
 		ICON = GFX_xte_leader_trait_superstitious
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
-		"trait_ruler_explorer"
-		"trait_ruler_explorer_2"
-		"trait_ruler_explorer_3"
 		"xte_leader_trait_domineering"
 		"xte_leader_trait_indulgent"
 		"xte_leader_trait_spineless"
@@ -759,7 +756,7 @@ xte_leader_trait_superstitious = {
 		"xte_leader_trait_warmonger"
 		"xte_leader_trait_cynical"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -787,7 +784,6 @@ xte_leader_trait_cynical = {
 		ICON = GFX_xte_leader_trait_cynical
 		COUNCIL = yes
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -801,7 +797,7 @@ xte_leader_trait_cynical = {
 		"xte_leader_trait_warmonger"
 		"xte_leader_trait_superstitious"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -829,7 +825,6 @@ xte_leader_trait_extravagant_1 = {
 		COUNCIL = yes
 		TIER = none
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -840,7 +835,7 @@ xte_leader_trait_extravagant_1 = {
 		#"xte_leader_trait_extravagant_2"
 		#"xte_leader_trait_extravagant_3"
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -868,7 +863,6 @@ xte_leader_trait_extravagant_2 = {
 		COUNCIL = yes
 		TIER = 1
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -880,7 +874,7 @@ xte_leader_trait_extravagant_2 = {
 		#"xte_leader_trait_extravagant_3"
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -911,7 +905,6 @@ xte_leader_trait_extravagant_3 = {
 		COUNCIL = yes
 		TIER = 2
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -923,7 +916,7 @@ xte_leader_trait_extravagant_3 = {
 		#"xte_leader_trait_extravagant_4"
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}
@@ -955,7 +948,6 @@ xte_leader_trait_extravagant_4 = {
 		COUNCIL = yes
 		TIER = 3
 	}
-	councilor_trait = yes
 	cost = 1
 	negative = yes
 	opposites = {
@@ -970,7 +962,7 @@ xte_leader_trait_extravagant_4 = {
 	leader_potential_add = {
 		species = { has_trait = xte_trait_hedonistic }
 	}
-	triggered_modifier = {
+	triggered_councilor_modifier = {
 		potential = {
 			always = yes
 		}

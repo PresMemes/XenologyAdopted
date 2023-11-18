@@ -5,7 +5,7 @@ xte_anti_stacking_value = {
 
 	modifier = {
 		is_councilor = no
-		add = 0
+		set = 1
 	}
 
 	modifier = {
@@ -13,7 +13,7 @@ xte_anti_stacking_value = {
 		divide = value:xte_div_by_zero_workaround|LEADER_TRAIT|$LEADER_TRAIT$|
 	}
 
-	min = 0
+	# min = 0
 }
 
 # Same as above, but to account for the four (4) version of extravagant
@@ -23,7 +23,7 @@ xte_anti_stacking_extravagant_value = {
 
 	modifier = {
 		is_councilor = no
-		add = 0
+		set = 1
 	}
 
 	modifier = {
@@ -31,7 +31,7 @@ xte_anti_stacking_extravagant_value = {
 		divide = value:xte_div_by_zero_workaround|EXTRAVAGANT|yes|
 	}
 
-	min = 0
+	# min = 0
 }
 
 # Avoid error.log spamming divide by 0 warnings
