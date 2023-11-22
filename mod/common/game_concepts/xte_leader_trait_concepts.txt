@@ -3,11 +3,6 @@
 ######################
 concept_xte_mod = {}
 concept_xte_leader_trait_ancestral_knowledge = { icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_ancestral_knowledge.dds" }
-concept_xte_ancestral_knowledge_ruler = { icon = "gfx/interface/icons/text_icons/text_icon_ruler.dds" }
-concept_xte_ancestral_knowledge_governor = { icon = "gfx/interface/icons/text_icons/text_icon_governor.dds" }
-concept_xte_ancestral_knowledge_admiral = { icon = "gfx/interface/icons/text_icons/text_icon_admiral.dds" }
-concept_xte_ancestral_knowledge_general = { icon = "gfx/interface/icons/text_icons/text_icon_general.dds" }
-concept_xte_ancestral_knowledge_scientist = { icon = "gfx/interface/icons/text_icons/text_icon_scientist.dds" }
 
 ######################
 # COUNCILOR CONCEPTS #
@@ -40,39 +35,39 @@ concept_xte_leader_trait_extravagant = { icon = "gfx/interface/icons/traits/lead
 #####################
 # GOVERNOR CONCEPTS #
 #####################
-concept_xte_governor_trait_naturalist = { icon = "gfx/interface/icons/traits/leader_traits/leader_trait_xte_naturalist_concept.dds" }
-concept_xte_governor_trait_machinist = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_machinist.dds" }
-concept_xte_governor_trait_fanatic_thermopile = { icon = "gfx/interface/icons/traits/leader_traits/xte_governor_trait_fanatic_thermopile_concept.dds" }
-concept_xte_governor_trait_reliable = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_reliable.dds" }
-concept_xte_governor_trait_sheriff = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_sheriff.dds" }
-concept_xte_governor_trait_efficient = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_efficient.dds" }
-concept_xte_governor_trait_diligent = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_diligent.dds" }
-concept_xte_governor_trait_forge_master = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_forge_master.dds" }
-concept_xte_governor_trait_patron_of_the_arts = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_patron_of_the_arts.dds" }
-concept_xte_governor_trait_inattentive = { icon = "gfx/interface/icons/traits/leader_traits/xte_governor_trait_inattentive_concept.dds" }
+concept_xte_official_trait_naturalist = { icon = "gfx/interface/icons/traits/leader_traits/leader_trait_xte_naturalist_concept.dds" }
+concept_xte_official_trait_machinist = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_machinist.dds" }
+concept_xte_official_trait_fanatic_thermopile = { icon = "gfx/interface/icons/traits/leader_traits/xte_official_trait_fanatic_thermopile_concept.dds" }
+concept_xte_official_trait_reliable = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_reliable.dds" }
+concept_xte_official_trait_sheriff = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_sheriff.dds" }
+concept_xte_official_trait_efficient = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_efficient.dds" }
+concept_xte_official_trait_diligent = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_diligent.dds" }
+concept_xte_official_trait_forge_master = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_forge_master.dds" }
+concept_xte_official_trait_patron_of_the_arts = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_patron_of_the_arts.dds" }
+concept_xte_official_trait_inattentive = { icon = "gfx/interface/icons/traits/leader_traits/xte_official_trait_inattentive_concept.dds" }
 
 ####################
 # ADMIRAL CONCEPTS #
 ####################
-concept_xte_admiral_trait_paladin = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_paladin.dds" }
-concept_xte_admiral_trait_opportunistic = { icon = "gfx/interface/icons/traits/leader_traits/leader_trait_xte_opportunistic_concept.dds" }
-concept_xte_admiral_trait_inspired_thermal_engineer = { icon = "gfx/interface/icons/traits/leader_traits/xte_admiral_trait_inspired_thermal_engineer_concept.dds" }
-concept_xte_admiral_trait_gendarme = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_gendarme.dds" }
-concept_xte_admiral_trait_underdog = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_underdog.dds" }
-concept_xte_admiral_trait_carrier_commander = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_carrier_commander.dds" }
-concept_xte_admiral_trait_computing_expert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_computing_expert.dds" }
-concept_xte_admiral_trait_propulsion_expert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_propulsion_expert.dds" }
-concept_xte_admiral_trait_gunnery_expert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_gunnery_expert.dds" }
-concept_xte_admiral_trait_arrogant = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_arrogant.dds" }
-concept_xte_admiral_trait_inert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds" }
+concept_xte_commander_trait_paladin = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_paladin.dds" }
+concept_xte_commander_trait_opportunistic = { icon = "gfx/interface/icons/traits/leader_traits/leader_trait_xte_opportunistic_concept.dds" }
+concept_xte_commander_trait_inspired_thermal_engineer = { icon = "gfx/interface/icons/traits/leader_traits/xte_commander_trait_inspired_thermal_engineer_concept.dds" }
+concept_xte_commander_trait_gendarme = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_gendarme.dds" }
+concept_xte_commander_trait_underdog = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_underdog.dds" }
+concept_xte_commander_trait_carrier_commander = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_carrier_commander.dds" }
+concept_xte_commander_trait_computing_expert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_computing_expert.dds" }
+concept_xte_commander_trait_propulsion_expert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_propulsion_expert.dds" }
+concept_xte_commander_trait_gunnery_expert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_gunnery_expert.dds" }
+concept_xte_commander_trait_arrogant = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_arrogant.dds" }
+concept_xte_commander_trait_inert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds" }
 
 ####################
 # GENERAL CONCEPTS #
 ####################
-concept_xte_general_trait_forecaster = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_forecaster.dds" }
-concept_xte_general_trait_thermic_symbiote = { icon = "gfx/interface/icons/traits/leader_traits/xte_general_trait_thermic_symbiote_concept.dds" }
-concept_xte_general_trait_battle_mounts = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_battle_mounts.dds" }
-concept_xte_general_trait_cavalier = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_cavalier.dds" }
+concept_xte_commander_trait_forecaster = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_forecaster.dds" }
+concept_xte_commander_trait_thermic_symbiote = { icon = "gfx/interface/icons/traits/leader_traits/xte_commander_trait_thermic_symbiote_concept.dds" }
+concept_xte_commander_trait_battle_mounts = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_battle_mounts.dds" }
+concept_xte_commander_trait_cavalier = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_cavalier.dds" }
 
 ######################
 # SCIENTIST CONCEPTS #

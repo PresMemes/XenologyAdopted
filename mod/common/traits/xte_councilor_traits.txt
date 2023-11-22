@@ -1,95 +1,6 @@
 #############################
 # Xenology Councilor Traits #
 #############################
-xte_leader_trait_ancestral_knowledge = { # Technically not a councilor trait but I don't want to move it to a new file
-	inline_script = {
-		script = trait/xte_icon
-		CLASS = leader
-		ICON = GFX_xte_leader_trait_ancestral_knowledge
-		RARITY = xte_positive
-		COUNCIL = no
-		TIER = none
-	}
-	cost = 0
-	randomized = no
-	triggered_fleet_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = commander
-		}
-		ship_fire_rate_mult = 0.06
-		ship_disengage_opportunities_add = 0.4
-	}
-	triggered_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = scientist
-		}
-		science_ship_survey_speed = 0.2
-		ship_archaeological_site_clues_add = 2
-	}
-	triggered_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = commander
-		}
-		army_damage_mult = 0.1
-	}
-	triggered_planet_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = official
-		}
-		planet_jobs_energy_produces_mult = @[planet_job_mult*2]
-		planet_jobs_minerals_produces_mult = @[planet_job_mult*2]
-		planet_jobs_food_produces_mult = @[planet_job_mult*2]
-		planet_jobs_alloys_produces_mult = @[planet_job_mult*2]
-		planet_jobs_consumer_goods_produces_mult = @[planet_job_mult*2]
-		planet_jobs_exotic_gases_produces_mult = @[planet_job_mult*2]
-		planet_jobs_rare_crystals_produces_mult = @[planet_job_mult*2]
-		planet_jobs_volatile_motes_produces_mult = @[planet_job_mult*2]
-		species_empire_size_mult = @[planet_empire_size*2]
-	}
-	triggered_sector_modifier = {
-		potential = {
-			is_ruler = no
-			leader_class = official
-		}
-		planet_jobs_energy_produces_mult = @planet_job_mult
-		planet_jobs_minerals_produces_mult = @planet_job_mult
-		planet_jobs_food_produces_mult = @planet_job_mult
-		planet_jobs_alloys_produces_mult = @planet_job_mult
-		planet_jobs_consumer_goods_produces_mult = @planet_job_mult
-		planet_jobs_exotic_gases_produces_mult = @planet_job_mult
-		planet_jobs_rare_crystals_produces_mult = @planet_job_mult
-		planet_jobs_volatile_motes_produces_mult = @planet_job_mult
-		species_empire_size_mult = @planet_empire_size
-	}
-	triggered_councilor_modifier = {
-		potential = {
-			is_ruler = yes
-		}
-		councilor_skill_add = 1
-	}
-	triggered_self_modifier = {
-		potential = {
-			is_ruler = yes
-		}
-		leader_trait_selection_options_add = 1
-		negative_traits_leader = -1
-	}
-	leader_potential_add = {
-		species = { has_trait = xte_trait_genetic_memory }
-	}
-	requires_traits = {
-		xte_trait_genetic_memory
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 150
-	}
-}
-
 xte_leader_trait_valiant = {
 	inline_script = {
 		script = trait/xte_icon
@@ -111,16 +22,8 @@ xte_leader_trait_valiant = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_valiant|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_stalwart }
-	}
-	requires_traits = {
-		xte_trait_stalwart
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 250
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_pertinacious = {
@@ -150,16 +53,8 @@ xte_leader_trait_pertinacious = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_pertinacious|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = {	OR = { has_trait = xte_trait_apex_predator has_trait = xte_trait_apex_predator_lithoid } }
-	}
-	requires_traits = {
-		xte_trait_apex_predator
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 250
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_arcanist = {
@@ -183,16 +78,8 @@ xte_leader_trait_arcanist = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_arcanist|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_analytical }
-	}
-	requires_traits = {
-		xte_trait_analytical
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 200
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_life_weaver = {
@@ -210,21 +97,14 @@ xte_leader_trait_life_weaver = {
 		potential = {
 			always = yes
 		}
-		BIOLOGICAL_species_trait_points_add = 1.03 													# The reason why this (and others) are 1.03 and not 1.00 is due to rounding errors
-		LITHOID_species_trait_points_add = 1.03														# 1.00 / 3 = 0.33333334 -> rounded to 0.33 -> 0.33*3 = 0.99
-		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_weaver|		# Unless PDS makes councilor traits not stack, this value should stay at 1.03 otherwise it'll feel terrible missing out on a trait point
+		# 1.03 due to rounding errors
+		BIOLOGICAL_species_trait_points_add = 1.03
+		LITHOID_species_trait_points_add = 1.03
+		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_weaver|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_theoretical }
-	}
-	requires_traits = {
-		xte_trait_theoretical
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 200
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_life_crafter = {
@@ -246,16 +126,8 @@ xte_leader_trait_life_crafter = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_life_crafter|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_practical }
-	}
-	requires_traits = {
-		xte_trait_practical
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 200
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_land_of_the_free = {
@@ -280,16 +152,8 @@ xte_leader_trait_land_of_the_free = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_land_of_the_free|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_unbound }
-	}
-	requires_traits = {
-		xte_trait_unbound
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 20
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_lawbringer = {
@@ -312,16 +176,8 @@ xte_leader_trait_lawbringer = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_lawbringer|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_lawful }
-	}
-	requires_traits = {
-		xte_trait_lawful
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 150
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_regal = {
@@ -340,7 +196,7 @@ xte_leader_trait_regal = {
 			always = yes
 		}
 		councilor_exp_gain = 0.25
-		faction_approval = 0.1
+		faction_approval = 0.15
 		country_trust_cap_add = 10
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_regal|
 	}
@@ -353,16 +209,8 @@ xte_leader_trait_regal = {
 	#	multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_regal|
 	#}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_illustrious }
-	}
-	requires_traits = {
-		xte_trait_illustrious
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 150
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_skyborne_architect = {
@@ -388,16 +236,8 @@ xte_leader_trait_skyborne_architect = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_skyborne_architect|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_megalomaniacs }
-	}
-	requires_traits = {
-		xte_trait_megalomaniacs
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 150
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_polymath = {
@@ -419,16 +259,8 @@ xte_leader_trait_polymath = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_polymath|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_flexible }
-	}
-	requires_traits = {
-		xte_trait_flexible
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 150
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_enlightened = {
@@ -450,16 +282,8 @@ xte_leader_trait_enlightened = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_enlightened|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_avant_garde }
-	}
-	requires_traits = {
-		xte_trait_avant_garde
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 100
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_maladroit = {
@@ -481,16 +305,8 @@ xte_leader_trait_maladroit = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_maladroit|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_inept }
-	}
-	requires_traits = {
-		xte_trait_inept
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 100
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_domineering = {
@@ -522,16 +338,8 @@ xte_leader_trait_domineering = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_valiant|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_indulgent = {
@@ -561,16 +369,8 @@ xte_leader_trait_indulgent = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_indulgent|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_spineless = {
@@ -607,16 +407,8 @@ xte_leader_trait_spineless = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_spineless|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_hateful = {
@@ -647,17 +439,8 @@ xte_leader_trait_hateful = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_hateful|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		from = { NOT = { has_valid_civic = "civic_fanatic_purifiers" } }
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_peacemonger = {
@@ -694,16 +477,8 @@ xte_leader_trait_peacemonger = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_peacemonger|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_warmonger = {
@@ -736,16 +511,8 @@ xte_leader_trait_warmonger = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_warmonger|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_superstitious = {
@@ -775,16 +542,8 @@ xte_leader_trait_superstitious = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_superstitious|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_cynical = {
@@ -815,16 +574,8 @@ xte_leader_trait_cynical = {
 		multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_cynical|
 	}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
-	leader_potential_add = {
-		species = { has_trait = xte_trait_obstinate }
-	}
-	requires_traits = {
-		xte_trait_obstinate
-	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_potential_add = { always = no }
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_extravagant_1 = {
@@ -859,10 +610,7 @@ xte_leader_trait_extravagant_1 = {
 	requires_traits = {
 		xte_trait_hedonistic
 	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_extravagant_2 = {
@@ -901,10 +649,7 @@ xte_leader_trait_extravagant_2 = {
 	replace_traits = {
 		xte_leader_trait_extravagant_1
 	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_extravagant_3 = {
@@ -941,13 +686,9 @@ xte_leader_trait_extravagant_3 = {
 		xte_trait_hedonistic
 	}
 	replace_traits = {
-		xte_leader_trait_extravagant_1
 		xte_leader_trait_extravagant_2
 	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_class = { commander scientist official }
 }
 
 xte_leader_trait_extravagant_4 = {
@@ -984,12 +725,7 @@ xte_leader_trait_extravagant_4 = {
 		xte_trait_hedonistic
 	}
 	replace_traits = {
-		xte_leader_trait_extravagant_1
-		xte_leader_trait_extravagant_2
 		xte_leader_trait_extravagant_3
 	}
-	leader_class = { admiral scientist general governor }
-	ai_weight = {
-		weight = 0
-	}
+	leader_class = { commander scientist official }
 }
