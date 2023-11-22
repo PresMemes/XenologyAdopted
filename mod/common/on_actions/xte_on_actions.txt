@@ -12,6 +12,7 @@ on_game_start = {
 on_single_player_save_game_load = {
 	events = {
 		xte_traits_ev.1000
+		xte_fixer_ev.1
 	}
 }
 
@@ -22,12 +23,3 @@ on_leader_spawned = {
 		xte_traits_ev.999
  	}
 }
-
-# Executed as a leader is hired
-# This = Leader
-# on_leader_hired = {
-# 	events = {
-#		#PM: Possible optimization for councilor traits by
-#		# setting a flag which is checked before doing math
-# 	}
-# }

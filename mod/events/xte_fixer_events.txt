@@ -1,0 +1,33 @@
+namespace = xte_fixer_ev
+
+# Replace outdated trait with new versions
+event = {
+	id = xte_fixer_ev.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			every_owned_leader = {
+				limit = { has_trait = xte_leader_trait_ancestral_memory }
+				remove_trait = xte_leader_trait_ancestral_memory
+				switch = {
+					trigger = leader_class
+					commander = { add_trait_no_notify = xte_commander_trait_ancestral_knowledge }
+					official = { add_trait_no_notify = xte_official_trait_ancestral_knowledge }
+					scientist = { add_trait_no_notify = xte_scientist_trait_ancestral_knowledge }
+				}
+			}
+			every_pool_leader = {
+				limit = { has_trait = xte_leader_trait_ancestral_memory }
+				remove_trait = xte_leader_trait_ancestral_memory
+				switch = {
+					trigger = leader_class
+					commander = { add_trait_no_notify = xte_commander_trait_ancestral_knowledge }
+					official = { add_trait_no_notify = xte_official_trait_ancestral_knowledge }
+					scientist = { add_trait_no_notify = xte_scientist_trait_ancestral_knowledge }
+				}
+			}
+		}
+	}
+}
