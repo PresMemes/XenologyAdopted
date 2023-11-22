@@ -3,10 +3,10 @@
  # Maschinenübersetzt über DeepL
  xte_always:0 "Erzeugen Sie immer die folgenden Merkmale:"
  xte_sometimes:0 "Manchmal erzeugen sie die folgenden Merkmale:"
- xte_admirals:0 "$t$§E$admiral_plural_with_icon$:§!"
- xte_generals:0 "$t$§E$general_plural_with_icon$:§!"
+ xte_admirals:0 "$t$§E$commander_plural_with_icon$:§!"
+ xte_generals:0 "$t$§E$commander_plural_with_icon$:§!"
  xte_scientists:0 "$t$§E$scientist_plural_with_icon$:§!"
- xte_governors:0 "$t$§E$governor_plural_with_icon$:§!"
+ xte_governors:0 "$t$§E$official_plural_with_icon$:§!"
  xte_all_leaders:0 "$t$£noclass£ §EAlle $leaders$:§!"
  xte_added_by_notification: "$concept_xte_mod_added$"
 

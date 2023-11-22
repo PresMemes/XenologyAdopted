@@ -2,10 +2,10 @@
 
  xte_always:0 "§WAlways§! generate the following trait(s):§!"
  xte_sometimes:0 "§WSometimes§! generate the following trait(s):§!"
- xte_admirals:0 "$t$§E$admiral_plural_with_icon$:§!"
- xte_generals:0 "$t$§E$general_plural_with_icon$:§!"
+ xte_admirals:0 "$t$§E$commander_plural_with_icon$:§!"
+ xte_generals:0 "$t$§E$commander_plural_with_icon$:§!"
  xte_scientists:0 "$t$§E$scientist_plural_with_icon$:§!"
- xte_governors:0 "$t$§E$governor_plural_with_icon$:§!"
+ xte_governors:0 "$t$§E$official_plural_with_icon$:§!"
  xte_all_leaders:0 "$t$£noclass£ §EAll $leaders$:§!"
  xte_added_by_notification: "$concept_xte_mod_added$"
 

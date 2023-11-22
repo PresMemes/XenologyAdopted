@@ -2,10 +2,10 @@
 
  xte_always:0 "Générer toujours le(s) trait(s) suivant(s):"
  xte_sometimes:0 "Génère parfois le(s) trait(s) suivant(s):"
- xte_admirals:0 "$t$§E$admiral_plural_with_icon$:§!"
- xte_generals:0 "$t$§E$general_plural_with_icon$:§!"
+ xte_admirals:0 "$t$§E$commander_plural_with_icon$:§!"
+ xte_generals:0 "$t$§E$commander_plural_with_icon$:§!"
  xte_scientists:0 "$t$§E$scientist_plural_with_icon$:§!"
- xte_governors:0 "$t$§E$governor_plural_with_icon$:§!"
+ xte_governors:0 "$t$§E$official_plural_with_icon$:§!"
  xte_all_leaders:0 "$t$£noclass£ §ETous $leaders$:§!"
  xte_added_by_notification: "$concept_xte_mod_added$"
 
