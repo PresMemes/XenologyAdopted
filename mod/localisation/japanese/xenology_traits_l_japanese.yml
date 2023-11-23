@@ -115,6 +115,7 @@
 
  # Universal Traits
 
+ # Unused, but kept around for the other traits to work
  xte_leader_trait_ancestral_knowledge:0 "Ancestral Knowledge"
  xte_leader_trait_ancestral_knowledge_desc:0 "This leader's genetic history grants them additional proficiency in their field."
 
@@ -172,9 +173,11 @@
  xte_leader_trait_extravagant_4:0 "$xte_leader_trait_extravagant$"
  xte_leader_trait_extravagant_4_desc:0 "$xte_leader_trait_extravagant_desc$"
 
- # Governor Traits
+ # Official Traits
  # common/traits/xte_official_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_official_trait_naturalist:0 "Naturalist"
  xte_official_trait_naturalist_desc:0 "This leader expertly uses natural environments to their advantage, improving quality of life without damaging the ecosystem."
  xte_official_trait_machinist:0 "Machinist"
@@ -199,6 +202,8 @@
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
+ xte_scientist_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_scientist_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_scientist_trait_pioneer:0 "Pioneer"
  xte_scientist_trait_pioneer_desc:0 "Though perhaps not the most flexible, this leader notices even the slightest irregularities during the survey process."
  xte_scientist_trait_enzyme_curator: "Enzyme Curator"
@@ -208,9 +213,11 @@
  xte_scientist_trait_fastidious:0 "Fastidious"
  xte_scientist_trait_fastidious_desc:0 "This leader's inflexible adherence to protocol greatly diminishes the efficacy of their survey efforts."
 
- # Admiral Traits
+ # Commander Traits
  # common/traits/xte_commander_traits.txt
 
+ xte_commander_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_commander_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_commander_trait_paladin:0 "Paladin"
  xte_commander_trait_paladin_desc:0 "This leader is particularly zealous in driving off hostile invaders, leading battle after battle with neither rest nor respite."
  xte_commander_trait_inspired_thermal_engineer: "Inspired Thermal Engineer"

@@ -172,9 +172,11 @@
  xte_leader_trait_extravagant_4:0 "$xte_leader_trait_extravagant$"
  xte_leader_trait_extravagant_4_desc:0 "$xte_leader_trait_extravagant_desc$"
 
- # Governor Traits
+ # Official Traits
  # common/traits/xte_official_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_official_trait_naturalist:0 "Натуралист"
  xte_official_trait_naturalist_desc:0 "Этот лидер умело использует природные условия в своих интересах, улучшая качество жизни без ущерба для экосистемы."
  xte_official_trait_machinist:0 "Машинист"
@@ -199,6 +201,8 @@
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
+ xte_scientist_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_scientist_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_scientist_trait_pioneer:0 "Пионер"
  xte_scientist_trait_pioneer_desc:0 "Возможно, не самый гибкий, этот лидер замечает даже малейшие нарушения в процессе исследования."
  xte_scientist_trait_enzyme_curator: "Куратор Ферментов"
@@ -208,9 +212,11 @@
  xte_scientist_trait_fastidious:0 "Придирчивый"
  xte_scientist_trait_fastidious_desc:0 "Негибкое следование протоколу этого лидера значительно снижает эффективность его работы."
 
- # Admiral Traits
+ # Commander Traits
  # common/traits/xte_commander_traits.txt
 
+ xte_commander_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_commander_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_commander_trait_paladin:0 "Паладин"
  xte_commander_trait_paladin_desc:0 "Этот лидер с особым рвением отгоняет вражеских захватчиков, ведя битву за битвой без отдыха и передышки."
  xte_commander_trait_opportunistic:0 "Opportunistic"
@@ -233,9 +239,6 @@
  xte_commander_trait_arrogant_desc:0 "Этот лидер склонен недооценивать противника и переоценивать свои силы. Они обычно игнорируют приказы об отступлении до последней минуты."
  xte_commander_trait_inert:0 "Инертный"
  xte_commander_trait_inert_desc:0 "Этот лидер медлителен и нерешителен в бою, реагируя на новые обстоятельства с обычной для своего вида вялостью."
-
- # General Traits
- # common/traits/xte_commander_traits.txt
 
  xte_commander_trait_forecaster:0 "Предсказатель"
  xte_commander_trait_forecaster_desc:0 "Этот лидер использует передовые математические модели для прогнозирования и планирования действий противника."

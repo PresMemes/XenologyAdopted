@@ -102,7 +102,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_profligate.dds"
 	}
 
-	# GOVERNORS
+	# OFFICIALS
 	spriteType = {
 		name = "GFX_xte_leader_trait_naturalist"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_naturalist.dds"
@@ -162,7 +162,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_fastidious.dds"
 	}
 
-	# ADMIRALS
+	# COMMANDERS
 	spriteType = {
 		name = "GFX_xte_leader_trait_paladin"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_paladin.dds"
@@ -207,8 +207,6 @@ spriteTypes = {
 		name = "GFX_xte_leader_trait_inert"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_inert.dds"
 	}
-
-	# GENERALS
 	spriteType = {
 		name = "GFX_xte_leader_trait_forecaster"
 		texturefile = "gfx/interface/icons/traits/leader_trait_icons/leader_trait_xte_forecaster.dds"

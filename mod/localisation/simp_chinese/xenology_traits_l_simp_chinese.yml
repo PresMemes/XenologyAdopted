@@ -172,9 +172,11 @@
  xte_leader_trait_extravagant_4:0 "$xte_leader_trait_extravagant$"
  xte_leader_trait_extravagant_4_desc:0 "$xte_leader_trait_extravagant_desc$"
 
- # Governor Traits
+ # Official Traits
  # common/traits/xte_official_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_official_trait_naturalist:0 "自然主义者"
  xte_official_trait_naturalist_desc:0 "这个领导人善于利用自然环境的优势，在不破坏生态系统的情况下提高生活质量。"
  xte_official_trait_machinist:0 "机械师"
@@ -199,6 +201,8 @@
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
+ xte_scientist_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_scientist_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_scientist_trait_pioneer:0 "先驱者"
  xte_scientist_trait_pioneer_desc:0 "虽然可能不是最灵活的，但这位领导人在调查过程中会注意到哪怕是最轻微的违规行为。"
  xte_scientist_trait_enzyme_curator: "酶库守护者"
@@ -208,9 +212,11 @@
  xte_scientist_trait_fastidious:0 "严谨的人"
  xte_scientist_trait_fastidious_desc:0 "这种领导对协议的僵硬遵守大大降低了他们调查工作的效率。"
 
- # Admiral Traits
+ # Commander Traits
  # common/traits/xte_commander_traits.txt
 
+ xte_commander_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_commander_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_commander_trait_paladin:0 "圣骑士"
  xte_commander_trait_paladin_desc:0 "这种领袖在赶走敌对的入侵者方面特别热心，领导了一场又一场的战斗，既不休息也不喘息。"
  xte_commander_trait_opportunistic:0 "机会主义者"
@@ -233,9 +239,6 @@
  xte_commander_trait_arrogant_desc:0 "这种领导人倾向于低估敌人，高估自己的实力。他们通常会无视撤退的命令，直到最后一刻。"
  xte_commander_trait_inert:0 "惰性"
  xte_commander_trait_inert_desc:0 "这种领袖在战斗中缓慢而优柔寡断，对新情况的反应是他们这个物种一贯的慵懒。"
-
- # General Traits
- # common/traits/xte_commander_traits.txt
 
  xte_commander_trait_forecaster:0 "预测者"
  xte_commander_trait_forecaster_desc:0 "这种领导者使用先进的数学模型来预测和计划敌人的行动。"

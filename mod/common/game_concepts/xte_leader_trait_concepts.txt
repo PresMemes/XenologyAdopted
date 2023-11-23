@@ -33,7 +33,7 @@ concept_xte_leader_trait_superstitious = { icon = "gfx/interface/icons/traits/le
 concept_xte_leader_trait_extravagant = { icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_profligate.dds" }
 
 #####################
-# GOVERNOR CONCEPTS #
+# OFFICIAL CONCEPTS #
 #####################
 concept_xte_official_trait_naturalist = { icon = "gfx/interface/icons/traits/leader_traits/leader_trait_xte_naturalist_concept.dds" }
 concept_xte_official_trait_machinist = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_machinist.dds" }
@@ -46,9 +46,9 @@ concept_xte_official_trait_forge_master = { icon = "gfx/interface/icons/traits/l
 concept_xte_official_trait_patron_of_the_arts = { icon = "gfx/interface/icons/traits/leader_traits/trait_governor_patron_of_the_arts.dds" }
 concept_xte_official_trait_inattentive = { icon = "gfx/interface/icons/traits/leader_traits/xte_official_trait_inattentive_concept.dds" }
 
-####################
-# ADMIRAL CONCEPTS #
-####################
+######################
+# COMMANDER CONCEPTS #
+######################
 concept_xte_commander_trait_paladin = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_paladin.dds" }
 concept_xte_commander_trait_opportunistic = { icon = "gfx/interface/icons/traits/leader_traits/leader_trait_xte_opportunistic_concept.dds" }
 concept_xte_commander_trait_inspired_thermal_engineer = { icon = "gfx/interface/icons/traits/leader_traits/xte_commander_trait_inspired_thermal_engineer_concept.dds" }
@@ -61,9 +61,6 @@ concept_xte_commander_trait_gunnery_expert = { icon = "gfx/interface/icons/trait
 concept_xte_commander_trait_arrogant = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_arrogant.dds" }
 concept_xte_commander_trait_inert = { icon = "gfx/interface/icons/traits/leader_traits/trait_admiral_inert.dds" }
 
-####################
-# GENERAL CONCEPTS #
-####################
 concept_xte_commander_trait_forecaster = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_forecaster.dds" }
 concept_xte_commander_trait_thermic_symbiote = { icon = "gfx/interface/icons/traits/leader_traits/xte_commander_trait_thermic_symbiote_concept.dds" }
 concept_xte_commander_trait_battle_mounts = { icon = "gfx/interface/icons/traits/leader_traits/trait_general_battle_mounts.dds" }

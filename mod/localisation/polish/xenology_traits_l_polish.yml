@@ -172,9 +172,11 @@
  xte_leader_trait_extravagant_4:0 "$xte_leader_trait_extravagant$"
  xte_leader_trait_extravagant_4_desc:0 "$xte_leader_trait_extravagant_desc$"
 
- # Governor Traits
+ # Official Traits
  # common/traits/xte_official_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_official_trait_naturalist:0 "Naturalista"
  xte_official_trait_naturalist_desc:0 "Ten przywódca umiejętnie wykorzystuje naturalne środowisko na swoją korzyść, poprawiając jakość życia bez niszczenia ekosystemu."
  xte_official_trait_machinist:0 "Maszynista"
@@ -199,6 +201,8 @@
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
+ xte_scientist_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_scientist_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_scientist_trait_pioneer:0 "Pionier"
  xte_scientist_trait_pioneer_desc:0 "Choć może nie jest najbardziej elastyczny, ten lider zauważa nawet najmniejsze nieprawidłowości podczas procesu badania."
  xte_scientist_trait_enzyme_curator: "Kustosz Enzymów"
@@ -208,9 +212,11 @@
  xte_scientist_trait_fastidious:0 "Skrupulatny"
  xte_scientist_trait_fastidious_desc:0 "Nieelastyczne przestrzeganie protokołu przez tego lidera znacznie zmniejsza skuteczność jego wysiłków badawczych."
 
- # Admiral Traits
+ # Commander Traits
  # common/traits/xte_commander_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_commander_trait_paladin:0 "Paladyn"
  xte_commander_trait_paladin_desc:0 "Ten przywódca jest szczególnie gorliwy w odpieraniu wrogich najeźdźców, prowadząc bitwę za bitwą bez wytchnienia."
  xte_commander_trait_opportunistic:0 "Oportunista"

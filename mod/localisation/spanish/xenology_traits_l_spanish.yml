@@ -172,9 +172,11 @@
  xte_leader_trait_extravagant_4:0 "$xte_leader_trait_extravagant$"
  xte_leader_trait_extravagant_4_desc:0 "$xte_leader_trait_extravagant_desc$"
 
- # Governor Traits
+ # Official Traits
  # common/traits/xte_official_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_official_trait_naturalist:0 "Naturalista"
  xte_official_trait_naturalist_desc:0 "Este líder utiliza con pericia los entornos naturales en su beneficio, mejorando la calidad de vida sin dañar el ecosistema."
  xte_official_trait_machinist:0 "Maquinista"
@@ -199,6 +201,8 @@
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
+ xte_scientist_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_scientist_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_scientist_trait_pioneer:0 "Pionero"
  xte_scientist_trait_pioneer_desc:0 "Aunque quizá no sea el más flexible, este líder se percata de las más mínimas irregularidades durante el proceso de reconocimiento."
  xte_scientist_trait_enzyme_curator: "Curador de Enzimas"
@@ -208,9 +212,11 @@
  xte_scientist_trait_fastidious:0 "Fastidioso"
  xte_scientist_trait_fastidious_desc:0 "La inflexible adherencia de este líder al protocolo disminuye en gran medida la eficacia de sus esfuerzos de reconocimiento."
 
- # Admiral Traits
+ # Commander Traits
  # common/traits/xte_commander_traits.txt
 
+ xte_commander_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_commander_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_commander_trait_paladin:0 "Paladín"
  xte_commander_trait_paladin_desc:0 "Este líder es especialmente celoso a la hora de expulsar a los invasores hostiles, dirigiendo batalla tras batalla sin descanso ni tregua."
  xte_commander_trait_opportunistic:0 "Oportunista"
@@ -233,10 +239,7 @@
  xte_commander_trait_arrogant_desc:0 "Este líder tiende a subestimar al enemigo y a sobrestimar su propia fuerza. Suele ignorar las órdenes de retirada hasta el último momento."
  xte_commander_trait_inert:0 "Inerte"
  xte_commander_trait_inert_desc:0 "Este líder es lento e indeciso en la batalla, respondiendo a las nuevas circunstancias con la languidez habitual de su especie."
-
- # General Traits
- # common/traits/xte_commander_traits.txt
-
+ 
  xte_commander_trait_forecaster:0 "Previsor"
  xte_commander_trait_forecaster_desc:0 "Este líder utiliza modelos matemáticos avanzados para predecir y planificar las acciones del enemigo."
  xte_commander_trait_thermic_symbiote: "Simbionte Térmico"

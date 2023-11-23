@@ -175,6 +175,8 @@
  # Governor Traits
  # common/traits/xte_official_traits.txt
 
+ xte_official_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_official_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_official_trait_naturalist:0 "Naturalista"
  xte_official_trait_naturalist_desc:0 "Esse líder usa habilmente os ambientes naturais a seu favor, melhorando a qualidade de vida sem prejudicar o ecossistema."
  xte_official_trait_machinist:0 "Maquinista"
@@ -199,6 +201,8 @@
  # Scientist Traits
  # common/traits/xte_scientist_traits.txt
 
+ xte_scientist_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_scientist_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_scientist_trait_pioneer:0 "Pioneiro"
  xte_scientist_trait_pioneer_desc:0 "Embora talvez não seja o mais flexível, esse líder percebe até mesmo as menores irregularidades durante o processo de pesquisa."
  xte_scientist_trait_enzyme_curator: "Curador de Enzimas"
@@ -211,6 +215,8 @@
  # Admiral Traits
  # common/traits/xte_commander_traits.txt
 
+ xte_commander_trait_ancestral_knowledge: "$xte_leader_trait_ancestral_knowledge$"
+ xte_commander_trait_ancestral_knowledge_desc: "$xte_leader_trait_ancestral_knowledge_desc$"
  xte_commander_trait_paladin:0 "Paladino"
  xte_commander_trait_paladin_desc:0 "Esse líder é particularmente zeloso na expulsão de invasores hostis, liderando batalha após batalha sem descanso nem trégua."
  xte_commander_trait_opportunistic:0 "Oportunista"
@@ -233,9 +239,6 @@
  xte_commander_trait_arrogant_desc:0 "Esse líder tende a subestimar o inimigo e a superestimar sua própria força. Ele geralmente ignora as ordens de retirada até o último minuto."
  xte_commander_trait_inert:0 "Inerte"
  xte_commander_trait_inert_desc:0 "Esse líder é lento e indeciso em batalha, respondendo a novas circunstâncias com a lentidão habitual de sua espécie."
-
- # General Traits
- # common/traits/xte_commander_traits.txt
 
  xte_commander_trait_forecaster:0 "Previsor"
  xte_commander_trait_forecaster_desc:0 "Esse líder usa modelos matemáticos avançados para prever e planejar as ações do inimigo."
