@@ -18,8 +18,8 @@ xte_commander_trait_ancestral_knowledge = {
 		planet_jobs_specialist_produces_mult = @xte_negative_planet_job_mult
 		planet_jobs_worker_produces_mult = @xte_planet_job_mult
 		planet_jobs_slave_produces_mult = @xte_planet_job_mult
-		job_soldier_or_warrior_add = 1
-		planet_crime_add = -1
+		job_soldier_or_warrior_add = 2
+		planet_crime_add = -2
 		species_empire_size_mult = @xte_planet_empire_size
 	}
 	sector_modifier = {
