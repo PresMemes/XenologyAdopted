@@ -11,6 +11,6 @@
 # Used for Ancestral Knowledge's Official Effect
 # @planet_job_mult
 # @planet_empire_size
-@xte_planet_job_mult = 0.1
-@xte_negative_planet_job_mult = -0.1
+@xte_planet_job_mult = 0.04
+@xte_negative_planet_job_mult = -0.04
 @xte_planet_empire_size = -0.04

@@ -222,7 +222,7 @@ xte_leader_trait_regal = {
 	#	}
 	#	councilor_exp_gain = 0.25
 	#	council_agenda_progress_speed = 0.15 #PM: here's hoping 3.10 broke this and will get fixed
-	#	multiplier = value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_regal|
+	#	multiplier = trigger:has_skill #value:xte_anti_stacking_value|LEADER_TRAIT|xte_leader_trait_regal|
 	#}
 	custom_tooltip_with_modifiers = xte_councilor_trait_efficiency_notification
 	leader_potential_add = { always = no }
