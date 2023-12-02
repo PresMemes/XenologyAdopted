@@ -44,7 +44,7 @@
  concept_xte_leader_trait_lawbringer: "$xte_leader_trait_lawbringer$"
  concept_xte_leader_trait_lawbringer_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_PIRACY_GROWTH_MULT$: §G-15%§!\n- $MOD_COUNTRY_LOCAL_TRADE_PROTECTION_ADD$: §G+10§!\n- $xte_councilor_trait_efficiency_notification_species$"
  concept_xte_leader_trait_regal: "$xte_leader_trait_regal$"
- concept_xte_leader_trait_regal_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_LEADER_COUNCILOR_EXP_GAIN$: §G+25%§!\n- $MOD_FACTION_APPROVAL$: §G+15%§!\n- $MOD_COUNTRY_TRUST_CAP_ADD$: §G+10§!\n- $xte_councilor_trait_efficiency_notification_species$"
+ concept_xte_leader_trait_regal_desc: "$EMPIRE_EFFECTS_TXT$:\n- $MOD_LEADER_COUNCILOR_EXP_GAIN$: §G+25%§!\n- $MOD_COUNCIL_AGENDA_PROGRESS_SPEED$: §G+15%§!\n- $xte_councilor_trait_efficiency_notification_species$"
  concept_xte_leader_trait_skyborne_architect: "$xte_leader_trait_skyborne_architect$"
  concept_xte_leader_trait_skyborne_architect_desc: "$EMPIRE_EFFECTS_TXT$:\n- $xte_megastructure_build_cap_add$: §G+1.03§!\n- $MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$: §G+33%§!\n- $mod_shipsize_titan_build_speed_mult$: §G+33%§!\n- $mod_shipsize_colossus_build_speed_mult$: §G+33%§!\n- $mod_shipsize_juggernaut_build_speed_mult$: §G+33%§!\n- $xte_councilor_trait_efficiency_notification_species$"
  concept_xte_leader_trait_polymath: "$xte_leader_trait_polymath$"
