@@ -139,7 +139,7 @@
  concept_xte_scientist_trait_pioneer: "$xte_scientist_trait_pioneer$"
  concept_xte_scientist_trait_pioneer_desc: "$SCIENCE_SHIP_EFFECTS_TXT$:\n- $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §R-35%§!\n- $MOD_SHIP_ANOMALY_GENERATION_CHANCE_MULT$: §G+25%§!"
  concept_xte_scientist_trait_enzyme_curator: "$xte_scientist_trait_enzyme_curator$"
- concept_xte_scientist_trait_enzyme_curator_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+5%§!\n- $MOD_POP_HAPPINESS$: §G+15%§!\n\n$SECTOR_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+25%§!\n- $MOD_POP_HAPPINESS$: §G+7.5%§!"
+ concept_xte_scientist_trait_enzyme_curator_desc: "$PLANET_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+5%§!\n- $MOD_POP_HAPPINESS$: §G+15%§!\n\n$SECTOR_EFFECTS_TXT$:\n- $mod_planet_jobs_produces_mult$: §G+2.5%§!\n- $MOD_POP_HAPPINESS$: §G+7.5%§!"
  concept_xte_scientist_trait_pathfinder: "$xte_scientist_trait_pathfinder$"
  concept_xte_scientist_trait_pathfinder_desc: "$SCIENCE_SHIP_EFFECTS_TXT$:\n- $MOD_SHIP_SCIENCE_SURVEY_SPEED$: §G+25%§!\n- $MOD_SHIP_ANOMALY_GENERATION_CHANCE_MULT$: §G+25%§!"
  concept_xte_scientist_trait_fastidious: "$xte_scientist_trait_fastidious$"

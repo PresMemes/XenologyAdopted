@@ -12,7 +12,6 @@ on_game_start = {
 on_single_player_save_game_load = {
 	events = {
 		xte_traits_ev.1000
-		xte_fixer_ev.1
 	}
 }
 

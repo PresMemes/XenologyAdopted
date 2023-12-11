@@ -2,21 +2,6 @@
 # Xenology Councilor Traits #
 #############################
 
-xte_leader_trait_ancestral_memory = {
-	inline_script = {
-		script = trait/xte_icon
-		CLASS = leader
-		ICON = GFX_xte_leader_trait_ancestral_knowledge
-		RARITY = xte_positive
-		COUNCIL = no
-		TIER = none
-	}
-	cost = 0
-	randomized = no
-	leader_potential_add = { always = no }
-	leader_class = { commander official scientist }
-}
-
 xte_leader_trait_valiant = {
 	inline_script = {
 		script = trait/xte_icon
