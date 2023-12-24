@@ -1479,6 +1479,7 @@ xte_trait_gigantic = {
 	}
 	allowed_archetypes = {
 		BIOLOGICAL
+		LITHOID
 	}
 	potential_crossbreeding_chance = 1
 	modifier = {
