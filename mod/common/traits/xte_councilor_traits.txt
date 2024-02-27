@@ -286,7 +286,7 @@ xte_leader_trait_maladroit = {
 	}
 	cost = 0
 	randomized = no
-	negative = yes
+	leader_trait_type = negative
 	triggered_councilor_modifier = {
 		potential = {
 			always = yes
@@ -308,7 +308,7 @@ xte_leader_trait_domineering = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_champion_of_the_people"
 		"trait_ruler_champion_of_the_people_2"
@@ -341,7 +341,7 @@ xte_leader_trait_indulgent = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"xte_leader_trait_domineering"
 		"xte_leader_trait_spineless"
@@ -372,7 +372,7 @@ xte_leader_trait_spineless = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_expansionist"
 		"trait_ruler_expansionist_2"
@@ -410,7 +410,7 @@ xte_leader_trait_hateful = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"xte_leader_trait_domineering"
 		"xte_leader_trait_indulgent"
@@ -442,7 +442,7 @@ xte_leader_trait_peacemonger = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_warlike"
 		"trait_ruler_warlike_2"
@@ -480,7 +480,7 @@ xte_leader_trait_warmonger = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
@@ -514,7 +514,7 @@ xte_leader_trait_superstitious = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"xte_leader_trait_domineering"
 		"xte_leader_trait_indulgent"
@@ -545,7 +545,7 @@ xte_leader_trait_cynical = {
 		COUNCIL = yes
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_fertility_preacher"
 		"trait_ruler_fertility_preacher_2"
@@ -578,7 +578,7 @@ xte_leader_trait_extravagant_1 = {
 		TIER = none
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
@@ -613,7 +613,7 @@ xte_leader_trait_extravagant_2 = {
 		TIER = 1
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
@@ -652,7 +652,7 @@ xte_leader_trait_extravagant_3 = {
 		TIER = 2
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"
@@ -691,7 +691,7 @@ xte_leader_trait_extravagant_4 = {
 		TIER = 3
 	}
 	cost = 1
-	negative = yes
+	leader_trait_type = negative
 	opposites = {
 		"trait_ruler_investor"
 		"trait_ruler_investor_2"

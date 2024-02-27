@@ -252,7 +252,7 @@ xte_commander_trait_arrogant = {
 	}
 	cost = 0
 	randomized = no
-	negative = yes
+	leader_trait_type = negative
 	fleet_modifier = {
 		ship_disengage_chance_mult = -0.15
 		ship_emergency_ftl_min_days_mult = 0.25
@@ -274,7 +274,7 @@ xte_commander_trait_inert = {
 	}
 	cost = 0
 	randomized = no
-	negative = yes
+	leader_trait_type = negative
 	fleet_modifier = {
 		ship_evasion_mult = -0.1
 	}
@@ -373,7 +373,7 @@ xte_commander_trait_cavalier = {
 	}
 	cost = 0
 	randomized = no
-	negative = yes
+	leader_trait_type = negative
 	army_modifier = {
 		army_disengage_chance_mult = -0.2
 	}

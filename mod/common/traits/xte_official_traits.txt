@@ -307,7 +307,7 @@ xte_official_trait_inattentive = {
 	}
 	cost = 0
 	randomized = no
-	negative = yes
+	leader_trait_type = negative
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner

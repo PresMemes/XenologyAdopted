@@ -112,7 +112,7 @@ xte_scientist_trait_fastidious = {
 	}
 	cost = 0
 	randomized = no
-	negative = yes
+	leader_trait_type = negative
 	modifier = {
 		science_ship_survey_speed = -0.15
 		ship_anomaly_research_speed_mult = -0.33
