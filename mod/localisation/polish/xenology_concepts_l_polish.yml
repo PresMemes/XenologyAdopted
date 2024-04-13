@@ -106,7 +106,7 @@
  concept_xte_commander_trait_opportunistic: "$xte_commander_trait_opportunistic$"
  concept_xte_commander_trait_opportunistic_desc: "$FLEET_EFFECTS_TXT$:\n- $MOD_SHIP_EVASION_MULT$: §G+15%§!\n- $mod_damage_vs_country_type_fallen_empire_mult$: §G+33%§!\n- $mod_damage_vs_country_type_awakened_fallen_empire_mult$: §G+33%§!\n- $mod_damage_vs_country_type_gate_builders_mult$: §G+33%§!\n- $mod_damage_vs_country_type_guardian_mult$: §G+33%§!"
  concept_xte_commander_trait_inspired_thermal_engineer: "$xte_commander_trait_inspired_thermal_engineer$"
- concept_xte_commander_trait_inspired_thermal_engineer_desc: "$FLEET_EFFECTS_TXT$:\n- $mod_weapon_type_energy_weapon_fire_rate_mult$: §G+10%§!\n- $MOD_SHIP_SHIELD_REGEN_ADD_STATIC$: §G+25§!$dlc_requirement_string$ §I$FIRST_CONTACT_TITLE$§!\n- $MOD_SHIP_CLOAKING_STRENGTH_ADD$: §G+1§!"
+ concept_xte_commander_trait_inspired_thermal_engineer_desc: "$FLEET_EFFECTS_TXT$:\n- $mod_weapon_type_energy_weapon_fire_rate_mult$: §G+10%§!\n- $MOD_SHIP_SHIELD_REGEN_ADD_STATIC$: §G+5§!$dlc_requirement_string$ §I$FIRST_CONTACT_TITLE$§!\n- $MOD_SHIP_CLOAKING_STRENGTH_ADD$: §G+1§!"
  concept_xte_commander_trait_gendarme: "$xte_commander_trait_gendarme$"
  concept_xte_commander_trait_gendarme_desc: "$FLEET_EFFECTS_TXT$:\n- $mod_damage_vs_country_type_pirate_mult$: §G+25%§!\n- $mod_damage_vs_country_type_dormant_marauders_mult$: §G+25%§!\n- $mod_damage_vs_country_type_awakened_marauders_mult$: §G+25%§!\n- $mod_damage_vs_country_type_ruined_marauders_mult$: §G+25%§!\n- $mod_damage_vs_country_type_marauder_raiders_mult$: §G+25%§!\n"
  concept_xte_commander_trait_underdog: "$xte_commander_trait_underdog$"
