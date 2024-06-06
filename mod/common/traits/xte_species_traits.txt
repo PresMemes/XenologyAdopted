@@ -511,7 +511,6 @@ xte_trait_hypermetabolism = {
 	randomized = yes
 	allowed_archetypes = {
 		BIOLOGICAL
-		LITHOID
 	}
 	species_possible_remove = {
 		can_remove_beneficial_genetic_traits = yes
