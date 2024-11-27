@@ -153,8 +153,8 @@ xte_official_trait_reliable = {
 			exists = owner
 			owner = { is_lithoid_empire = yes }
 		}
-		pop_growth_speed = 0.05
-		planet_jobs_minerals_produces_mult = 0.033
+		pop_growth_speed = 0.033
+		planet_jobs_minerals_produces_mult = 0.05
 	}
 	triggered_sector_modifier = {
 		potential = {
@@ -169,8 +169,8 @@ xte_official_trait_reliable = {
 			exists = owner
 			owner = { is_lithoid_empire = yes }
 		}
-		pop_growth_speed = 0.025
-		planet_jobs_food_produces_mult = 0.015
+		pop_growth_speed = 0.015
+		planet_jobs_minerals_produces_mult = 0.025
 	}
 	leader_potential_add = { always = no }
 	leader_class = {
